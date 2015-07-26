@@ -1,0 +1,14 @@
+Name Large Composite Leg
+ShortName largeCompositeLeg
+Icon LargeCompositeLeg
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 8009
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Misc
+StackSize 16
+RecipeOutput 1
+Recipe I ingotIron R redstone H superHydraulics D compositePlate
+DHD
+RHR
+IRI

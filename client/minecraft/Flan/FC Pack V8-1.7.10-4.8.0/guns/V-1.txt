@@ -1,0 +1,40 @@
+Name V-1 RPG
+ShortName V1
+//The ammo this gun uses (shortName)
+Ammo V1Ammo
+Icon IconV-1
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 29186
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 50
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 0
+//Damage in half hearts
+Damage 20
+//The higher this value, the more the bullets spread
+Accuracy 0
+//Time in ticks between rounds
+ShootDelay 15
+ShootSound RPGShoot
+//The length of the sound. 0 for a single shot sound. Other values are for looping sounds
+SoundLength 3
+DistortSound False
+ReloadSound bazookaReload
+Mode SemiAuto
+Deployable False
+//-----------------------------------------------------------------------------
+//All the following is for deployables only. Other guns do not need any of this
+//-----------------------------------------------------------------------------
+//Place the compiled model class in the models folder
+DeployedModel Browning
+//Place the texture .png in the skins folder
+DeployedTexture SkinMMD
+//The length from the bipod to the trigger of the gun. Deployables only.
+StandBackDistance 1.0
+//Degrees above and below level that the gun can work within. 90 degrees is vertical
+TopViewLimit 80
+BottomViewLimit 30
+SideViewLimit 45
+//The height of the pivot above the block the gun is on.
+PivotHeight 0.375

@@ -1,0 +1,109 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name UTF Scimitar
+ShortName UTFS
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon IconUTFS
+Model fc.UGFScythe
+Texture SkinUGFScythe
+//Third Person Camera Distance
+CameraDistance 10.0
+//Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
+RestingPitch 5.0
+HasGear True
+ModelScale 1
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
+Mode Plane
+//Throttle
+MaxThrottle 8.0
+MaxNegativeThrottle 0.0
+//Yaw modifiers
+TurnLeftSpeed 4
+TurnRightSpeed 4
+//Pitch modifiers
+LookUpSpeed 4
+LookDownSpeed 4
+//Roll modifiers
+RollLeftSpeed 4
+RollRightSpeed 4
+//Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
+Drag 1.0
+//Lift
+//Lift 2.5
+//Wheels
+NumWheels 3
+WheelPosition 0 -42 -12 -15
+WheelPosition 1 -42 -12 15
+WheelPosition 2 62 -9 0
+WheelSpringStrength 0.125
+//Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
+Propeller 0 54 0 0 tail Thruster
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Gun
+Secondary Missile
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 2
+ShootDelaySecondary 20
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 60 13 -5 nose LaserMG
+ShootPointPrimary 60 13 5 nose LaserMG
+ShootPointSecondary -60 16 -58 leftWing
+ShootPointSecondary -60 16 58 rightWing
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 8
+AllowAllAmmo False
+AddAmmo mk4Rocket
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 6000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Pilot 8 1 0
+Passengers 0
+// ------------------------------------------------------ Sounds ------------------------------------------------------
+StartSound viper
+StartSoundLength 20
+PropSound viper
+PropSoundLength 30
+ShootSoundPrimary laserpistol
+ShootSoundSecondary RPGShoot
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 1 advancedMetalCockpit
+AddRecipeParts coreWheel 2 wheel
+AddRecipeParts nose 1 metalNose
+AddRecipeParts rightWing 1 metalWingSmall
+AddRecipeParts leftWing 1 metalWingSmall
+AddRecipeParts tail 1 metalTail
+AddRecipeParts rightWingWheel 1 wheel
+AddRecipeParts leftWingWheel 1 wheel
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 8 silver
+AddDye 2 gray
+//Health and collision
+SetupPart core 550 -68 -9 -20 105 26 40
+BulletDetection 10
+HasGear False
+
+//RightWing
+CollisionPoint -43 28 -18 rightWing
+CollisionPoint -43 28 -101 rightWing
+CollisionPoint -3 28 -18 rightWing
+CollisionPoint -3 28 -101 rightWing
+//LeftWing
+CollisionPoint -43 28 18 leftWing
+CollisionPoint -43 28 101 leftWing
+CollisionPoint -3 28 18 leftWing
+CollisionPoint -3 28 101 leftWing
+//Nose
+CollisionPoint 81 28 0 nose
+CollisionPoint 46 28 0 nose

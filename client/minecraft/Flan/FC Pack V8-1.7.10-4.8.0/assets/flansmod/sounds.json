@@ -1,0 +1,106 @@
+{
+	"bazookaReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:bazookaReload" ]
+	},
+
+	"bomb": {
+		"category" : "player",
+		"sounds" : [ "flansmod:bomb" ]
+	},
+
+	"bullet": {
+		"category" : "player",
+		"sounds" : [ "flansmod:bullet" ]
+	},
+
+	"Engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine" ]
+	},
+
+	"gatling": {
+		"category" : "player",
+		"sounds" : [ "flansmod:gatling" ]
+	},
+
+	"GrenadeLaunch": {
+		"category" : "player",
+		"sounds" : [ "flansmod:GrenadeLaunch" ]
+	},
+
+	"laserpistol": {
+		"category" : "player",
+		"sounds" : [ "flansmod:laserpistol" ]
+	},
+
+	"mg42Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:mg42Reload" ]
+	},
+
+	"mmd": {
+		"category" : "player",
+		"sounds" : [ "flansmod:mmd" ]
+	},
+
+	"MRTidle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MRTidle" ]
+	},
+
+	"MRTrun": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MRTrun" ]
+	},
+
+	"RC8Run": {
+		"category" : "player",
+		"sounds" : [ "flansmod:RC8Run" ]
+	},
+
+	"RC8Start": {
+		"category" : "player",
+		"sounds" : [ "flansmod:RC8Start" ]
+	},
+
+	"Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Reload" ]
+	},
+
+	"rifle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:rifle" ]
+	},
+
+	"RPGShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:RPGShoot" ]
+	},
+
+	"Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Shoot" ]
+	},
+
+	"snipershot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:snipershot" ]
+	},
+
+	"Tank": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Tank" ]
+	},
+
+	"TankShell": {
+		"category" : "player",
+		"sounds" : [ "flansmod:TankShell" ]
+	},
+
+	"viper": {
+		"category" : "player",
+		"sounds" : [ "flansmod:viper" ]
+	}
+}

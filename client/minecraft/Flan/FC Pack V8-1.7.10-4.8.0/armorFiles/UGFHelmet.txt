@@ -1,0 +1,8 @@
+Name UGF Helmet
+ShortName UGF Helmet
+ItemID 25993
+Icon UGFHelmet
+Colour 255 255 255
+Type Hat
+Defence 0.1
+ArmourTexture UGF

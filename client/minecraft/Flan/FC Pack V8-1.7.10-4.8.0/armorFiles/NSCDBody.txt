@@ -1,0 +1,8 @@
+Name NSCD Body armour
+ShortName NSCDBody
+ItemID 25986
+Icon NSCDChest
+Colour 255 255 255
+Type Chest
+Defence 0.1
+ArmourTexture NSCD

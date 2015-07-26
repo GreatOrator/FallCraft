@@ -1,0 +1,15 @@
+Name Ion Propulsion engine
+ShortName ionEngine
+Icon IconIonEngine
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 23378
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Engine
+EngineSpeed 2.5
+StackSize 4
+RecipeOutput 1
+Recipe I blockIron P enginePiston
+ I 
+III
+ I 

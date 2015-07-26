@@ -1,0 +1,43 @@
+Name AB-9
+ShortName AB9
+//The ammo this gun uses (shortName)
+Ammo AB9Ammo
+Icon AB9
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 29176
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 20
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 0
+//Damage in half hearts
+Damage 6
+//The higher this value, the more the bullets spread
+Accuracy 0
+//Time in ticks between rounds
+ShootDelay 0.1
+ShootSound laserpistol
+ReloadSound mg42Reload
+Mode Burst
+BurstCount 5
+burtcount 5
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope sight
+ZoomLevel 2.0
+FOVZoomLevel 1.0
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model settings
+Model fc.AB9
+ModelScale 0.2
+Texture AB9
+//Attachment Settings
+AllowAllAttachments True
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments True
+AllowBarrelAttachments true
+AllowScopeAttachments False
+AllowStockAttachments False
+AllowGripAttachments False
+NumGenericAttachmentSlots 1

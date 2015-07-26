@@ -1,0 +1,11 @@
+Name Sniper
+ShortName UGFScout
+AddItem UGFS
+AddItem UGFP
+AddItem UGFSAmmo
+AddItem UGFSAmmo
+AddItem UGFSAmmo
+AddItem UGFPAmmo
+AddItem UGFPAmmo
+AddItem klii
+AddItem klii

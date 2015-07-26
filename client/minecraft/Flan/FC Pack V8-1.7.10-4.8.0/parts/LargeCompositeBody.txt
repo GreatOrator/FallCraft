@@ -1,0 +1,14 @@
+Name Large Composite Body
+ShortName largeCompositeBody
+Icon largeCompositeBody
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 8007
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Cockpit
+StackSize 4
+RecipeOutput 1
+Recipe G glass D compositePlate R blockRedstone H superHydraulics
+GGG
+DRD
+HDH

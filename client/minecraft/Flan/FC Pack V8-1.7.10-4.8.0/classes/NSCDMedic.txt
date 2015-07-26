@@ -1,0 +1,10 @@
+Name Medic
+ShortName NSCDMedic
+AddItem NSR
+AddItem NSCDP
+AddItem potion 2 16421
+AddItem NSRAmmo
+AddItem NSCDPAmmo
+AddItem NSCDPAmmo
+AddItem klii
+AddItem klii

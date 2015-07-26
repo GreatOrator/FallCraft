@@ -1,0 +1,11 @@
+Name Sniper
+ShortName SRScout
+AddItem SRS
+AddItem SRP
+AddItem SRSAmmo
+AddItem SRSAmmo
+AddItem SRSAmmo
+AddItem SRPAmmo
+AddItem SRPAmmo
+AddItem klii
+AddItem klii

@@ -1,0 +1,99 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name HGS-114 Dolphin
+ShortName Harpy
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon Harpy
+Model fc.Harpy
+Texture Harpy
+//Third Person Camera Distance
+CameraDistance 17.5
+//Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
+RestingPitch 0.0
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
+Mode Heli
+//Throttle
+MaxThrottle 3.5
+MaxNegativeThrottle 0.0
+//Yaw modifiers
+TurnLeftSpeed 2
+TurnRightSpeed 2
+//Pitch modifiers
+LookUpSpeed 2
+LookDownSpeed 2
+//Roll modifiers
+RollLeftSpeed 2
+RollRightSpeed 2
+//Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
+Drag 1.0
+//Lift
+//Lift 2.5
+//Wheels (Fake wheels imitating skids)
+NumWheels 4
+WheelPosition 0 -32 -23 -24
+WheelPosition 1 -32 -23 24
+WheelPosition 2 48 -23 24
+WheelPosition 3 48 -23 -24
+WheelSpringStrength 0.125
+//Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
+HeliPropeller 0 54 0 0 core Thruster
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Gun
+Secondary Missile
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 1
+ShootDelaySecondary 20
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary True
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointSecondary -16 17 -72 rightWing
+ShootPointSecondary -16 17 72 leftWing
+ShootPointPrimary 60 27 20 nose LaserMG
+ShootPointPrimary 60 27 -20 nose LaserMG
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 8
+AllowAllAmmo False
+AddAmmo mk4Rocket
+AddAmmo hornet
+AddAmmo wasp
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 5000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Pilot 50 24 0
+Passengers 0
+// ------------------------------------------------------ Sounds ------------------------------------------------------
+StartSound viper
+StartSoundLength 20
+PropSound viper
+PropSoundLength 20
+ShootSoundPrimary laserpistol
+ShootSoundSecondary RPGShoot
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 1 advancedMetalCockpit
+AddRecipeParts coreWheel 2 wheel
+AddRecipeParts nose 1 metalNose
+AddRecipeParts rightWing 1 metalWingSmall
+AddRecipeParts leftWing 1 metalWingSmall
+AddRecipeParts tail 1 metalTail
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 6 black
+// Health
+SetupPart core 300 -51 6 -12 155 49 24
+SetupPart tail 100 -196 23 -12 145 32 24
+SetupPart leftWing 100 -50 26 -86 48 2 32
+SetupPart rightWing 100 -50 26 54 48 2 32
+SetupPart coreWheel 100 -88 -22 -16 120 43 32
+BulletDetection 8
+HasGear True
+ModelScale 1
+

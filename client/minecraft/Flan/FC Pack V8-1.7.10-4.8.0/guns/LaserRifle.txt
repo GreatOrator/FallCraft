@@ -1,0 +1,45 @@
+Name AB24
+ShortName LaserRifle
+//The ammo this gun uses (shortName)
+Ammo RifleClip
+Icon IconLaserRifle
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 29117
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 25
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 3
+//Damage in half hearts
+Damage 8
+//The higher this value, the more the bullets spread
+Accuracy 0
+//Time in ticks between rounds
+ShootDelay 3
+ShootSound rifle
+ReloadSound mg42Reload
+Mode FullAuto
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.5
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model settings
+Model fc.AB24
+ModelScale 0.3
+Texture AB24
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments 
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments true
+AllowGripAttachments true
+NumGenericAttachmentSlots 0
+Paintjob AB24SR AB24SR red 1
+Paintjob AB24NSCD AB24NSCD green 1
+Paintjob AB24UGF AB24UGF blue 1
+BulletSpeed 10.0

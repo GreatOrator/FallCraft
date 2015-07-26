@@ -1,0 +1,39 @@
+Name Futurecraft box
+ShortName FCbox
+TopTexture boxTop
+SideTexture IconFCBox
+BottomTexture boxBottom
+BlockID 179
+Recipe I iron B dyePowder.4 R diamond
+III
+RRR
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 11
+AddGun LaserPistol 1 capacitor 1 gunBreach 3 iron
+AddAmmo EnergyCell 1 iron 1 capacitor
+AddGun LaserRifle 1 cannonBarrel 1 gunBreach 4 iron
+AddAmmo RifleClip 2 iron 1 capacitor
+AddGun AB9 1 cannonBarrel 1 gunBreach 4 iron
+AddAmmo AB9Ammo 2 iron 1 capacitor
+AddGun LRW 4 iron 1 cannonBarrel 1 gunBreach
+AddAmmo SniperCell 3 iron 2 capacitor
+AddGun LaserMG 5 iron 4 capacitor 1 gatlingBarrel 1 gunBreach
+AddAmmo MGCell 4 iron 4 capacitor
+AddGun RPistol 3 iron 1 gunBreach
+AddAmmo RPClip 3 iron 1 spring
+AddGun RRifle 3 iron 1 cannonBarrel 1 gunBreach
+AddAmmo RRClip 4 iron 2 spring
+AddGun RSniper 3 iron 1 cannonBarrel 1 gunBreach
+AddAmmo RSClip 3 iron 2 spring
+AddGun RMG 5 iron 1 cannonBarrel 1 gunBreach
+AddAmmo RMGClip 4 iron 3 spring
+AddGun MMD 6 iron 2 cannonBarrel 4 capacitor 1 gunBreach
+AddAmmo MDAmmo 6 iron 4 spring
+AddGun V1 2 iron 1 gunBreach 1 cannonBarrel
+AddAmmo V1Ammo 4 iron 2 gunpowder

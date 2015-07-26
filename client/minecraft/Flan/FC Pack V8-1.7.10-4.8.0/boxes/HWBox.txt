@@ -1,0 +1,31 @@
+Name Heavy Weapons box
+ShortName HWBox
+TopTexture boxTop
+SideTexture HWBox
+BottomTexture boxBottom
+BlockID 282
+Recipe I iron O obsidian
+III
+OOO
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 7
+AddGun Dragon 1 cannonBarrel 3 iron 2 redstone 1 gunBreach
+AddAmmo DragonAmmo 2 plasmaCell 2 iron
+AddGun Dragon 1 cannonBarrel 3 iron 2 redstone 1 gunBreach
+AddAmmo DragonAmmoRocket 10 gunpowder 5 iron
+AddGun Dragon 1 cannonBarrel 3 iron 2 redstone 1 gunBreach
+AddAmmo DragonAmmoFlame 2 gunpowder 3 iron 1 bucketLava
+AddGun MCannon 2 cannonBarrel 6 iron 2 redstone 1 gunBreach
+AddAmmo MechShell 15 gunpowder 4 iron 2 spring
+AddGun MPAC1 2 railAccelerator 6 iron 2 redstone 1 plasmaCell
+AddAmmo PAC1ammo 3 plasmaCell 2 iron 2 redstone
+AddGun MAIC 2 gatlingBarrel 6 iron 2 redstone 1 gunBreach
+AddAmmo AICAmmo 8 gunpowder 5 iron
+AddGun gau36 2 gatlingBarrel 9 iron 5 redstone 2 gunBreach
+AddAmmo gau36Ammo 16 ingotIron 48 gunpowder

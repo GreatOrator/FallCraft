@@ -1,0 +1,11 @@
+{
+	"laserpistol": {
+		"category" : "player",
+		"sounds" : [ "flansmod:laserpistol" ]
+	},
+
+	"viper": {
+		"category" : "player",
+		"sounds" : [ "flansmod:viper" ]
+	}
+}
