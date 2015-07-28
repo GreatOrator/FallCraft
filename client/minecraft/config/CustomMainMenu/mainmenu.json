@@ -35,6 +35,8 @@
 			"imageWidth" : 100,
 			"imageHeight" : 25,
             "alignment" : "left_center",
+			"hoverSound" : "sounds:spaceodyssey/gui/hoverover",
+			"pressSound" : "sounds:spaceodyssey/gui/pressover",
             "action" :
             {
                 "type" : "openGui",
@@ -53,6 +55,8 @@
 			"imageWidth" : 100,
 			"imageHeight" : 25,
             "alignment" : "left_center",
+			"hoverSound" : "sounds:spaceodyssey/gui/hoverover",
+			"pressSound" : "sounds:spaceodyssey/gui/pressover",
             "action" :
             {
                 "type" : "openGui",
@@ -71,6 +75,8 @@
 			"imageWidth" : 100,
 			"imageHeight" : 25,
             "alignment" : "left_center",
+			"hoverSound" : "sounds:spaceodyssey/gui/hoverover",
+			"pressSound" : "sounds:spaceodyssey/gui/pressover",
             "action" :
             {
                 "type" : "openGui",
@@ -89,6 +95,9 @@
 			"imageWidth" : 100,
 			"imageHeight" : 25,
             "alignment" : "left_center",
+			"tooltip" : "Get all the pack info",
+			"hoverSound" : "sounds:spaceodyssey/gui/hoverover",
+			"pressSound" : "sounds:spaceodyssey/gui/pressover",
             "action" :
             {
                 "type" : "openGui",
@@ -107,6 +116,8 @@
             "imageWidth" : 100,
             "imageHeight" : 25,
             "alignment" : "bottom_left",
+			"hoverSound" : "sounds:spaceodyssey/gui/hoverover",
+			"pressSound" : "sounds:spaceodyssey/gui/pressover",
              "action" :
             {
                 "type" : "openGui",
@@ -125,6 +136,8 @@
             "imageWidth" : 100,
             "imageHeight" : 25,
             "alignment" : "bottom_left",
+			"hoverSound" : "sounds:spaceodyssey/gui/hoverover",
+			"pressSound" : "sounds:spaceodyssey/gui/pressover",
 			"wrappedButton" : 666
         },
        
@@ -139,6 +152,8 @@
             "imageWidth" : 100,
             "imageHeight" : 25,
             "alignment" : "bottom_left",
+			"hoverSound" : "sounds:spaceodyssey/gui/hoverover",
+			"pressSound" : "sounds:spaceodyssey/gui/pressover",
             "action" :
             {
                 "type" : "quit"
@@ -157,6 +172,8 @@
             "imageWidth" : 100,
             "imageHeight" : 25,
             "alignment" : "bottom_left",
+			"hoverSound" : "sounds:spaceodyssey/gui/hoverover",
+			"pressSound" : "sounds:spaceodyssey/gui/pressover",
             "action" :
             {
                 "type" : "openGui",

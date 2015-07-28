@@ -19,9 +19,18 @@
             "width" : 512,
             "height" : 160,
             "alignment" : "top_center"
+        },
+
+        "title2":
+        {
+            "image" : "textures:menu/blacktransparent.png",
+            "posX" : 220,
+            "posY" : 0,
+            "width" : 160,
+            "height" : 2000,
+            "alignment" : "left_center"
         }
-    },
-   
+    },   
     "buttons":
     {
 		
@@ -108,7 +117,7 @@
                 "gui" : "custom.ChangeLog"
             }
         },
-		
+				
         "options":
         {
             "text" : "",
@@ -188,6 +197,7 @@
    
     "texts":
     {
+	
 	"example":
         {
             "text" : "v1.0.0",
@@ -195,6 +205,39 @@
             "posY" : -20,
             "color" : 13938487,
             "alignment" : "bottom_left"
+        },
+	
+	"example2":
+        {
+            "text" : "Music:",
+            "posX" : 225,
+            "posY" : 5,
+            "color" : 13938487,
+            "alignment" : "left_center"
+        },
+	
+	"example3":
+        {
+            "text" : "-------------------------",
+            "posX" : 225,
+            "posY" : 12,
+            "color" : 13938487,
+            "alignment" : "left_center"
+        },
+		
+	"example4":
+        {
+            "text" : "Kevin MacLeod",
+            "posX" : 235,
+            "posY" : 19,
+            "color" : 13938487,
+            "alignment" : "left_center",
+			"hoverText" : "Download his music!",
+			"action" :
+                        {
+                "type" : "openLink",
+                                "link" : "http://incompetech.com/"
+			}
         }
        
     },
