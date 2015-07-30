@@ -1,0 +1,10 @@
+Name Medic
+ShortName UGFMedic
+AddItem UGFR
+AddItem UGFP
+AddItem potion 2 16421
+AddItem UGFRAmmo
+AddItem UGFPAmmo
+AddItem UGFPAmmo
+AddItem klii
+AddItem klii

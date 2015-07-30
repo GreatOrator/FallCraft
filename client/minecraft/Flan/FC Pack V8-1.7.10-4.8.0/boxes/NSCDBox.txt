@@ -1,0 +1,27 @@
+Name NSCD box
+ShortName NSCDbox
+TopTexture boxTop
+SideTexture IconNSCDBox
+BottomTexture boxBottom
+BlockID 279
+Recipe I iron B dyePowder.4 R dyePowder.1 E emblemnscd
+III
+EEE
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 5
+AddGun NSCDP 20 Klii
+AddAmmo NSCDPAmmo 10 Klii
+AddGun NSSM 30 Klii
+AddAmmo NSSMAmmo 20 Klii
+AddGun NSR 40 Klii
+AddAmmo NSRAmmo 20 Klii
+AddGun NSCDS 40 Klii
+AddAmmo NSCDSAmmo 30 Klii
+AddGun NSCDGL 50 Klii
+AddAmmo NSCDGLAmmo 50 Klii

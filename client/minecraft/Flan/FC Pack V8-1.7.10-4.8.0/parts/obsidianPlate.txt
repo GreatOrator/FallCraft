@@ -1,0 +1,14 @@
+Name Obsidian Plate
+ShortName obsidianPlate
+Icon obsidianPlate
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 8005
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Misc
+StackSize 16
+RecipeOutput 1
+Recipe O obsidian
+   
+OOO
+   

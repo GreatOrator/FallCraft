@@ -1,0 +1,12 @@
+Name Assault
+ShortName UGFAssault2
+AddItem UGFR
+AddItem UGFP
+AddItem UGFRAmmo
+AddItem UGFRAmmo
+AddItem UGFRAmmo
+AddItem UGFRAmmo
+AddItem UGFPAmmo
+AddItem UGFPAmmo
+AddItem klii
+AddItem klii

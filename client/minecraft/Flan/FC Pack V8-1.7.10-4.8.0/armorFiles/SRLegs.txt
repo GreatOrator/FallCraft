@@ -1,0 +1,8 @@
+Name SR Legs
+ShortName SRLegs
+ItemID 25991
+Icon SRLegs
+Colour 255 255 255
+Type Legs
+Defence 0.1
+ArmourTexture SR

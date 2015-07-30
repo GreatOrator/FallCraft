@@ -1,0 +1,101 @@
+//Naming
+Name HT-11 Leviathan III L
+Desc Lascannon
+Description Lascannon
+ShortName leviathanIIILaser
+ItemID 21490
+//Visuals
+Icon LevMKIIILaser
+Model fc.LeviathanIIILaser
+Texture LevMKIIILaser
+//Third Person Camera Distance
+CameraDistance 15
+//Throttle
+MaxThrottle 0.5
+MaxNegativeThrottle 0.0
+//Steering modifiers
+TurnLeftSpeed 0.5
+TurnRightSpeed 0.5
+//Drag
+Drag 10.0
+//Mass (In tons)
+Mass 1.0
+//Moment of Inertia (in crazy units. Just fiddle with this until you find something nice)
+MomentOfInertia 100.0
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 1.5
+WheelPosition 0 -16 -10 -40
+WheelPosition 1 -16 -10 40
+WheelPosition 2 118 -10 40
+WheelPosition 3 118 -10 -40
+WheelSpringStrength 0.5
+//Bouncy bouncy
+Bounciness 0.3
+//If true, then all wheels will apply drive forces
+FourWheelDrive true
+//Tank mode activate
+Tank true
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 2000
+//Inventory Slots
+CargoSlots 0
+ShellSlots 5
+
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Shell
+Secondary Gun
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 20
+ShootDelaySecondary 3
+//Whether to alternate or fire all together
+AlternatePrimary True
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary -85 41.5 0 turret
+ShootPointSecondary -57 41.5 -15.5 turret LaserMG
+bulletSpeedPrimary 30
+BulletSpeedPrimary 30
+
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 7
+AllowAllAmmo False
+AddAmmo LCell
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 2000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+
+//Driver and passenger positions
+Driver 0 38 0 -360 360 -7 35
+RotatedDriverOffset 12 0 -15
+Passengers 0
+//Secondary gun
+//Delays are in ticks or 1/20ths of seconds
+//Sounds
+StartSound viper
+StartSoundLength 20
+EngineSound viper
+EngineSoundLength 20
+ShootSoundSecondary laserpistol
+ShootSoundPrimary snipershot
+//Recipe
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts turret 1 tankTurret 1 vehicleSeat
+AddRecipeParts core 1 advancedTankBody 1 vehicleSeat 4 compositePlate
+AddRecipeParts leftTrack 1 catTrack
+AddRecipeParts rightTrack 1 catTrack
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 10 gray
+//Health and collision
+SetupPart core 1600 -62 7 -61 206 23 122
+SetupPart turret 600 -36 30 -32 77 23 64
+SetupPart rightTrack 400 -47 -4 -56 195 11 32
+SetupPart leftTrack 400 -47 -4 24 195 11 32
+BulletDetection 10

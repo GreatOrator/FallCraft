@@ -1,0 +1,12 @@
+Name Assault
+ShortName UGFAssault1
+AddItem UGFSM
+AddItem UGFP
+AddItem UGFSMAmmo
+AddItem UGFSMAmmo
+AddItem UGFSMAmmo
+AddItem UGFSMAmmo
+AddItem UGFPAmmo
+AddItem UGFPAmmo
+AddItem klii
+AddItem klii

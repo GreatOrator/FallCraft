@@ -1,0 +1,13 @@
+Name Ion thruster
+ShortName Thruster
+Icon IconThruster
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 29150
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Fuel, Misc
+Category Propeller
+StackSize 64
+Recipe I iron M metalPropeller
+ I 
+IMI
+ I 

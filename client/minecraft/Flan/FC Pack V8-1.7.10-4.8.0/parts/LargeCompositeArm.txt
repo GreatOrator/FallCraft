@@ -1,0 +1,14 @@
+Name Large Composite Arm
+ShortName largeCompositeArm
+Icon LargeCompositeArm
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 8008
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Misc
+StackSize 16
+RecipeOutput 1
+Recipe I ingotIron D compositePlate R redstone H superHydraulics
+DRI
+RHD
+IDI

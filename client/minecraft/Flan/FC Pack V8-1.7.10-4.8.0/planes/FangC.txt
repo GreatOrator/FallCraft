@@ -1,0 +1,125 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name HF-17 Fang
+ShortName FangC
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon FangC
+Model fc.FangC
+Texture FANGC
+//Third Person Camera Distance
+CameraDistance 17.5
+//Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
+RestingPitch 0.0
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
+Mode VTOL
+//Throttle
+MaxThrottle 4
+MaxNegativeThrottle 0.0
+//Yaw modifiers
+TurnLeftSpeed 4
+TurnRightSpeed 4
+//Pitch modifiers
+LookUpSpeed 4
+LookDownSpeed 4
+//Roll modifiers
+RollLeftSpeed 2
+RollRightSpeed 2
+//Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
+Drag 1.0
+//Lift
+//Lift 2.5
+//Wheels (Fake wheels imitating skids)
+NumWheels 3
+WheelPosition 0 -47 -10 -78
+WheelPosition 1 -48 -10 78
+WheelPosition 2 42 -10 0
+WheelSpringStrength 0.125
+//Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
+HeliPropeller 0 54 0 0 core Thruster
+Propeller 0 54 0 0 core Thruster
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Gun
+Secondary Missile
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 7
+ShootDelaySecondary 4
+//Whether to alternate or fire all together
+AlternatePrimary True
+AlternateSecondary True
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointSecondary -43 47 -21 core
+ShootPointSecondary -43 47 21 core
+ShootPointSecondary -43 47 -23 core
+ShootPointSecondary -43 47 23 core
+ShootPointSecondary -43 47 -19 core
+ShootPointSecondary -43 47 19 core
+
+
+ShootPointPrimary 23 18 -42.5 core MMD
+ShootPointPrimary 23 18 42.5 core MMD
+ShootPointPrimary 23 18 -51.5 core MMD
+ShootPointPrimary 23 18 51.5 core MMD
+
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 4
+BombSlots 0
+MissileSlots 6
+AllowAllAmmo False
+AddAmmo MicroMissile
+
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 5000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Pilot 34 15 0
+Passengers 0
+// ------------------------------------------------------ Sounds ------------------------------------------------------
+StartSound viper
+StartSoundLength 20
+PropSound viper
+PropSoundLength 20
+ShootSoundPrimary mmd
+ShootSoundSecondary RPGShoot
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 1 metalCockpit
+AddRecipeParts coreWheel 2 wheel
+AddRecipeParts nose 1 metalNose
+AddRecipeParts rightWing 1 metalWingSmall
+AddRecipeParts leftWing 1 metalWingSmall
+AddRecipeParts tail 1 metalTail
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 6 black
+// Health
+SetupPart core 700 -110 7 -24 208 34 48
+SetupPart leftWing 300 -110 3 -129 112 26 105
+SetupPart rightWing 300 -110 3 23 112 26 105
+SetupPart tail 300 -191 22 -12 83 19 24
+BulletDetection 8
+HasGear True
+ModelScale 1
+
+//Collison Points
+CollisionPoint 2 -1 -128 leftWing
+CollisionPoint -21 -1 -128 leftWing
+CollisionPoint -21 11 -82 leftWing
+CollisionPoint -69 11 -82 leftWing
+CollisionPoint 2 -1 128 rightWing
+CollisionPoint -21 -1 128 rightWing
+CollisionPoint -21 11 82 rightWing
+CollisionPoint -69 11 82 rightWing
+CollisionPoint 12 11 0 core
+CollisionPoint -167 32 0 tail
+
+//Floating
+Boat True
+PlaceableOnLand True
+PlaceableOnWater True
+FloatOnWater true
+Buoyancy 0.05
+

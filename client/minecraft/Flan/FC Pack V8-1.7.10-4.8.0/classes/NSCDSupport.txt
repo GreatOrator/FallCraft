@@ -1,0 +1,10 @@
+Name Bomber
+ShortName NSCDSupport
+AddItem NSCDGL
+AddItem NSCDP
+AddItem NSCDGLAmmo
+AddItem NSCDPAmmo
+AddItem NSCDPAmmo
+AddItem NSCDPAmmo
+AddItem klii
+AddItem klii

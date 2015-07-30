@@ -1,0 +1,11 @@
+Name Sniper
+ShortName NSCDScout
+AddItem NSCDS
+AddItem NSCDP
+AddItem NSCDSAmmo
+AddItem NSCDSAmmo
+AddItem NSCDSAmmo
+AddItem NSCDPAmmo
+AddItem NSCDPAmmo
+AddItem klii
+AddItem klii

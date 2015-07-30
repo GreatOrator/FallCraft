@@ -1,0 +1,25 @@
+Name Tank Ammo Box
+ShortName LAbox
+TopTexture boxTop
+SideTexture LABox
+BottomTexture boxBottom
+BlockID 282
+Recipe I iron O coal
+III
+OOO
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 6
+AddGun rShell 2 gunpowder 2 iron
+AddGun slug 5 iron
+AddGun superslug 5 iron 4 gunpowder
+AddGun LCell 2 iron 1 plasmaCell
+AddGun PCell 1 iron 2 plasmaCell
+AddGun LaserMG 5 iron 4 capacitor 1 gatlingBarrel 1 gunBreach
+AddAmmo MGCell 4 iron 4 capacitor
+
