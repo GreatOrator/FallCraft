@@ -124,7 +124,7 @@ key_Speed:0
 key_Yeta Wrench Mode:21
 key_Reload Configs:37
 key_Add Custom Config:36
-key_Enviromine Menu:50
+key_Enviromine Menu:52
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
