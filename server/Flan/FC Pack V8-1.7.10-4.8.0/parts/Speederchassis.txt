@@ -1,0 +1,13 @@
+Name Speeder Chassis
+ShortName Speederchassis
+Icon Speederchassis
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 29155
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Fuel, Misc
+Category Chassis
+StackSize 64
+Recipe I iron R redstone
+ I 
+III
+  I

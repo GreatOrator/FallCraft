@@ -1,0 +1,104 @@
+//Naming
+Name HT-10 Leviathan II AA
+ShortName leviathanIIAA
+ItemID 21490
+//Visuals
+Icon LeviathanIIR
+Model fc.LeviathanIIAA
+Texture LeviathanIIAA
+//Third Person Camera Distance
+CameraDistance 15
+//Throttle
+MaxThrottle 0.5
+MaxNegativeThrottle 0.0
+//Steering modifiers
+TurnLeftSpeed 0.5
+TurnRightSpeed 0.5
+//Drag
+Drag 10.0
+//Mass (In tons)
+Mass 1.0
+//Moment of Inertia (in crazy units. Just fiddle with this until you find something nice)
+MomentOfInertia 100.0
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 1.5
+WheelPosition 0 -68 -6 -26
+WheelPosition 1 -68 -6 26
+WheelPosition 2 72 -6 26
+WheelPosition 3 72 -6 -26
+WheelSpringStrength 0.5
+//Bouncy bouncy
+Bounciness 0.3
+//If true, then all wheels will apply drive forces
+FourWheelDrive true
+//Tank mode activate
+Tank true
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 2000
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Gun
+Secondary Shell
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 1
+ShootDelaySecondary 10
+//Whether to alternate or fire all together
+AlternatePrimary True
+AlternateSecondary True
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary -80 28.5 3.5 turret LaserMG
+ShootPointPrimary -80 28.5 -3.5 turret LaserMG
+ShootPointPrimary -80 35.5 3.5 turret LaserMG
+ShootPointPrimary -80 35.5 -3.5 turret LaserMG
+ShootPointSecondary -11 42 -5 turret 
+ShootPointSecondary -11 42 0 turret 
+ShootPointSecondary -11 42 5 turret 
+ShootPointSecondary -11 47 -5 turret 
+ShootPointSecondary -11 47 0 turret 
+ShootPointSecondary -11 47 5 turret 
+ShootPointSecondary -11 52 -5 turret 
+ShootPointSecondary -11 52 0 turret 
+ShootPointSecondary -11 52 5 turret 
+
+
+
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+ShellSlots 7
+AllowAllAmmo False
+AddAmmo 130rocket
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 2000
+//Driver and passenger positions
+Driver 0 38 0 -360 360 -7 65
+RotatedDriverOffset 12 0 -8
+Passengers 0
+//Secondary gun
+//Delays are in ticks or 1/20ths of seconds
+//Sounds
+StartSound Tank
+StartSoundLength 20
+EngineSound Tank
+EngineSoundLength 20
+ShootSoundPrimary laserpistol
+ShootSoundSecondary RPGShoot
+//Recipe
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts turret 1 tankTurret 1 vehicleSeat
+AddRecipeParts core 1 advancedTankBody 1 vehicleSeat 2 compositePlate
+AddRecipeParts leftTrack 1 catTrack
+AddRecipeParts rightTrack 1 catTrack
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 10 gray
+//Health and collision
+SetupPart core 1000 -60 -12 -63 224 32 126
+SetupPart turret 600 -31 22 -32 82 24 64
+SetupPart leftTrack 200 -53 -14 17 106 23 9
+SetupPart rightTrack 200 -53 -14 -26 106 23 9
+BulletDetection 7

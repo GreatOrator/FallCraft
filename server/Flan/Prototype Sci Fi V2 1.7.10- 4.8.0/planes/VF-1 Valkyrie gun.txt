@@ -1,0 +1,118 @@
+//Naming
+Name VF-1A Valkyrie
+Description GU-11 55mm gun pod
+Desc GU-11 55mm gun pod
+ShortName vf1g
+ItemID 29991
+//Visuals
+Icon vf1a
+Model psf.ValkyrieG
+Texture Valkyrie
+//Third Person Camera Distance
+CameraDistance 10.0
+//Throttle
+MaxThrottle 5.0
+MaxNegativeThrottle 0.0
+//Yaw modifiers
+TurnLeftSpeed 4
+TurnRightSpeed 4
+//Pitch modifiers
+LookUpSpeed 4
+LookDownSpeed 4
+//Roll modifiers
+RollLeftSpeed 4
+RollRightSpeed 4
+//Drag (A (maxThrottle * numPropellers) : drag ratio of 1 : 1 with mass should keep the plane going at some reasonable speed at full throttle
+Drag 0.98
+//Lift (A lift : mass ratio of 1 : 1 should keep the plane perfectly level at full throttle
+Lift 3.2
+//Mass (In tons)
+Mass 2.7
+//Moment of Inertia (in crazy units. Just fiddle with this until you find something nice)
+MomentOfInertia 10.0
+//More bounciness means the vehicle will bounce more upon going up slopes, but fall through the ground less
+Bounciness 1.0
+//Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
+RestingPitch 0.0
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 6000
+BulletSpeed 30.0
+//Inventory Slots
+//Propeller Positions
+//Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
+Propeller 0 54 0 0 core Thruster
+Propeller 1 54 0 0 core Thruster
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Gun
+Secondary Missile
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 2
+ShootDelaySecondary 10
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary True
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 25 10.5 0 core gau36
+ShootPointSecondary -60 16 -58 leftWing
+ShootPointSecondary -60 16 58 rightWing
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+bulletSpeed 30
+BombSlots 0
+MissileSlots 8
+AllowAllAmmo True
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 6000
+//Passengers
+Pilot 78 34 0
+Passengers 0
+//Sounds
+StartSound viper
+StartSoundLength 20
+PropSound viper
+PropSoundLength 30
+ShootSound laserpistol
+BombSound bomb
+//Recipe
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 1 metalCockpit 8 iron
+AddRecipeParts coreWheel 2 wheel
+AddRecipeParts nose 1 metalNose 2 iron
+AddRecipeParts rightWing 1 metalWingSmall 3 iron
+AddRecipeParts leftWing 1 metalWingSmall 3 iron
+AddRecipeParts tail 1 metalTail 2 iron
+AddRecipeParts rightWingWheel 1 wheel
+AddRecipeParts leftWingWheel 1 wheel
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 5 white
+AddDye 2 red
+//Health and collision
+SetupPart core 800 -37 14 -19 128 33 38
+SetupPart nose 400 92 21 -10 60 24 20
+SetupPart tail 400 -130 21 -20 91 28 40
+SetupPart leftWing 200 -87 31 -126 88 4 106
+SetupPart rightWing 200 -87 31 20 88 4 106
+BulletDetection 10
+HasGear True
+ModelScale 1.2
+
+//Collison Points
+CollisionPoint 153 28 0 nose
+CollisionPoint 99 28 -9 nose
+CollisionPoint 99 28 9 nose
+CollisionPoint 1 31 -51 leftWing
+CollisionPoint -43 31 -51 leftWing
+CollisionPoint -86 31 -111 leftWing
+CollisionPoint -67 31 -126 leftWing
+CollisionPoint 1 31 51 rightWing
+CollisionPoint -43 31 51 rightWing
+CollisionPoint -86 31 111 rightWing
+CollisionPoint -67 31 126 rightWing
+CollisionPoint -139 28 -15 tail
+CollisionPoint -139 28 15 tail

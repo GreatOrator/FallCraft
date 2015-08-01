@@ -1,0 +1,14 @@
+Name Gun Breach
+ShortName gunBreach
+Icon gunBreach
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 8012
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Misc
+StackSize 16
+RecipeOutput 1
+Recipe I ingotIron R redstone
+III
+IRI
+IRI

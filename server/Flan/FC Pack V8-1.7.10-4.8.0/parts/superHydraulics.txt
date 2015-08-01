@@ -1,0 +1,14 @@
+Name Super Hydraulics
+ShortName superHydraulics
+Icon superHydraulics
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 8000
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Misc
+StackSize 16
+RecipeOutput 1
+Recipe H advHydraulics L bucketLava P pistonBase S suspensionArm
+SPS
+HLH
+SPS

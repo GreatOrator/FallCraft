@@ -1,0 +1,27 @@
+Name SR box
+ShortName SRbox
+TopTexture boxTop
+SideTexture IconSRBox
+BottomTexture boxBottom
+BlockID 281
+Recipe I iron B dyePowder.4 R dyePowder.1 E emblemsr
+III
+EEE
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 5
+AddGun SRP 20 Klii
+AddAmmo SRPAmmo 10 Klii
+AddGun SRSM 30 Klii
+AddAmmo SRSMAmmo 20 Klii
+AddGun SRR 40 Klii
+AddAmmo SRRAmmo 20 Klii
+AddGun SRS 40 Klii
+AddAmmo SRSAmmo 30 Klii
+AddGun SRGL 50 Klii
+AddAmmo SRGLAmmo 50 Klii

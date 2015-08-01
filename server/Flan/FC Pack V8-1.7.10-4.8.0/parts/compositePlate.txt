@@ -1,0 +1,14 @@
+Name Composite Plate
+ShortName compositePlate
+Icon compositePlate
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 8006
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Misc
+StackSize 16
+RecipeOutput 1
+Recipe O obsidianPlate I ironPlate D diamondPlate
+ O 
+ D 
+ I 

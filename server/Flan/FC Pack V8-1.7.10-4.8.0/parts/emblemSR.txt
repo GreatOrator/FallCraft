@@ -1,0 +1,14 @@
+Name SR emblem
+ShortName emblemsr
+Icon emblemSR
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 29148
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Fuel, Misc
+Category Misc
+StackSize 64
+RecipeOutput 3
+Recipe G dyePowder.1
+ G 
+G G
+ G 

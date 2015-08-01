@@ -1,0 +1,12 @@
+Name X-wing body
+ShortName Xtail
+Icon Xtail
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 27154
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Fuel, Misc
+Category Tail
+StackSize 64
+RecipeOutput 3
+Recipe 
+

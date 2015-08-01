@@ -1,0 +1,12 @@
+Name Assault
+ShortName NSCDAssault2
+AddItem NSR
+AddItem NSCDP
+AddItem NSRAmmo
+AddItem NSRAmmo
+AddItem NSRAmmo
+AddItem NSRAmmo
+AddItem NSCDPAmmo
+AddItem NSCDPAmmo
+AddItem klii
+AddItem klii

@@ -1,0 +1,44 @@
+Name HB-7
+ShortName LaserPistol
+//The ammo this gun uses (shortName)
+Ammo EnergyCell
+Icon IconLaserPistol
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 29176
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 20
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 0
+//Damage in half hearts
+Damage 5
+//The higher this value, the more the bullets spread
+Accuracy 7
+//Time in ticks between rounds
+ShootDelay 0.1
+ShootSound laserpistol
+ReloadSound mg42Reload
+Mode SemiAuto
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.5
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model settings
+Model fc.HB7
+ModelScale 0.2
+Texture HB7
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments 
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments true
+AllowGripAttachments true
+NumGenericAttachmentSlots 1
+OneHanded true
+BulletSpeed 10.0
+

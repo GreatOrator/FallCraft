@@ -1,0 +1,13 @@
+Name Hover unit
+ShortName hover
+Icon hoverunit
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 29154
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Fuel, Misc
+Category Wheel
+StackSize 64
+Recipe I iron R redstone
+III
+IRI
+ R 
