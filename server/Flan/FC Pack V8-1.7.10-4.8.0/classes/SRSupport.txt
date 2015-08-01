@@ -1,0 +1,10 @@
+Name Bomber
+ShortName SRSupport
+AddItem SRGL
+AddItem SRP
+AddItem SRGLAmmo
+AddItem SRPAmmo
+AddItem SRPAmmo
+AddItem SRPAmmo
+AddItem klii
+AddItem klii

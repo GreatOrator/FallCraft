@@ -1,0 +1,13 @@
+Name Starfighter wing
+ShortName starWing
+Icon starwing
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 29153
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Fuel, Misc
+Category Wing
+StackSize 64
+Recipe I iron R redstone
+ I 
+ I 
+III

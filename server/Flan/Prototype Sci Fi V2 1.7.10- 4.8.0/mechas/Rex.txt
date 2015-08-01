@@ -1,0 +1,73 @@
+//Naming
+Name Metal Gear Rex
+ShortName Rex
+ItemID 12501
+//Visuals
+Icon Rex
+Model psf.Rex
+Texture Rex
+//Third Person Camera Distance
+CameraDistance 15.0
+//Driver and passenger positions
+Driver 0 200 0
+//345
+Passengers 0
+//Offset of driver from the point of rotation
+RotatedDriverOffset 75 0 0
+//Speed Modifier, 1 is player speed
+MoveSpeed 0.7
+//YOffset
+YOffset 0
+//Fuel Tank Size
+FuelTankSize 10000
+//Inventory Slots
+CargoSlots 24
+//How quickly the legs react to a change in direction
+RotateSpeed 10
+//Will it squash puny mobs?
+SquashMobs true
+//Step Height (Integer) and Jump Height (Float)
+StepHeight 1
+JumpHeight 5
+//Arm origins used to rotate arm models and calculate position of held item / tool (positions in model co-ordinates)
+LeftArmOrigin -30.3 218.4 75.6
+RightArmOrigin -30.3 218.4 75.6
+//-50.5 364 126
+//Arm lengths used to determine where the held items appear (Again in model co-ords)
+ArmLength 5
+LegLength 245
+AddGun 62 131 83 leftArm LaserMG
+AddGun 62 131 -83 rightArm LaserMG
+//The scale multiplier for rendering the items and tools being held (1 will automatically scale with model)
+HeldItemScale 8
+//Recipe
+//Each section of the mecha may have many parts
+//The sections are core, leftArm, rightArm, hips, head
+AddRecipeParts core 1 largeCompositeBody
+AddRecipeParts leftArm 1 largeCompositeArm
+AddRecipeParts rightArm 1 largeCompositeArm
+AddRecipeParts hips 2 largeCompositeLeg
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 24 black
+//Health and collision
+SetupPart head 1500 -55 80 -25 102 41 50
+SetupPart core 3500 -150 91 -27 102 30 55
+SetupPart hips 1500 -86  45 -25 84  27 50 
+SetupPart leftLeg 2000 -173 -137 56 168 282 52
+SetupPart rightLeg 2000 -173 -137 -108 168 282 52
+BulletDetection 8
+//Height and Width for world collision
+Height 320
+Width 34
+//Height of chassis above the ground
+ChassisHeight 245
+//The amount of damage the mecha should take from falling
+FallDamageMultiplier 1.0
+//Whether to actually take fall damage. Can be overriden by upgrades
+TakeFallDamage false
+//The size of explosion to create per distance fallen upon hitting the ground
+BlockDamageFromFalling 1.0
+//Whether to actually damage the ground. Can be overridden by upgrades
+DamageBlocksFromFalling false
+ModelScale 0.6
+LegSwingLimit 5

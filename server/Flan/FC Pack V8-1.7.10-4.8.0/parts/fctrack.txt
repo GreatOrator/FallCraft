@@ -1,0 +1,14 @@
+Name FC Track
+ShortName fcTrack
+Icon fctrack
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 29168
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Fuel, Misc
+Category Wheel
+StackSize 64
+RecipeOutput 1
+Recipe G iron L leather
+ G 
+GGG
+LLL

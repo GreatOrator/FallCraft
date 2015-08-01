@@ -1,0 +1,70 @@
+//Naming
+Name Type IV Omega
+ShortName Omega
+ItemID 23500
+//Visuals
+Icon Omega
+Model fc.Omega
+Texture Omega
+//Third Person Camera Distance
+CameraDistance 5.0
+//Driver and passenger positions
+Driver -2 66 0
+Passengers 0
+//Offset of driver from the point of rotation
+RotatedDriverOffset 0 0 0
+//Speed Modifier, 1 is player speed
+MoveSpeed 1.2
+//YOffset
+YOffset 0
+//Fuel Tank Size
+FuelTankSize 10000
+//Inventory Slots
+CargoSlots 24
+//How quickly the legs react to a change in direction
+RotateSpeed 140
+//Will it squash puny mobs?
+SquashMobs true
+//Step Height (Integer) and Jump Height (Float)
+StepHeight 1
+JumpHeight 5
+//Arm origins used to rotate arm models and calculate position of held item / tool (positions in model co-ordinates)
+LeftArmOrigin -1 84 -25
+RightArmOrigin -1 84 27
+//Arm lengths used to determine where the held items appear (Again in model co-ords)
+ArmLength 60
+LegLength 58
+//The scale multiplier for rendering the items and tools being held (1 will automatically scale with model)
+HeldItemScale 2
+//Recipe
+//Each section of the mecha may have many parts
+//The sections are core, leftArm, rightArm, hips, head
+AddRecipeParts core 1 smallIronBody
+AddRecipeParts leftArm 1 smallIronArm
+AddRecipeParts rightArm 1 smallIronArm
+AddRecipeParts hips 2 smallIronLeg
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 5 gray
+AddDye 1 gray
+Add Dye 1 gray
+//Health and collision
+SetupPart core 400 -11 61 -12 24 29 24
+SetupPart leftArm 50 -7 78 20 71 12 11
+SetupPart rightArm 50 -7 78 -30 71 12 11
+SetupPart hips 200 -7 0 -17 15 60 34
+SetupPart head 50 -11 86 -7 38 21 14
+BulletDetection 4
+//Height and Width for world collision
+Height 100
+Width 34
+//Height of chassis above the ground
+ChassisHeight 60
+//The amount of damage the mecha should take from falling
+FallDamageMultiplier 1.0
+//Whether to actually take fall damage. Can be overriden by upgrades
+TakeFallDamage false
+//The size of explosion to create per distance fallen upon hitting the ground
+BlockDamageFromFalling 1.0
+//Whether to actually damage the ground. Can be overridden by upgrades
+DamageBlocksFromFalling false
+ModelScale 1

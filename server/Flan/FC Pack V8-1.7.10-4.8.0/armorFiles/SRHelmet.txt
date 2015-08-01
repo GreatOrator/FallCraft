@@ -1,0 +1,8 @@
+Name SR Helmet
+ShortName SR Helmet
+ItemID 25989
+Icon SRHelmet
+Colour 255 255 255
+Type Hat
+Defence 0.1
+ArmourTexture SR

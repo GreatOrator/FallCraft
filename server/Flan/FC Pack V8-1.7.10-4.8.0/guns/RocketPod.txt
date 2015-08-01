@@ -1,0 +1,41 @@
+Name Rocket Pod
+ShortName RocketPod
+//The ammo this gun uses (shortName)
+Ammo RPAmmo
+Icon IconRocketPod
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 29187
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 50
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 0
+//Damage in half hearts
+Damage 30
+//The higher this value, the more the bullets spread
+Accuracy 0
+//Time in ticks between rounds
+ShootDelay 7
+ShootSound RPGShoot
+//The length of the sound. 0 for a single shot sound. Other values are for looping sounds
+SoundLength 3
+DistortSound False
+ReloadSound bazookaReload
+Mode FullAuto
+Scope None
+Deployable True
+//-----------------------------------------------------------------------------
+//All the following is for deployables only. Other guns do not need any of this
+//-----------------------------------------------------------------------------
+//Place the compiled model class in the models folder
+DeployedModel fc.RocketPod
+//Place the texture .png in the skins folder
+DeployedTexture SkinRocketPod
+//The length from the bipod to the trigger of the gun. Deployables only.
+StandBackDistance 1.0
+//Degrees above and below level that the gun can work within. 90 degrees is vertical
+TopViewLimit 15
+BottomViewLimit 30
+SideViewLimit 45
+//The height of the pivot above the block the gun is on.
+PivotHeight 0.375

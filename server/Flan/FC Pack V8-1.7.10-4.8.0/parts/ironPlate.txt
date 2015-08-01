@@ -1,0 +1,14 @@
+Name Iron Plate
+ShortName ironPlate
+Icon ironPlate
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 8003
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Misc
+StackSize 16
+RecipeOutput 1
+Recipe I iron
+   
+III
+   

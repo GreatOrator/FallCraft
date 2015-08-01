@@ -1,0 +1,10 @@
+Name Bomber
+ShortName UGFSupport
+AddItem UGFGL
+AddItem UGFP
+AddItem UGFGLAmmo
+AddItem UGFPAmmo
+AddItem UGFPAmmo
+AddItem UGFPAmmo
+AddItem klii
+AddItem klii

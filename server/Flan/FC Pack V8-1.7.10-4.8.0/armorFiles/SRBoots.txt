@@ -1,0 +1,8 @@
+Name SR Boots
+ShortName SRBoots
+ItemID 25992
+Icon SRBoots
+Colour 255 255 255
+Type Boots
+Defence 0.1
+ArmourTexture SR

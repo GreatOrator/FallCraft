@@ -1,0 +1,12 @@
+Name Assault
+ShortName SRAssault2
+AddItem SRR
+AddItem SRP
+AddItem SRRAmmo
+AddItem SRRAmmo
+AddItem SRRAmmo
+AddItem SRRAmmo
+AddItem SRPAmmo
+AddItem SRPAmmo
+AddItem klii
+AddItem klii

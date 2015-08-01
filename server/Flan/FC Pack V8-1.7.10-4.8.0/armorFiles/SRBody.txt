@@ -1,0 +1,8 @@
+Name SR Body armour
+ShortName SRBody
+ItemID 25990
+Icon SRChest
+Colour 255 255 255
+Type Chest
+Defence 0.1
+ArmourTexture SR

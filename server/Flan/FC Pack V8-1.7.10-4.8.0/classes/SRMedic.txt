@@ -1,0 +1,10 @@
+Name Medic
+ShortName SRMedic
+AddItem SRR
+AddItem SRP
+AddItem potion 2 16421
+AddItem SRRAmmo
+AddItem SRPAmmo
+AddItem SRPAmmo
+AddItem klii
+AddItem klii
