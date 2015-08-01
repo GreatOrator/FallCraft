@@ -11,6 +11,7 @@
 **/stats/player.uid
 **/backups
 **/template
+**/dumps
 client/minecraft/usernamecache.json
 
 # Server Only

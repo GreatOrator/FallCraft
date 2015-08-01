@@ -9,7 +9,7 @@
         "numClusters": 6,
         "meanHeight": 58,
         "maxVariance": 7,
-        "retrogen": "false",
+        "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
@@ -28,7 +28,7 @@
         "numClusters": 6,
         "meanHeight": 37,
         "maxVariance": 7,
-        "retrogen": "false",
+        "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
@@ -55,7 +55,7 @@
         "numClusters": 5,
         "meanHeight": 24,
         "maxVariance": 6,
-        "retrogen": "false",
+        "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
@@ -82,7 +82,26 @@
         "numClusters": 5,
         "meanHeight": 28,
         "maxVariance": 6,
-        "retrogen": "false",
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"platinum": {
+        "template": "normal",
+        "block": {
+			"name": "ThermalFoundation:Ore", 
+			"metadata": 5
+		},
+        "clusterSize": 4,
+        "numClusters": 1,
+        "minHeight": 6,
+        "maxHeight": 16,
+        "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
@@ -93,23 +112,15 @@
     },
     "nickel": {
         "template": "uniform",
-        "block": [
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 4,
-                "weight": 90
-            },
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 5,
-                "weight": 10
-            }
-        ],
+        "block": {
+            "name": "ThermalFoundation:Ore",
+            "metadata": 4
+        },
         "clusterSize": 6,
         "numClusters": 3,
         "minHeight": 6,
         "maxHeight": 16,
-        "retrogen": "false",
+        "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
