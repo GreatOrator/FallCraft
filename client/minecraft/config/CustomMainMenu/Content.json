@@ -192,9 +192,18 @@
         {
             "text" : "v1.0.0",
             "posX" : 10,
-            "posY" : -20,
+            "posY" : -15,
             "color" : 13938487,
             "alignment" : "bottom_left"
+        },
+       
+        "mods":
+        {
+            "text" : "#modsloaded# total mods with #modsactive# active",
+            "posX" : -160,
+            "posY" : -15,
+            "color" : 13938487,
+            "alignment" : "bottom_right"
         }
        
     },
