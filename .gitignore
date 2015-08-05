@@ -11,7 +11,8 @@
 **/stats/player.uid
 **/backups
 **/template
-**/dumps
+client/minecraft/dumps
+client/minecraft/crash-reports
 client/minecraft/usernamecache.json
 
 # Server Only
@@ -30,7 +31,6 @@ client/patches
 client/minecraft/saves
 client/instance.cfg
 client/minecraft/icon.png
-client/minecraft/crash-reports
 
 # Config
 
