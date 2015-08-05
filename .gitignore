@@ -30,7 +30,7 @@ client/patches
 client/minecraft/saves
 client/instance.cfg
 client/minecraft/icon.png
-
+client/minecraft/crash-reports
 
 # Config
 
