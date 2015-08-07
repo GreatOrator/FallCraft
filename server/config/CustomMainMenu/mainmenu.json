@@ -35,8 +35,6 @@
 			"imageWidth" : 100,
 			"imageHeight" : 25,
             "alignment" : "left_center",
-			"hoverSound" : "textures:spaceodyssey/gui/sounds/hoverover.ogg",
-			"pressSound" : "textures:spaceodyssey/gui/sounds/pressover.ogg",
             "action" :
             {
                 "type" : "openGui",
@@ -55,8 +53,6 @@
 			"imageWidth" : 100,
 			"imageHeight" : 25,
             "alignment" : "left_center",
-			"hoverSound" : "textures:spaceodyssey/gui/sounds/hoverover.ogg",
-			"pressSound" : "textures:spaceodyssey/gui/sounds/pressover.ogg",
             "action" :
             {
                 "type" : "openGui",
@@ -75,8 +71,6 @@
 			"imageWidth" : 100,
 			"imageHeight" : 25,
             "alignment" : "left_center",
-			"hoverSound" : "textures:spaceodyssey/gui/sounds/hoverover.ogg",
-			"pressSound" : "textures:spaceodyssey/gui/sounds/pressover.ogg",
             "action" :
             {
                 "type" : "openGui",
@@ -96,8 +90,6 @@
 			"imageHeight" : 25,
             "alignment" : "left_center",
 			"tooltip" : "Get all the pack info",
-			"hoverSound" : "textures:spaceodyssey/gui/sounds/hoverover.ogg",
-			"pressSound" : "textures:spaceodyssey/gui/sounds/pressover.ogg",
             "action" :
             {
                 "type" : "openGui",
@@ -116,8 +108,6 @@
             "imageWidth" : 100,
             "imageHeight" : 25,
             "alignment" : "bottom_left",
-			"hoverSound" : "textures:spaceodyssey/gui/sounds/hoverover.ogg",
-			"pressSound" : "textures:spaceodyssey/gui/sounds/pressover.ogg",
              "action" :
             {
                 "type" : "openGui",
@@ -136,8 +126,6 @@
             "imageWidth" : 100,
             "imageHeight" : 25,
             "alignment" : "bottom_left",
-			"hoverSound" : "textures:spaceodyssey/gui/sounds/hoverover.ogg",
-			"pressSound" : "textures:spaceodyssey/gui/sounds/pressover.ogg",
 			"wrappedButton" : 666
         },
        
@@ -152,8 +140,6 @@
             "imageWidth" : 100,
             "imageHeight" : 25,
             "alignment" : "bottom_left",
-			"hoverSound" : "textures:spaceodyssey/gui/sounds/hoverover.ogg",
-			"pressSound" : "textures:spaceodyssey/gui/sounds/pressover.ogg",
             "action" :
             {
                 "type" : "quit"
@@ -171,8 +157,6 @@
             "imageWidth" : 100,
             "imageHeight" : 25,
             "alignment" : "bottom_left",
-			"hoverSound" : "textures:spaceodyssey/gui/sounds/hoverover.ogg",
-			"pressSound" : "textures:spaceodyssey/gui/sounds/pressover.ogg",
             "action" :
             {
                 "type" : "openGui",
@@ -187,9 +171,18 @@
         {
             "text" : "v1.0.0",
             "posX" : 10,
-            "posY" : -20,
+            "posY" : -15,
             "color" : 13938487,
             "alignment" : "bottom_left"
+        },
+       
+        "mods":
+        {
+            "text" : "#modsloaded# total mods with #modsactive# active",
+            "posX" : -160,
+            "posY" : -15,
+            "color" : 13938487,
+            "alignment" : "bottom_right"
         }
        
     },
