@@ -20,5 +20,27 @@
             -1,
             1
         ]
+    },
+    "uranium": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "IC2:blockOreUran",
+                "metadata": 0,
+                "weight": 90
+            }
+        ],
+        "clusterSize": 5,
+        "numClusters": 2,
+        "minHeight": 18,
+        "maxHeight": 36,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
     }
 }

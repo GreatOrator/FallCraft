@@ -1,10 +1,10 @@
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:0.0
+gamma:0.8309859
 saturation:0.0
-renderDistance:12
-guiScale:0
+renderDistance:10
+guiScale:2
 particles:0
 bobView:true
 anaglyph3d:false
@@ -27,7 +27,7 @@ snooperEnabled:true
 fullscreen:false
 enableVsync:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 showCape:true
 touchscreen:false
@@ -93,6 +93,7 @@ key_Hub Expand Key:45
 key_Draw Weapons:19
 key_Special:44
 key_Quest Log:38
+key_key.binder:40
 key_Down key:29
 key_Inventory key:19
 key_Bomb Key:47
@@ -108,13 +109,15 @@ key_Door Open / Close Key:37
 key_Mode Switch Key:50
 key_Debug Key:68
 key_Reload Models Key:67
+key_igwmod.keys.wiki:23
+key_Lore Journal:38
 key_Pneumatic Helmet Options:33
 key_Pneumatic Helmet Hack:35
 key_Baubles Inventory:48
 key_keys.adventureBackpack.openBackpackInventory:48
 key_keys.adventureBackpack.switchHoseTank:49
 key_key.placeItem:25
-key_key.toolConfig:46
+key_key.toolConfig:83
 key_Glider Toggle:34
 key_Sound Locator:38
 key_Night Vision:25
@@ -140,6 +143,7 @@ key_[GC] Toggle Sensor Goggles Mode:37
 key_invtweaks.key.sort:19
 key_Camping Inventory Key:46
 key_key.craftingGrid:46
+key_WorldEdit Reference:38
 key_key.cofh.empower:47
 key_key.cofh.multimode:46
 key_railcraft.keybind.loco.faster:52
@@ -147,12 +151,20 @@ key_railcraft.keybind.loco.slower:51
 key_railcraft.keybind.loco.mode:50
 key_railcraft.keybind.loco.whistle:49
 key_key.control:29
-soundCategory_master:0.294702
-soundCategory_music:0.3309859
-soundCategory_record:1.0
-soundCategory_weather:1.0
-soundCategory_block:1.0
-soundCategory_hostile:1.0
-soundCategory_neutral:1.0
-soundCategory_player:1.0
-soundCategory_ambient:1.0
+key_enchiridion.key.wiki:35
+key_key.journeymap.map_toggle:36
+key_key.journeymap.zoom_in:13
+key_key.journeymap.zoom_out:12
+key_key.journeymap.minimap_type:27
+key_key.journeymap.minimap_type:27
+key_key.journeymap.minimap_preset:43
+key_key.journeymap.create_waypoint:48
+soundCategory_master:0.5033113
+soundCategory_music:0.35211268
+soundCategory_record:0.35915494
+soundCategory_weather:0.2535211
+soundCategory_block:0.35915494
+soundCategory_hostile:0.2535211
+soundCategory_neutral:0.2535211
+soundCategory_player:0.35915494
+soundCategory_ambient:0.35211268
