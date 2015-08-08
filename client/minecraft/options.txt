@@ -16,7 +16,7 @@ fancyGraphics:true
 ao:2
 clouds:true
 resourcePacks:[]
-lastServer:
+lastServer:dev2.tolkiencraft.com
 lang:en_US
 chatVisibility:0
 chatColors:true
