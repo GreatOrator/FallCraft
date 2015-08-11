@@ -137,9 +137,6 @@ key_key.tarmor:24
 key_key.tgoggles:34
 key_key.tbelt:48
 key_key.tzoom:44
-key_[GC] Galaxy Map:50
-key_[GC] Open Spaceship Inventory:33
-key_[GC] Toggle Sensor Goggles Mode:37
 key_invtweaks.key.sort:19
 key_Camping Inventory Key:46
 key_key.craftingGrid:46
