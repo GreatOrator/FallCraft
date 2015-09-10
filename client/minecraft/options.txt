@@ -111,8 +111,6 @@ key_Debug Key:68
 key_Reload Models Key:66
 key_igwmod.keys.wiki:23
 key_Lore Journal:39
-key_Pneumatic Helmet Options:76
-key_Pneumatic Helmet Hack:77
 key_Baubles Inventory:0
 key_keys.adventureBackpack.openBackpackInventory:48
 key_keys.adventureBackpack.switchHoseTank:49
@@ -138,8 +136,6 @@ key_key.tgoggles:35
 key_key.tbelt:21
 key_key.tzoom:44
 key_invtweaks.key.sort:0
-key_Camping Inventory Key:0
-key_key.craftingGrid:51
 key_key.cofh.empower:47
 key_key.cofh.multimode:46
 key_railcraft.keybind.loco.faster:201
@@ -155,7 +151,7 @@ key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_preset:40
 key_key.journeymap.create_waypoint:43
-soundCategory_master:0.50
+soundCategory_master:0.5
 soundCategory_music:0.35
 soundCategory_record:0.35
 soundCategory_weather:0.25
