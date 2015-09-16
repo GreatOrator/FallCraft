@@ -126,6 +126,7 @@ key_Yeta Wrench Mode:47
 key_Reload Configs:0
 key_Add Custom Config:0
 key_Enviromine Menu:0
+key_invtweaks.key.sort:0
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
@@ -135,7 +136,6 @@ key_key.tarmor:24
 key_key.tgoggles:35
 key_key.tbelt:21
 key_key.tzoom:44
-key_invtweaks.key.sort:0
 key_key.cofh.empower:47
 key_key.cofh.multimode:46
 key_railcraft.keybind.loco.faster:201
