@@ -14,7 +14,7 @@
 		"black":
 		{
             "image" : "textures:spaceodyssey/gui/Fallcraftlogo.png",
-            "posX" : -232,
+            "posX" : -242,
             "posY" : 0,
             "width" : 480,
             "height" : 110,
@@ -49,7 +49,9 @@
             {
                 "type" : "openGui",
                 "gui" : "custom.mainmenu"
-            }
+            },
+			"hoverSound" : "menu:hover",
+			"pressSound" : "menu:click"
         },
 		
         "mapdownload":
@@ -69,7 +71,9 @@
                         {
                 "type" : "openLink",
                                 "link" : "http://minecraft.curseforge.com/worlds/226743-tolkiencraft-ii-draconis"
-            }
+            },
+			"hoverSound" : "menu:hover",
+			"pressSound" : "menu:click"
         },
 		
         "credits":
@@ -88,7 +92,9 @@
             {
                 "type" : "openGui",
                 "gui" : "custom.Credits"
-            }
+            },
+			"hoverSound" : "menu:hover",
+			"pressSound" : "menu:click"
         },
 		
         "changelog":
@@ -107,7 +113,9 @@
             {
                 "type" : "openGui",
                 "gui" : "custom.ChangeLog"
-            }
+            },
+			"hoverSound" : "menu:hover",
+			"pressSound" : "menu:click"
         },
 				
         "options":
@@ -125,7 +133,9 @@
             {
                 "type" : "openGui",
                 "gui" : "options"
-            }
+            },
+			"hoverSound" : "menu:hover",
+			"pressSound" : "menu:click"
 		},
        
         "openeye":
@@ -139,7 +149,9 @@
             "imageWidth" : 100,
             "imageHeight" : 25,
             "alignment" : "bottom_left",
-			"wrappedButton" : 666
+			"wrappedButton" : 666,
+			"hoverSound" : "menu:hover",
+			"pressSound" : "menu:click"
         },
        
         "quit":
@@ -156,7 +168,9 @@
             "action" :
             {
                 "type" : "quit"
-            }
+            },
+			"hoverSound" : "menu:hover",
+			"pressSound" : "menu:click"
         },
 
         "language":
@@ -175,7 +189,9 @@
             {
                 "type" : "openGui",
                 "gui" : "languages"
-            }
+            },
+			"hoverSound" : "menu:hover",
+			"pressSound" : "menu:click"
         }
     },
    
