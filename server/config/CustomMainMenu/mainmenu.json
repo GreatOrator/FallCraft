@@ -39,7 +39,9 @@
             {
                 "type" : "openGui",
                 "gui" : "singleplayer"
-            }
+            },
+			"hoverSound" : "menu:hover",
+			"pressSound" : "menu:click"
         },
        
         "multiplayer":
@@ -57,7 +59,9 @@
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
-            }
+            },
+			"hoverSound" : "menu:hover",
+			"pressSound" : "menu:click"
         },
        
         "mods":
@@ -75,7 +79,9 @@
             {
                 "type" : "openGui",
                 "gui" : "mods"
-            }
+            },
+			"hoverSound" : "menu:hover",
+			"pressSound" : "menu:click"
         },
         
         "content":
@@ -94,7 +100,9 @@
             {
                 "type" : "openGui",
                 "gui" : "custom.Content"
-            }
+            },
+			"hoverSound" : "menu:hover",
+			"pressSound" : "menu:click"
         },
 		
         "options":
@@ -112,7 +120,9 @@
             {
                 "type" : "openGui",
                 "gui" : "options"
-            }
+            },
+			"hoverSound" : "menu:hover",
+			"pressSound" : "menu:click"
 		},
        
         "openeye":
@@ -126,7 +136,9 @@
             "imageWidth" : 100,
             "imageHeight" : 25,
             "alignment" : "bottom_left",
-			"wrappedButton" : 666
+			"wrappedButton" : 666,
+			"hoverSound" : "menu:hover",
+			"pressSound" : "menu:click"
         },
        
         "quit":
@@ -143,7 +155,9 @@
             "action" :
             {
                 "type" : "quit"
-            }
+            },
+			"hoverSound" : "menu:hover",
+			"pressSound" : "menu:click"
         },
 
         "language":
@@ -161,7 +175,9 @@
             {
                 "type" : "openGui",
                 "gui" : "languages"
-            }
+            },
+			"hoverSound" : "menu:hover",
+			"pressSound" : "menu:click"
         }
     },
    
