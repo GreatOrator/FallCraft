@@ -45,34 +45,12 @@
 			"pressSound" : "menu:click"
         },
 		
-        "mapdownload":
-        {
-            "text" : "Map Download",
-                        "texture" : "textures:menu/buttontemplate3.png",
-                        "hoverText" : "Get the map",
-                        "alignment" : "top_right",
-            "posX" : 55,
-            "posY" : 10,
-            "width" : 100,
-            "height" : 25,
-			"imageWidth" : 100,
-			"imageHeight" : 25,
-            "alignment" : "left_center",
-			"action" :
-                        {
-                "type" : "openLink",
-                                "link" : "http://minecraft.curseforge.com/worlds/226743-tolkiencraft-ii-draconis"
-            },
-			"hoverSound" : "menu:hover",
-			"pressSound" : "menu:click"
-        },
-		
         "credits":
         {
             "text" : "Credits",
                         "texture" : "textures:menu/buttontemplate3.png",
             "posX" : 55,
-            "posY" : 35,
+            "posY" : 10,
             "width" : 100,
             "height" : 25,
 			"imageWidth" : 100,
@@ -93,7 +71,7 @@
             "text" : "Changelog",
                         "texture" : "textures:menu/buttontemplate3.png",
             "posX" : 55,
-            "posY" : 60,
+            "posY" : 35,
             "width" : 100,
             "height" : 25,
 			"imageWidth" : 100,
@@ -188,22 +166,13 @@
    
     "texts":
     {
-	"example":
+	"version":
         {
             "text" : "v1.0.0",
             "posX" : 10,
             "posY" : -15,
             "color" : 13938487,
             "alignment" : "bottom_left"
-        },
-       
-        "mods":
-        {
-            "text" : "#modsloaded# total mods with #modsactive# active",
-            "posX" : -160,
-            "posY" : -15,
-            "color" : 13938487,
-            "alignment" : "bottom_right"
         }
        
     },
