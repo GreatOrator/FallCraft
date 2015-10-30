@@ -64,9 +64,9 @@
 			"pressSound" : "menu:click"
         },
        
-        "mods":
+        "madhelp":
         {
-            "text" : "Mods",
+            "text" : "Map Download",
                         "texture" : "textures:menu/buttontemplate3.png",
             "posX" : 55,
             "posY" : 35,
@@ -75,13 +75,10 @@
 			"imageWidth" : 100,
 			"imageHeight" : 25,
             "alignment" : "left_center",
-            "action" :
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            },
+			"tooltip" : "Automatic install!",
 			"hoverSound" : "menu:hover",
-			"pressSound" : "menu:click"
+			"pressSound" : "menu:click",
+			"wrappedButton" : 426
         },
         
         "content":
@@ -183,7 +180,7 @@
    
     "texts":
     {
-	"example":
+	"version":
         {
             "text" : "v1.0.0",
             "posX" : 10,
@@ -192,14 +189,19 @@
             "alignment" : "bottom_left"
         },
        
-        "mods":
-        {
-            "text" : "#modsloaded# total mods with #modsactive# active",
-            "posX" : -160,
-            "posY" : -15,
-            "color" : 13938487,
-            "alignment" : "bottom_right"
-        }
+    "mods":
+		{
+			"text" : "#modsloaded# total mods with #modsactive# active",
+			"posX" : -160,
+			"posY" : -15,
+			"color" : 13938487,
+			"alignment" : "bottom_right",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+		}
        
     },
    
