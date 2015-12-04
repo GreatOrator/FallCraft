@@ -4,7 +4,7 @@ fov:0.0
 gamma:0.8309859
 saturation:0.0
 renderDistance:10
-guiScale:3
+guiScale:2
 particles:0
 bobView:true
 anaglyph3d:false
@@ -14,7 +14,7 @@ fboEnable:true
 difficulty:0
 fancyGraphics:true
 ao:2
-clouds:true
+clouds:false
 resourcePacks:[]
 lastServer:dev2.tolkiencraft.com
 lang:en_US
@@ -92,6 +92,7 @@ key_Side Inventory Key:72
 key_Hub Expand Key:45
 key_Draw Weapons:19
 key_Special:44
+key_key.personalBackpack:48
 key_Quest Log:38
 key_key.binder:0
 key_Down key:29
@@ -109,33 +110,33 @@ key_Door Open / Close Key:37
 key_Mode Switch Key:46
 key_Debug Key:68
 key_Reload Models Key:66
-key_igwmod.keys.wiki:23
 key_Lore Journal:39
 key_Baubles Inventory:0
-key_keys.adventureBackpack.openBackpackInventory:48
-key_keys.adventureBackpack.switchHoseTank:49
 key_key.placeItem:25
 key_key.toolConfig:83
+key_waila.keybind.wailaconfig:82
+key_waila.keybind.wailadisplay:79
+key_waila.keybind.liquid:80
+key_waila.keybind.recipe:81
+key_waila.keybind.usage:75
 key_Glider Toggle:34
 key_Sound Locator:35
 key_Night Vision:35
 key_Goggles of Revealing:35
 key_Step Assist:0
 key_Speed:0
+key_Jump:0
 key_Yeta Wrench Mode:47
+key_Toggle Electromagnet:0
 key_Reload Configs:0
 key_Add Custom Config:0
 key_Enviromine Menu:0
 key_invtweaks.key.sort:0
-key_waila.keybind.wailaconfig:82
-key_waila.keybind.wailadisplay:79
-key_waila.keybind.liquid:80
-key_waila.keybind.recipe:81
-key_waila.keybind.usage:75
 key_key.tarmor:24
 key_key.tgoggles:35
 key_key.tbelt:21
 key_key.tzoom:44
+key_WorldEdit Reference:38
 key_key.cofh.empower:47
 key_key.cofh.multimode:46
 key_railcraft.keybind.loco.faster:201

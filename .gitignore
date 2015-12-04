@@ -1,19 +1,32 @@
 ### Project Specific ###
 
 ## Client and Server ##
-
 **/logs
 **/asm
-**/journeymap
 **/reports
 **/mods/ruins_log.txt
 **/natives
 **/stats/player.uid
 **/backups
 **/template
+
+# Client only
+client/minecraft/saves
+client/minecraft/journeymap/data
+client/minecraft/journeymap/colorpalette*
+client/minecraft/journeymap/journeymap.log
+client/minecraft/journeymap/config
+client/minecraft/journeymap/icon/entity
 client/minecraft/dumps
 client/minecraft/crash-reports
 client/minecraft/usernamecache.json
+client/minecraft/icon.png
+client/minecraft/config/hqm/editmode.cfg
+client/minecraft/config/madhelp/MadHelpContentList.json
+client/minecraft/config/madhelp/MadHelpSplashScreen.json
+client/minecraft/screenshots
+client/patches
+client/instance.cfg
 
 # Server Only
 server/world
@@ -24,40 +37,23 @@ server/banned-ips.json
 server/banned-players.json
 server/config/JourneyMapServer
 
-# Client only
-
-screenshots
-client/patches
-client/minecraft/saves
-client/instance.cfg
-client/minecraft/icon.png
-
-# Config
-
+# Configs
 **/config/YAMPST.nbt
 **/config/splash.properties
 **/config/IChunUtil_Stats.cfg
 **/config/IChunUtil.cfg
 **/config/InvTweaks.cfg
 **/config/fastcraft.ini
-client/minecraft/config/hqm/editmode.cfg
 
 # Caches
-
 **/mods/carpentersblocks/CarpentersBlocksCachedResources.zip
 **/customnpcs/assets/customnpcs/textures/cache
 **/usercache.json
-
-# Created by https://www.gitignore.io
 
 ### OSX ###
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Icon must end with two \r
-Icon
-
 
 # Thumbnails
 ._*
@@ -229,5 +225,3 @@ nbdist/
 nbactions.xml
 nb-configuration.xml
 .nb-gradle/
-client/minecraft/config/madhelp/MadHelpContentList.json
-client/minecraft/config/madhelp/MadHelpSplashScreen.json
