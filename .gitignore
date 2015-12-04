@@ -4,13 +4,17 @@
 
 **/logs
 **/asm
-**/journeymap
 **/reports
 **/mods/ruins_log.txt
 **/natives
 **/stats/player.uid
 **/backups
 **/template
+**/journeymap/data
+**/journeymap/config
+**/journeymap/colorpalette*
+**/journeymap/journeymap.log
+**/journeymap/entity
 client/minecraft/dumps
 client/minecraft/crash-reports
 client/minecraft/usernamecache.json
@@ -31,6 +35,9 @@ client/patches
 client/minecraft/saves
 client/instance.cfg
 client/minecraft/icon.png
+client/minecraft/config/hqm/editmode.cfg
+client/minecraft/config/madhelp/MadHelpContentList.json
+client/minecraft/config/madhelp/MadHelpSplashScreen.json
 
 # Config
 
@@ -40,7 +47,6 @@ client/minecraft/icon.png
 **/config/IChunUtil.cfg
 **/config/InvTweaks.cfg
 **/config/fastcraft.ini
-client/minecraft/config/hqm/editmode.cfg
 
 # Caches
 
@@ -229,5 +235,3 @@ nbdist/
 nbactions.xml
 nb-configuration.xml
 .nb-gradle/
-client/minecraft/config/madhelp/MadHelpContentList.json
-client/minecraft/config/madhelp/MadHelpSplashScreen.json
