@@ -1,0 +1,986 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Your first task would be to use the ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 27,
+            "yPos": 19,
+            "width": 178.0,
+            "height": 8.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Doggy Charm",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF0000FF",
+            "xPos": 71,
+            "yPos": 37,
+            "width": 80.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "doggytalents:doggy_charm",
+            "xPos": 85,
+            "yPos": 62,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Now you have a tamed dog which has several differences than a vanilla tamed wolf.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 33,
+            "yPos": 130,
+            "width": 160.0,
+            "height": 25.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Talent GUI",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 286,
+            "yPos": 19,
+            "width": 70.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Right click your dog with a plain old vanilla stick. BAMM there you have it, the GUI where you can edit details, give talents, change your dogs name etc.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 229,
+            "yPos": 39,
+            "width": 169.0,
+            "height": 49.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:stick",
+            "xPos": 323,
+            "yPos": 77,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "You can increase the level of a talent to level 5 but as you go up the level costs more points. Though usually if you get a talent to level 5 your dog will get an extra special ability. It gets more expensive as the level gets higher, so to level up from 1 to 2 it costs 1 point, from level 3 to 4 it costs 3 points. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 225,
+            "yPos": 113,
+            "width": 171.0,
+            "height": 60.0
+          }
+        }
+      ],
+      "pageName": "trainig"
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "doggytalents:training_treat",
+            "xPos": 171,
+            "yPos": 99,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Now how do you get these points?",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 27,
+            "yPos": 19,
+            "width": 194.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Use training treats, but of course you need better treats to progress higher.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 29,
+            "yPos": 34,
+            "width": 174.0,
+            "height": 23.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Training Treats",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF0000FF",
+            "xPos": 37,
+            "yPos": 86,
+            "width": 102.0,
+            "height": 4.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Can take the dog up to level 20!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 34,
+            "yPos": 103,
+            "width": 112.0,
+            "height": 23.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Super Treat",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF0000FF",
+            "xPos": 35,
+            "yPos": 142,
+            "width": 85.0,
+            "height": 8.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Can take the dog to level 40!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 31,
+            "yPos": 162,
+            "width": 127.0,
+            "height": 18.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "doggytalents:super_treat",
+            "xPos": 168,
+            "yPos": 153,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Master Treat",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF0000FF",
+            "xPos": 231,
+            "yPos": 20,
+            "width": 85.0,
+            "height": 8.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Can take the dog to level 60!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 225,
+            "yPos": 35,
+            "width": 109.0,
+            "height": 23.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "doggytalents:master_treat",
+            "xPos": 343,
+            "yPos": 24,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Dire Treat",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF0000FF",
+            "xPos": 232,
+            "yPos": 67,
+            "width": 79.0,
+            "height": 13.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Adds to the dire level. And once the dog reaches dire level 30 he is an ultimate dog!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 225,
+            "yPos": 86,
+            "width": 129.0,
+            "height": 48.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "doggytalents:dire_treat",
+            "xPos": 355,
+            "yPos": 85,
+            "width": 32.0,
+            "height": 32.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Care and Feeding",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 57,
+            "yPos": 17,
+            "width": 115.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Taking care of your dogs is quite a bit different from taking care of your wolves, and this section will cover what you need to know about your pets. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 29,
+            "yPos": 37,
+            "width": 165.0,
+            "height": 50.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Hunger System",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 60,
+            "yPos": 94,
+            "width": 91.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "First off, dogs use a hunger system, just like the player. When fed, your dogs will will regain health over time (though they will heal significantly faster if they\u0027re sitting), but if their food level drops to 0, your dog will gradually take starvation damage. When you feed your dog,",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 29,
+            "yPos": 108,
+            "width": 170.0,
+            "height": 83.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HardcoreQuesting:hearts 3",
+            "xPos": 170,
+            "yPos": 82,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "instead of instantly regaining health, it will gain nourishment points, or NP. The maximum NP a dog can have is 120, and your dog will gradually lose NP over time.  While sitting/wandering, dogs lose 1 NP every 30 seconds, meaning 120 NP will last them an hour. While following you, dogs lose 1 NP every 15 seconds, so 120 NP will last 30 minutes. By default, your dogs can eat beef, chicken and pork, cooked or raw, and they restore 40 NP. If mods add any food items classified as edible by wolves, they can eat these too, for 30 NP.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 219,
+            "yPos": 14,
+            "width": 181.0,
+            "height": 161.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:beef",
+            "xPos": 227,
+            "yPos": 164,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:chicken",
+            "xPos": 287,
+            "yPos": 166,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:porkchop",
+            "xPos": 351,
+            "yPos": 161,
+            "width": 32.0,
+            "height": 32.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Incapacitation",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 71,
+            "yPos": 21,
+            "width": 77.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Doggy_Talents/hurt_dog.png",
+            "xPos": 35,
+            "yPos": 106,
+            "width": 152.0,
+            "height": 99.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Dogs can\u0027t die. As long as it has been tamed, no amount of damage will ever actually kill a dog.  They can, however, become incapacitated, which prevents your dog from using most of their skills or attacking.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 29,
+            "yPos": 38,
+            "width": 169.0,
+            "height": 53.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "If a dog is incapacitated, an (I) will appear over its head instead of its attack setting. You can revive your dog by letting it rest for a while (make sure it\u0027s well fed), using a healing potion on it, or feeding it cake. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 232,
+            "yPos": 86,
+            "width": 166.0,
+            "height": 63.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:potion 8261",
+            "xPos": 251,
+            "yPos": 35,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:cake",
+            "xPos": 331,
+            "yPos": 33,
+            "width": 32.0,
+            "height": 32.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Breeding",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 75,
+            "yPos": 22,
+            "width": 63.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "If you give two dogs breeding bones, they will have a puppy.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 28,
+            "yPos": 41,
+            "width": 163.0,
+            "height": 30.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "doggytalents:breeding_bone",
+            "xPos": 83,
+            "yPos": 83,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "By default puppies will take 10 days to grow up instead of just one.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 29,
+            "yPos": 141,
+            "width": 159.0,
+            "height": 45.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "They\u0027re also born wild, so you\u0027ll need to tame them with bones before you can do anything with them. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 229,
+            "yPos": 38,
+            "width": 167.0,
+            "height": 38.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Doggy_Talents/breeding.png",
+            "xPos": 239,
+            "yPos": 88,
+            "width": 142.0,
+            "height": 87.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Commands and Interactions",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 40,
+            "yPos": 24,
+            "width": 151.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Right click while holding a wooden plank will to access your dog\u0027s inventory screen.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 30,
+            "yPos": 43,
+            "width": 162.0,
+            "height": 39.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:planks 0",
+            "xPos": 86,
+            "yPos": 82,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "If your dog has any levels in the PackPuppy skill, you should see some inventory slots available.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 32,
+            "yPos": 133,
+            "width": 162.0,
+            "height": 42.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Right click with a bone to make your dog sit on top of your head. Just make sure there\u0027s room above you or your dog could get hurt! To get your dog off of your head, simply right-click again with a bone.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 224,
+            "yPos": 21,
+            "width": 167.0,
+            "height": 61.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Doggy_Talents/carrying_dog.png",
+            "xPos": 230,
+            "yPos": 94,
+            "width": 162.0,
+            "height": 91.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Right click a tamed dog with collar shears to release your dog. Your dog will become wild, but will not get angry when hit, and can be re-tamed with bones.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 30,
+            "yPos": 44,
+            "width": 164.0,
+            "height": 53.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "doggytalents:collar_shears 0",
+            "xPos": 82,
+            "yPos": 101,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "If you re-tame the dog, you\u0027ll notice that its skills have been reset, but it still has its level.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 32,
+            "yPos": 156,
+            "width": 159.0,
+            "height": 40.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Alternatively, if you wait a few seconds and then right-click on the dog with collar shears AGAIN while it\u0027s wild, it will turn back into a tamed vanilla wolf under your control. You cannot do this with dogs that belong to somebody else.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 225,
+            "yPos": 59,
+            "width": 175.0,
+            "height": 80.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Releasing a Dog",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF0000FF",
+            "xPos": 35,
+            "yPos": 25,
+            "width": 95.0,
+            "height": 13.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Command Emblem",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 34,
+            "yPos": 26,
+            "width": 108.0,
+            "height": 8.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "You can also use the arrow keys while hand the command emblem to issue commands to your dogs within 20 blocks of you.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 31,
+            "yPos": 44,
+            "width": 166.0,
+            "height": 39.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "doggytalents:command_emblem",
+            "xPos": 92,
+            "yPos": 82,
+            "width": 45.0,
+            "height": 45.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Come:",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF0000FF",
+            "xPos": 32,
+            "yPos": 127,
+            "width": 38.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The up arrow causes your dogs to stand, exit wandering mode, and cancel any attacks they were in the middle of doing.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 27,
+            "yPos": 142,
+            "width": 166.0,
+            "height": 40.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Stay:",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF0000FF",
+            "xPos": 228,
+            "yPos": 20,
+            "width": 81.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The down arrow, causes your dogs to sit, exit wandering mode, and cancel any attacks they were in the middle of doing.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 222,
+            "yPos": 35,
+            "width": 160.0,
+            "height": 48.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Okay:",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF0000FF",
+            "xPos": 229,
+            "yPos": 83,
+            "width": 79.0,
+            "height": 12.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The left arrow, makes your dogs stand up and enter wandering mode.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 225,
+            "yPos": 102,
+            "width": 171.0,
+            "height": 31.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Behavior and Fun Stuff",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 47,
+            "yPos": 19,
+            "width": 175.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Dogs are also more lively than vanilla wolves. Behavioral changes are as follows:",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 30,
+            "yPos": 39,
+            "width": 165.0,
+            "height": 28.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Dogs will keep their distance from you (5 to 10 blocks) when you\u0027re holding a sword or tool. This is to give you some space while mining, or elbow room while fighting.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 85,
+            "yPos": 91,
+            "width": 115.0,
+            "height": 75.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:iron_sword 0",
+            "xPos": 35,
+            "yPos": 108,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "You can play fetch with your dogs by crafting a throwbone and right-clicking to throw it. Any dogs that are following you will chase after it. One of them will grab it and bring it back to you. It\u0027ll be a bit slobbery when they bring it back, but you can clean it by right clicking.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 228,
+            "yPos": 73,
+            "width": 161.0,
+            "height": 80.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "doggytalents:throw_bone",
+            "xPos": 280,
+            "yPos": 27,
+            "width": 32.0,
+            "height": 32.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Dogs will teleport to a space 3 blocks to the northeast, southeast, northwest, or southwest of you, instead of always right next to you in the same direction. This will prevent them from teleporting in your path at inconvenient times, while still letting you see them teleport.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 30,
+            "yPos": 39,
+            "width": 164.0,
+            "height": 85.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:ender_eye",
+            "xPos": 86,
+            "yPos": 153,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Dogs won\u0027t teleport into lava or fire, though they can teleport into water.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 233,
+            "yPos": 123,
+            "width": 158.0,
+            "height": 31.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:fire",
+            "xPos": 243,
+            "yPos": 50,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:lava_bucket",
+            "xPos": 328,
+            "yPos": 56,
+            "width": 32.0,
+            "height": 32.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "If you hold the sneak key while looking at a dog the owners name will appear above it\u0027s head.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 34,
+            "yPos": 27,
+            "width": 150.0,
+            "height": 39.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Doggy_Talents/doggy_name.png",
+            "xPos": 29,
+            "yPos": 79,
+            "width": 164.0,
+            "height": 108.0
+          }
+        }
+      ],
+      "pageName": ""
+    }
+  ],
+  "uniqueName": "Doggy_Talents",
+  "color": 16777215,
+  "showBackground": true,
+  "showArrows": true,
+  "showNumber": true,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "iconColorPass1": 0,
+  "iconColorPass2": 0,
+  "language": "en_US",
+  "displayName": "Doggy_Talents",
+  "displayInCreative": true
+}
