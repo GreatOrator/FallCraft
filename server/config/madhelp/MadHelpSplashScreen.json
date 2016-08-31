@@ -1,8 +1,8 @@
 {
-	"revision": 1,
+	"revision": 2,
 	"infoText": [
-		"[c]Welcome to TolkienCraft II",
-		"This is a one-time notice so that you are arware of the new map download & install feature on the main menu.  This was done to make it even easier for you to get the default map and extended content to use when you want.",
+		"[c]Welcome to FallCraft",
+		"Please remember, the map available through this tool to download is not the actual map that will be released.  It is simply here as a placeholder during testing.  If you truly want the map, you can download it from github, but I will not troubleshoot map issues if you have any.",
 		"I am thankful that you have decided to play this pack and please let me know if you have any questions or issues while playing!"
 	]
 }

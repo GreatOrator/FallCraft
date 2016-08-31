@@ -210,11 +210,11 @@
             "posY" : 19,
             "color" : 13938487,
             "alignment" : "top_left",
-			"hoverText" : "Visit the website",
+			"hoverText" : "Visit Github Releases",
 			"action" :
                         {
                 "type" : "openLink",
-                                "link" : "http://www.tolkiencraft.com/"
+                                "link" : "https://github.com/GreatOrator/FallCraft/releases"
 			}
         }
        
