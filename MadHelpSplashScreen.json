@@ -1,7 +1,9 @@
 {
 	"revision": 2,
 	"infoText": [
-		"[c]Welcome to FallCraft",
+		"[c]Welcome to FallCraft - v0.8.1 Alpha",
+		"§c§lThis update fixes many bugs found during the course of building and testing.§r",
+		" ",
 		"Please remember, the map available through this tool to download is not the actual map that will be released.  It is simply here as a placeholder during testing.  If you truly want the map, you can download it from github, but I will not troubleshoot map issues if you have any.",
 		"I am thankful that you have decided to play this pack and please let me know if you have any questions or issues while playing!"
 	]

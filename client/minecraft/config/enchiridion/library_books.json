@@ -144,8 +144,63 @@
       "overwrite": ""
     },
     {
+      "mod": "Mariculture",
+      "stack": "Mariculture:guide 5",
+      "type": "switch",
+      "free": true,
+      "onCrafted": false,
+      "openGuiClass": "",
+      "openGuiNBT": "",
+      "pickUp": false,
+      "overwrite": ""
+    },
+    {
+      "mod": "AWWayofTime",
+      "stack": "Mariculture:guide 6",
+      "type": "switch",
+      "free": true,
+      "onCrafted": false,
+      "openGuiClass": "",
+      "openGuiNBT": "",
+      "pickUp": false,
+      "overwrite": ""
+    },
+    {
+      "mod": "Botania",
+      "stack": "Mariculture:guide 7",
+      "type": "switch",
+      "free": true,
+      "onCrafted": false,
+      "openGuiClass": "",
+      "openGuiNBT": "",
+      "pickUp": false,
+      "overwrite": ""
+    },
+    {
+      "mod": "Mariculture",
+      "stack": "Mariculture:guide 8",
+      "type": "switch",
+      "free": true,
+      "onCrafted": false,
+      "openGuiClass": "",
+      "openGuiNBT": "",
+      "pickUp": false,
+      "overwrite": ""
+    },
+    {
       "mod": "OpenBlocks",
       "stack": "OpenBlocks:infoBook 0",
+      "type": "network",
+      "free": true,
+      "onCrafted": false,
+      "openGuiClass": "",
+      "openGuiNBT": "",
+      "pickUp": false,
+      "overwrite": ""
+    },
+    {
+      "mod": "OpenComputers",
+      "stack": "OpenComputers:item 98",
       "type": "network",
       "free": true,
       "onCrafted": false,
@@ -329,17 +384,6 @@
       "openGuiNBT": "",
       "pickUp": false,
       "overwrite": ""
-    },
-	{
-      "mod": "Enchiridion2",
-      "stack": "Enchiridion2:book 0 {identifier:\"Doggy_Talents\"}",
-      "type": "default",
-      "free": true,
-      "onCrafted": false,
-      "openGuiClass": "",
-      "openGuiNBT": "",
-      "pickUp": false,
-      "overwrite": ""
-	}
+    }
   ]
 }

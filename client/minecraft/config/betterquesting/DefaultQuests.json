@@ -1,0 +1,689 @@
+{
+  "editMode": true,
+  "hardcore": false,
+  "defLives": 3,
+  "maxLives": 10,
+  "questDatabase": [
+    {
+      "questID": 0,
+      "name": "Exploring the Bunker",
+      "description": "You have lived your whole life in this bunker, only knowing the outside world by stories told to you by your grandfather and other elders in the bunker, who came in as children.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ComputerCraft:CC-Computer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 16384
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "npcDialogID": 4,
+          "description": "Talk to Ethel",
+          "taskID": "bq_npc_integration:npc_dialog"
+        },
+        {
+          "npcDialogID": 10,
+          "description": "Speak with Ol’ George",
+          "taskID": "bq_npc_integration:npc_dialog"
+        },
+        {
+          "npcDialogID": 15,
+          "description": "Persuade the Commander",
+          "taskID": "bq_npc_integration:npc_dialog"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 1,
+      "name": "Arrival in Cozyton",
+      "description": "You come across a small campground. You notice the glow of a fire. The camp has no protective walls or defenses that you can see.  When you walk in, there is a small group of people living in the camp.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "props:props",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 90
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "npcDialogID": 48,
+          "description": "Meet Isaiah",
+          "taskID": "bq_npc_integration:npc_dialog"
+        },
+        {
+          "npcDialogID": 42,
+          "description": "Meet Jen",
+          "taskID": "bq_npc_integration:npc_dialog"
+        },
+        {
+          "npcDialogID": 51,
+          "description": "Meet Bryan",
+          "taskID": "bq_npc_integration:npc_dialog"
+        },
+        {
+          "npcDialogID": 57,
+          "description": "Meet Sarah",
+          "taskID": "bq_npc_integration:npc_dialog"
+        },
+        {
+          "npcDialogID": 63,
+          "description": "Meet Keenan",
+          "taskID": "bq_npc_integration:npc_dialog"
+        },
+        {
+          "npcDialogID": 69,
+          "description": "Meet Marc",
+          "taskID": "bq_npc_integration:npc_dialog"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        5
+      ]
+    },
+    {
+      "questID": 2,
+      "name": "Medicine for Jen",
+      "description": "Jen is suffering from joint pain and headaches and told you others are as well. Interesting that more than one is suffering the same thing. Perhaps the water is contaminated?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AncientWarfareNpc:npc_spawner",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "npcSubtype:8": "medic",
+          "npcType:8": "combat"
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        },
+        {
+          "npcQuestID": 4,
+          "taskID": "bq_npc_integration:npc_quest"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1
+      ]
+    },
+    {
+      "questID": 3,
+      "name": "A Strange Hunt",
+      "description": "Marc has invited you to go hunting with the men of Cozyton. Perhaps they can show you how to find the healthier animals in the wilderness.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "customnpcs:npcMachineGun",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        },
+        {
+          "npcDialogID": 73,
+          "description": "Speak to Marc",
+          "taskID": "bq_npc_integration:npc_dialog"
+        },
+        {
+          "npcQuestID": 5,
+          "taskID": "bq_npc_integration:npc_quest"
+        },
+        {
+          "npcDialogID": 75,
+          "description": "Speak to Marc",
+          "taskID": "bq_npc_integration:npc_dialog"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1
+      ]
+    },
+    {
+      "questID": 4,
+      "name": "Something Isn’t Right",
+      "description": "The hunt has left you scratching your head. Are they robbing others of their animals or something more sinister? You feel something isn’t right and decide to snoop around the cafeteria of the town.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "betterquesting:placeholder",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        },
+        {
+          "npcDialogID": 77,
+          "description": "Speak with Josiah",
+          "taskID": "bq_npc_integration:npc_dialog"
+        },
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        },
+        {
+          "npcDialogID": 80,
+          "description": "Speak with Isaiah",
+          "taskID": "bq_npc_integration:npc_dialog"
+        },
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        2,
+        3
+      ]
+    },
+    {
+      "questID": 5,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:nether_star",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "name": "Cozyton",
+          "posX": 1966,
+          "posY": 163,
+          "posZ": 2554,
+          "dimension": 0,
+          "range": 64,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        9
+      ]
+    },
+    {
+      "questID": 6,
+      "name": "Searching for Clean Water",
+      "description": "While looking for clean water to drink, you find a river. The water, however is contaminated from the soil, so you decide to work your way upriver to see if the water is any cleaner. You come across a small dock town called Riverside.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "harvestcraft:freshwaterItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "name": "The River",
+          "posX": 1361,
+          "posY": 43,
+          "posZ": 4930,
+          "dimension": 0,
+          "range": 10,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        },
+        {
+          "name": "Riverside",
+          "posX": 1326,
+          "posY": 45,
+          "posZ": 4837,
+          "dimension": 0,
+          "range": 10,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        },
+        {
+          "npcDialogID": 86,
+          "description": "Speak with HuskyMudkipz",
+          "taskID": "bq_npc_integration:npc_dialog"
+        },
+        {
+          "npcDialogID": 89,
+          "description": "Speak with Graham",
+          "taskID": "bq_npc_integration:npc_dialog"
+        },
+        {
+          "npcDialogID": 92,
+          "description": "Speak with Brook",
+          "taskID": "bq_npc_integration:npc_dialog"
+        },
+        {
+          "npcDialogID": 99,
+          "description": "Speak with River",
+          "taskID": "bq_npc_integration:npc_dialog"
+        },
+        {
+          "npcDialogID": 115,
+          "description": "Speak to Husky again",
+          "taskID": "bq_npc_integration:npc_dialog"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        9
+      ]
+    },
+    {
+      "questID": 7,
+      "name": "Clean Water Factory",
+      "description": "Husky has asked that you mediate between the town and Lynne’s group in the factory up river.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "BuildCraft|Factory:refineryBlock",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "name": "The Factory",
+          "posX": 1200,
+          "posY": 49,
+          "posZ": 4578,
+          "dimension": 0,
+          "range": 10,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        },
+        {
+          "npcQuestID": 10,
+          "taskID": "bq_npc_integration:npc_quest"
+        },
+        {
+          "npcDialogID": 104,
+          "description": "Talk to LynneTelfer",
+          "taskID": "bq_npc_integration:npc_dialog"
+        },
+        {
+          "npcQuestID": 9,
+          "taskID": "bq_npc_integration:npc_quest"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        6
+      ]
+    },
+    {
+      "questID": 8,
+      "name": "Back to Riverside",
+      "description": "Unfortunately, Lynne and her group would not listen to reason. Now you need to tell HuskyMudkipz and the town of Riverside the bad news.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:fishing_rod",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "npcDialogID": 111,
+          "description": "Return to Husky",
+          "taskID": "bq_npc_integration:npc_dialog"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        7
+      ]
+    },
+    {
+      "questID": 9,
+      "name": "Prepare to Leave",
+      "description": "You try and convince the others to come with you, but they tell you they have lived their own lives in the bunker and wouldn’t survive in the world.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "flansmod:makarov",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "Paint:8": "Makarov"
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "npcDialogID": 23,
+          "description": "Help from Ethel",
+          "taskID": "bq_npc_integration:npc_dialog"
+        },
+        {
+          "npcDialogID": 28,
+          "description": "Help from Ol’ George",
+          "taskID": "bq_npc_integration:npc_dialog"
+        },
+        {
+          "npcQuestID": 7,
+          "taskID": "bq_npc_integration:npc_quest"
+        },
+        {
+          "npcDialogID": 31,
+          "description": "Ol’ George’s Gal",
+          "taskID": "bq_npc_integration:npc_dialog"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        0
+      ]
+    },
+    {
+      "questID": 10,
+      "name": "Heading Out",
+      "description": "It’s time to set out to find other survivors and see what the world has become since the war. The main purpose of you leaving the bunker is to find a power source to bring back to the bunker for the elders.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AncientWarfare:backpack",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "npcDialogID": 34,
+          "description": "Persuade the Commander",
+          "taskID": "bq_npc_integration:npc_dialog"
+        },
+        {
+          "npcQuestID": 8,
+          "taskID": "bq_npc_integration:npc_quest"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        9
+      ]
+    }
+  ],
+  "questLines": [
+    {
+      "name": "Vault 719",
+      "description": "In 2077 a nuclear war broke out world wide. US citizens went underground into specialized bunkers made by the government. These bunkers were designed to be 100% self sustaining. It is now 100 years later in bunker 719. You have lived your whole life in this bunker, only knowing the outside world by stories told to you by your grandfather and other elders in the bunker, who came in as children. Due to sickness and infighting most of the citizens have died off. With only a few remaining elders and yourself left, you decide that it is time to make your way into what’s left of the world.",
+      "quests": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 9,
+          "x": 18,
+          "y": 42
+        },
+        {
+          "id": 10,
+          "x": 60,
+          "y": 66
+        }
+      ]
+    },
+    {
+      "name": "The Wasteland",
+      "description": "You have ventured out to the unknown wasteland searching for clean water and a power source.",
+      "quests": [
+        {
+          "id": 1,
+          "x": 60,
+          "y": 0
+        },
+        {
+          "id": 2,
+          "x": 96,
+          "y": 30
+        },
+        {
+          "id": 3,
+          "x": 24,
+          "y": 30
+        },
+        {
+          "id": 4,
+          "x": 60,
+          "y": 60
+        },
+        {
+          "id": 5,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 6,
+          "x": 0,
+          "y": 138
+        },
+        {
+          "id": 7,
+          "x": 60,
+          "y": 138
+        },
+        {
+          "id": 8,
+          "x": 30,
+          "y": 180
+        }
+      ]
+    }
+  ]
+}

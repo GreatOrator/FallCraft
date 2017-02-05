@@ -120,6 +120,7 @@ key_Baubles Inventory:0
 key_key.placeItem:25
 key_key.toolConfig:83
 key_key.toolProfileChange:0
+key_key.toggleFlight:0
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
@@ -134,16 +135,13 @@ key_Speed:0
 key_Jump:0
 key_Yeta Wrench Mode:0
 key_Toggle Electromagnet:0
-key_Reload Configs:0
-key_Add Custom Config:0
-key_Enviromine Menu:0
 key_invtweaks.key.sort:0
 key_key.tarmor:24
 key_key.tgoggles:35
 key_key.tbelt:21
 key_key.tzoom:44
 key_key.cofh.empower:47
-key_key.cofh.multimode:46
+key_key.cofh.multimode:0
 key_railcraft.keybind.loco.faster:201
 key_railcraft.keybind.loco.slower:209
 key_railcraft.keybind.loco.mode:199
@@ -153,7 +151,7 @@ key_enchiridion.key.wiki:26
 key_key.journeymap.map_toggle:36
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
-key_key.journeymap.minimap_type:0
+key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_preset:40
 key_key.journeymap.create_waypoint:43
