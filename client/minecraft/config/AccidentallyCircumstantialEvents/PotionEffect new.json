@@ -1,0 +1,67 @@
+
+{
+    "events":
+            [
+                    {
+						"event_type": "TICK",
+						"ticks": "50",
+                        "tasks":
+                                [
+
+									{
+										"task_type": "POTION",
+										"target_type": "SELF",
+										"target": "",
+										"id": "19",
+										"duration": "100",
+										"level": "2",
+										"conditions":   
+													[
+
+														{
+															"condition_type": "PROXIMITY",
+															"target": "BLOCK",
+															"modid": "minecraft",
+															"name": "water",
+															"meta": "0",
+															"mob": "water",
+															"radius": "1"
+														},
+														
+
+														{
+															"condition_type": "INVENTORY",
+															"reversed": "true",
+															"modid": "IC2",
+															"name": "itemArmorHazmatChestplate",
+															"meta": "0"
+														}
+														
+													] 
+									}
+									,
+									{
+										"task_type": "SOUND",
+										"name": "RadioActiveSoundBible__3sec",
+										"player_type": "ALL_PLAYERS",
+										"volume": "1",
+										"pitch": "0.6",
+											"conditions":   
+													[
+														{
+															"condition_type": "PROXIMITY",
+															"target": "BLOCK",
+															"modid": "minecraft",
+															"name": "water",
+															"meta": "0",
+															"mob": "water",
+															"radius": "1"
+														}				
+													] 
+									}
+                                ]
+                    }
+
+            ]
+}
+

@@ -1,0 +1,24 @@
+{
+  "output": "gasMask",
+  "width": 3,
+  "height": 3,
+  "row1": [
+    "ingotIron",
+    "ingotIron",
+    "ingotIron"
+  ],
+  "row2": [
+    "ingotIron",
+    {
+      "isBlock": false,
+      "name": "enviromine:gasMask",
+      "metadata": 0
+    },
+    "ingotIron"
+  ],
+  "row3": [
+    "ingotIron",
+    "ingotIron",
+    "ingotIron"
+  ]
+}
