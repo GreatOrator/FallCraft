@@ -178,7 +178,7 @@
 	
 	"version":
         {
-            "text" : "v0.8.1",
+            "text" : "v0.10.5",
             "posX" : 10,
             "posY" : -20,
             "color" : 13938487,
@@ -205,16 +205,16 @@
 		
 	"changeversion":
         {
-            "text" : "v0.8.1",
+            "text" : "v0.10.5",
             "posX" : 235,
             "posY" : 19,
             "color" : 13938487,
             "alignment" : "top_left",
-			"hoverText" : "Visit Github Releases",
+			"hoverText" : "Visit the website",
 			"action" :
                         {
                 "type" : "openLink",
-                                "link" : "https://github.com/GreatOrator/FallCraft/releases"
+                                "link" : "http://www.tolkiencraft.com/"
 			}
         }
        

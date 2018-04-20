@@ -1,7 +1,9 @@
 {
-	"revision": 2,
+	"revision": 3,
 	"infoText": [
-		"[c]Welcome to FallCraft",
+		"[c]Welcome to FallCraft - v0.8.1 Alpha",
+		"§c§lACEhas been removed in lieu of a new mod that better supports the wasteland aspect we are going for.  The map is getting along nicely :D§r",
+		" ",
 		"Please remember, the map available through this tool to download is not the actual map that will be released.  It is simply here as a placeholder during testing.  If you truly want the map, you can download it from github, but I will not troubleshoot map issues if you have any.",
 		"I am thankful that you have decided to play this pack and please let me know if you have any questions or issues while playing!"
 	]

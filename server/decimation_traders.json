@@ -1,0 +1,202 @@
+{
+  "traderList": [
+    {
+      "traderType": "MEDICAL",
+      "traderPosX": 2746.5,
+      "traderPosY": 50.0,
+      "traderPosZ": 3858.5
+    },
+    {
+      "traderType": "AMMUNITION",
+      "traderPosX": 2704.5,
+      "traderPosY": 50.0,
+      "traderPosZ": 3884.5
+    },
+    {
+      "traderType": "ARMOR",
+      "traderPosX": 2750.5,
+      "traderPosY": 50.0,
+      "traderPosZ": 3897.5
+    },
+    {
+      "traderType": "FOOD",
+      "traderPosX": 2756.5,
+      "traderPosY": 50.0,
+      "traderPosZ": 3931.5
+    },
+    {
+      "traderType": "BACKPACKS",
+      "traderPosX": 2721.5,
+      "traderPosY": 50.0,
+      "traderPosZ": 3881.5
+    },
+    {
+      "traderType": "CONVENIENCE",
+      "traderPosX": 2709.5,
+      "traderPosY": 50.0,
+      "traderPosZ": 3950.5
+    },
+    {
+      "traderType": "GUNS",
+      "traderPosX": 2707.5,
+      "traderPosY": 50.0,
+      "traderPosZ": 3881.5
+    },
+    {
+      "traderType": "FOOD",
+      "traderPosX": 2719.5,
+      "traderPosY": 50.0,
+      "traderPosZ": 3958.5
+    },
+    {
+      "traderType": "FOOD",
+      "traderPosX": 1320.5,
+      "traderPosY": 45.0,
+      "traderPosZ": 4834.5
+    },
+    {
+      "traderType": "GUNS",
+      "traderPosX": 1351.5,
+      "traderPosY": 45.0,
+      "traderPosZ": 4789.5
+    },
+    {
+      "traderType": "AMMUNITION",
+      "traderPosX": 1355.5,
+      "traderPosY": 45.0,
+      "traderPosZ": 4787.5
+    },
+    {
+      "traderType": "DRUGDEALER",
+      "traderPosX": 2499.5,
+      "traderPosY": 116.0,
+      "traderPosZ": 2419.5
+    },
+    {
+      "traderType": "BLACKMARKET",
+      "traderPosX": 2422.5,
+      "traderPosY": 131.0,
+      "traderPosZ": 2408.5
+    },
+    {
+      "traderType": "AMMUNITION",
+      "traderPosX": 2463.5,
+      "traderPosY": 120.0,
+      "traderPosZ": 2511.5
+    },
+    {
+      "traderType": "FOOD",
+      "traderPosX": 2486.5,
+      "traderPosY": 121.0,
+      "traderPosZ": 2477.5
+    },
+    {
+      "traderType": "FOOD",
+      "traderPosX": 1069.5,
+      "traderPosY": 192.0,
+      "traderPosZ": 1215.5
+    },
+    {
+      "traderType": "GUNS",
+      "traderPosX": 1112.5,
+      "traderPosY": 192.0,
+      "traderPosZ": 1240.5
+    },
+    {
+      "traderType": "CONVENIENCE",
+      "traderPosX": 1116.5,
+      "traderPosY": 192.0,
+      "traderPosZ": 1236.5
+    },
+    {
+      "traderType": "AMMUNITION",
+      "traderPosX": 1116.5,
+      "traderPosY": 192.0,
+      "traderPosZ": 1233.5
+    },
+    {
+      "traderType": "AMMUNITION",
+      "traderPosX": 1581.5,
+      "traderPosY": 214.0,
+      "traderPosZ": 2122.5
+    },
+    {
+      "traderType": "GUNS",
+      "traderPosX": 1581.5,
+      "traderPosY": 214.0,
+      "traderPosZ": 2128.5
+    },
+    {
+      "traderType": "GUNS_HEAVY",
+      "traderPosX": 1580.5,
+      "traderPosY": 214.0,
+      "traderPosZ": 2135.5
+    },
+    {
+      "traderType": "FORTIFICATION",
+      "traderPosX": 1535.5,
+      "traderPosY": 214.0,
+      "traderPosZ": 2125.5
+    },
+    {
+      "traderType": "ARMOR",
+      "traderPosX": 1574.5,
+      "traderPosY": 214.0,
+      "traderPosZ": 2123.5
+    },
+    {
+      "traderType": "FOOD",
+      "traderPosX": 1523.5,
+      "traderPosY": 214.0,
+      "traderPosZ": 2125.5
+    },
+    {
+      "traderType": "CONVENIENCE",
+      "traderPosX": 1557.5,
+      "traderPosY": 214.0,
+      "traderPosZ": 2117.5
+    },
+    {
+      "traderType": "MEDICAL",
+      "traderPosX": 1549.5,
+      "traderPosY": 214.0,
+      "traderPosZ": 2117.5
+    },
+    {
+      "traderType": "GUNS",
+      "traderPosX": 1788.5,
+      "traderPosY": 103.0,
+      "traderPosZ": 3575.5
+    },
+    {
+      "traderType": "AMMUNITION",
+      "traderPosX": 1788.5,
+      "traderPosY": 103.0,
+      "traderPosZ": 3573.5
+    },
+    {
+      "traderType": "GUNS_HEAVY",
+      "traderPosX": 1788.5,
+      "traderPosY": 103.0,
+      "traderPosZ": 3570.5
+    },
+    {
+      "traderType": "FOOD",
+      "traderPosX": 1792.5,
+      "traderPosY": 103.0,
+      "traderPosZ": 3540.5
+    },
+    {
+      "traderType": "BLACKMARKET",
+      "traderPosX": 1740.5,
+      "traderPosY": 102.0,
+      "traderPosZ": 3546.5
+    },
+    {
+      "traderType": "BACKPACKS",
+      "traderPosX": 1749.5,
+      "traderPosY": 102.0,
+      "traderPosZ": 3546.5
+    }
+  ]
+}
