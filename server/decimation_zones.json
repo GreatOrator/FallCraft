@@ -1,0 +1,31 @@
+{
+  "zoneList": [
+    {
+      "zoneType": "SAFEZONE",
+      "zoneX1": 2589,
+      "zoneY1": 54,
+      "zoneZ1": 3744,
+      "zoneX2": 2486,
+      "zoneY2": 96,
+      "zoneZ2": 3657
+    },
+    {
+      "zoneType": "SAFEZONE",
+      "zoneX1": 2649,
+      "zoneY1": 102,
+      "zoneZ1": 3826,
+      "zoneX2": 2825,
+      "zoneY2": 46,
+      "zoneZ2": 4009
+    },
+    {
+      "zoneType": "SAFEZONE",
+      "zoneX1": 1055,
+      "zoneY1": 188,
+      "zoneZ1": 1254,
+      "zoneX2": 1118,
+      "zoneY2": 203,
+      "zoneZ2": 1211
+    }
+  ]
+}
