@@ -1,0 +1,268 @@
+## Effect IDs                                                        ##
+#######################################################################
+## In the form:                                                      ##
+## <effect id>                                                       ##
+##    - Name: <effect name>                                          ##
+##    - Color: <effect color>                                        ##
+##    - Is Instant? <true if an instant effect (like health)>        ##
+##    - Is Bad? <true if considered a 'bad' effect (only on client)> ##
+#######################################################################
+1
+	- Name: potion.moveSpeed
+	- Color: 8171462
+	- Is Instant? false
+	- Is Bad? false
+
+
+2
+	- Name: potion.moveSlowdown
+	- Color: 5926017
+	- Is Instant? false
+	- Is Bad? true
+
+
+3
+	- Name: potion.digSpeed
+	- Color: 14270531
+	- Is Instant? false
+	- Is Bad? false
+
+
+4
+	- Name: potion.digSlowDown
+	- Color: 4866583
+	- Is Instant? false
+	- Is Bad? true
+
+
+5
+	- Name: potion.damageBoost
+	- Color: 9643043
+	- Is Instant? false
+	- Is Bad? false
+
+
+6
+	- Name: potion.heal
+	- Color: 16262179
+	- Is Instant? true
+	- Is Bad? false
+
+
+7
+	- Name: potion.harm
+	- Color: 4393481
+	- Is Instant? true
+	- Is Bad? true
+
+
+8
+	- Name: potion.jump
+	- Color: 7889559
+	- Is Instant? false
+	- Is Bad? false
+
+
+9
+	- Name: potion.confusion
+	- Color: 5578058
+	- Is Instant? false
+	- Is Bad? true
+
+
+10
+	- Name: potion.regeneration
+	- Color: 13458603
+	- Is Instant? false
+	- Is Bad? false
+
+
+11
+	- Name: potion.resistance
+	- Color: 10044730
+	- Is Instant? false
+	- Is Bad? false
+
+
+12
+	- Name: potion.fireResistance
+	- Color: 14981690
+	- Is Instant? false
+	- Is Bad? false
+
+
+13
+	- Name: potion.waterBreathing
+	- Color: 3035801
+	- Is Instant? false
+	- Is Bad? false
+
+
+14
+	- Name: potion.invisibility
+	- Color: 8356754
+	- Is Instant? false
+	- Is Bad? false
+
+
+15
+	- Name: potion.blindness
+	- Color: 2039587
+	- Is Instant? false
+	- Is Bad? true
+
+
+16
+	- Name: potion.nightVision
+	- Color: 2039713
+	- Is Instant? false
+	- Is Bad? false
+
+
+17
+	- Name: potion.hunger
+	- Color: 5797459
+	- Is Instant? false
+	- Is Bad? true
+
+
+18
+	- Name: potion.weakness
+	- Color: 4738376
+	- Is Instant? false
+	- Is Bad? true
+
+
+19
+	- Name: potion.poison
+	- Color: 5149489
+	- Is Instant? false
+	- Is Bad? true
+
+
+20
+	- Name: potion.wither
+	- Color: 3484199
+	- Is Instant? false
+	- Is Bad? true
+
+
+21
+	- Name: potion.healthBoost
+	- Color: 16284963
+	- Is Instant? false
+	- Is Bad? false
+
+
+22
+	- Name: potion.absorption
+	- Color: 2445989
+	- Is Instant? false
+	- Is Bad? false
+
+
+23
+	- Name: potion.saturation
+	- Color: 16262179
+	- Is Instant? true
+	- Is Bad? false
+
+
+24
+	- Name: ic2.potion.radiation
+	- Color: 5149489
+	- Is Instant? false
+	- Is Bad? true
+
+
+25
+	- Name: immersiveengineering.potion.flammable
+	- Color: 9387807
+	- Is Instant? false
+	- Is Bad? true
+
+
+26
+	- Name: immersiveengineering.potion.slippery
+	- Color: 1511427
+	- Is Instant? false
+	- Is Bad? true
+
+
+27
+	- Name: immersiveengineering.potion.conductive
+	- Color: 6881280
+	- Is Instant? false
+	- Is Bad? true
+
+
+28
+	- Name: immersiveengineering.potion.sticky
+	- Color: 10250240
+	- Is Instant? false
+	- Is Bad? true
+
+
+103
+	- Name: potion.paralysis
+	- Color: 16776960
+	- Is Instant? false
+	- Is Bad? true
+
+
+104
+	- Name: potion.leech
+	- Color: 65433
+	- Is Instant? false
+	- Is Bad? false
+
+
+105
+	- Name: potion.penetration
+	- Color: 2236962
+	- Is Instant? false
+	- Is Bad? true
+
+
+106
+	- Name: potion.recklessness
+	- Color: 16711748
+	- Is Instant? false
+	- Is Bad? true
+
+
+107
+	- Name: potion.rage
+	- Color: 16729088
+	- Is Instant? false
+	- Is Bad? true
+
+
+108
+	- Name: potion.weight
+	- Color: 34
+	- Is Instant? false
+	- Is Bad? true
+
+
+109
+	- Name: potion.swiftswimming
+	- Color: 255
+	- Is Instant? false
+	- Is Bad? false
+
+
+110
+	- Name: potion.fear
+	- Color: 2228258
+	- Is Instant? false
+	- Is Bad? false
+
+
+111
+	- Name: potion.fallresist
+	- Color: 14548991
+	- Is Instant? false
+	- Is Bad? false
+
+

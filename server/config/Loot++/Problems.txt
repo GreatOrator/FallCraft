@@ -1,0 +1,829 @@
+The following problems were encountered while loading the config files:
+chest_content.cfg 'bonusChest_additions' #2: The following block or item doesn't seem to exist: 'deci:ItemLockpick'.
+
+chest_content.cfg 'bonusChest_additions' #3: The following block or item doesn't seem to exist: 'deci:ItemRadio'.
+
+chest_content.cfg 'bonusChest_additions' #4: The following block or item doesn't seem to exist: 'deci:ItemSyringeEmpty'.
+
+chest_content.cfg 'bonusChest_additions' #5: The following block or item doesn't seem to exist: 'deci:ItemSyringeMorphine'.
+
+chest_content.cfg 'bonusChest_additions' #6: The following block or item doesn't seem to exist: 'deci:ItemBandage'.
+
+chest_content.cfg 'bonusChest_additions' #7: The following block or item doesn't seem to exist: 'deci:ItemBandageDirty'.
+
+chest_content.cfg 'bonusChest_additions' #8: The following block or item doesn't seem to exist: 'deci:ItemRag'.
+
+chest_content.cfg 'bonusChest_additions' #9: The following block or item doesn't seem to exist: 'deci:ItemRagDirty'.
+
+chest_content.cfg 'bonusChest_additions' #10: The following block or item doesn't seem to exist: 'deci:ItemEmptyCan'.
+
+chest_content.cfg 'bonusChest_additions' #11: The following block or item doesn't seem to exist: 'deci:ItemJerryCan'.
+
+chest_content.cfg 'bonusChest_additions' #12: The following block or item doesn't seem to exist: 'deci:ItemCannedAppleGreen'.
+
+chest_content.cfg 'bonusChest_additions' #13: The following block or item doesn't seem to exist: 'deci:ItemCannedAppleRed'.
+
+chest_content.cfg 'bonusChest_additions' #14: The following block or item doesn't seem to exist: 'deci:ItemCannedBlackberry'.
+
+chest_content.cfg 'bonusChest_additions' #15: The following block or item doesn't seem to exist: 'deci:ItemCannedBlueberry'.
+
+chest_content.cfg 'bonusChest_additions' #16: The following block or item doesn't seem to exist: 'deci:ItemCannedCarrot'.
+
+chest_content.cfg 'bonusChest_additions' #17: The following block or item doesn't seem to exist: 'deci:ItemCannedChocolatePowder'.
+
+chest_content.cfg 'bonusChest_additions' #18: The following block or item doesn't seem to exist: 'deci:ItemCannedGrape'.
+
+chest_content.cfg 'bonusChest_additions' #19: The following block or item doesn't seem to exist: 'deci:ItemCannedLemon'.
+
+chest_content.cfg 'bonusChest_additions' #20: The following block or item doesn't seem to exist: 'deci:ItemCannedLime'.
+
+chest_content.cfg 'bonusChest_additions' #21: The following block or item doesn't seem to exist: 'deci:ItemCannedMushroom'.
+
+chest_content.cfg 'bonusChest_additions' #22: The following block or item doesn't seem to exist: 'deci:ItemCannedPeach'.
+
+chest_content.cfg 'bonusChest_additions' #23: The following block or item doesn't seem to exist: 'deci:ItemCannedPear'.
+
+chest_content.cfg 'bonusChest_additions' #24: The following block or item doesn't seem to exist: 'deci:ItemCannedSweetcorn'.
+
+chest_content.cfg 'bonusChest_additions' #25: The following block or item doesn't seem to exist: 'deci:ItemCannedTuna'.
+
+chest_content.cfg 'bonusChest_additions' #26: The following block or item doesn't seem to exist: 'deci:ItemCannedMacncheese'.
+
+chest_content.cfg 'bonusChest_additions' #27: The following block or item doesn't seem to exist: 'deci:ItemCannedApplesauce'.
+
+chest_content.cfg 'bonusChest_additions' #28: The following block or item doesn't seem to exist: 'deci:ItemCannedCustard'.
+
+chest_content.cfg 'bonusChest_additions' #29: The following block or item doesn't seem to exist: 'deci:ItemBarChocolate'.
+
+chest_content.cfg 'bonusChest_additions' #30: The following block or item doesn't seem to exist: 'deci:ItemBarEnergyApple'.
+
+chest_content.cfg 'bonusChest_additions' #31: The following block or item doesn't seem to exist: 'deci:ItemBarEnergyBlueberry'.
+
+chest_content.cfg 'bonusChest_additions' #32: The following block or item doesn't seem to exist: 'deci:ItemCrispsCoolranch'.
+
+chest_content.cfg 'bonusChest_additions' #33: The following block or item doesn't seem to exist: 'deci:ItemCrispsNachocheese'.
+
+chest_content.cfg 'bonusChest_additions' #34: The following block or item doesn't seem to exist: 'deci:ItemCrispsBBQ'.
+
+chest_content.cfg 'bonusChest_additions' #35: The following block or item doesn't seem to exist: 'deci:ItemBottledWater'.
+
+chest_content.cfg 'bonusChest_additions' #36: The following block or item doesn't seem to exist: 'deci:ItemBottledBerryade'.
+
+chest_content.cfg 'bonusChest_additions' #37: The following block or item doesn't seem to exist: 'deci:ItemBottledCoke'.
+
+chest_content.cfg 'bonusChest_additions' #38: The following block or item doesn't seem to exist: 'deci:ItemBottledIrnbru'.
+
+chest_content.cfg 'bonusChest_additions' #39: The following block or item doesn't seem to exist: 'deci:ItemBottledLemonade'.
+
+chest_content.cfg 'bonusChest_additions' #40: The following block or item doesn't seem to exist: 'deci:ItemBottledLimeade'.
+
+chest_content.cfg 'bonusChest_additions' #41: The following block or item doesn't seem to exist: 'deci:ItemBottledWhiskey'.
+
+chest_content.cfg 'bonusChest_additions' #42: The following block or item doesn't seem to exist: 'deci:ItemBottledCherryade'.
+
+chest_content.cfg 'bonusChest_additions' #43: The following block or item doesn't seem to exist: 'deci:ItemDrinkCanWater'.
+
+chest_content.cfg 'bonusChest_additions' #44: The following block or item doesn't seem to exist: 'deci:ItemDrinkCanEnergy'.
+
+chest_content.cfg 'bonusChest_additions' #45: The following block or item doesn't seem to exist: 'deci:ItemDrinkCanEnergyBlueberry'.
+
+chest_content.cfg 'bonusChest_additions' #46: The following block or item doesn't seem to exist: 'deci:ItemDrinkCanEnergyCitrus'.
+
+chest_content.cfg 'bonusChest_additions' #47: The following block or item doesn't seem to exist: 'deci:gasmask'.
+
+chest_content.cfg 'bonusChest_additions' #48: The following block or item doesn't seem to exist: 'deci:ItemCrowbar'.
+
+chest_content.cfg 'bonusChest_additions' #49: The following block or item doesn't seem to exist: 'deci:ItemFireaxe'.
+
+chest_content.cfg 'bonusChest_additions' #50: The following block or item doesn't seem to exist: 'deci:ItemHammer'.
+
+chest_content.cfg 'bonusChest_additions' #51: The following block or item doesn't seem to exist: 'deci:ItemCricketbat'.
+
+chest_content.cfg 'bonusChest_additions' #52: The following block or item doesn't seem to exist: 'deci:ItemButcherKnife'.
+
+chest_content.cfg 'bonusChest_additions' #53: The following block or item doesn't seem to exist: 'deci:ItemChainsaw'.
+
+chest_content.cfg 'bonusChest_additions' #54: The following block or item doesn't seem to exist: 'deci:ItemHikingPack_Green'.
+
+chest_content.cfg 'bonusChest_additions' #55: The following block or item doesn't seem to exist: 'deci:ItemHikingPack_Tan'.
+
+chest_content.cfg 'bonusChest_additions' #56: The following block or item doesn't seem to exist: 'deci:ItemHikingPack_Gray'.
+
+chest_content.cfg 'bonusChest_additions' #57: The following block or item doesn't seem to exist: 'deci:ItemFannyPack_Yellow'.
+
+chest_content.cfg 'bonusChest_additions' #58: The following block or item doesn't seem to exist: 'deci:ItemFannyPack_Green'.
+
+chest_content.cfg 'bonusChest_additions' #59: The following block or item doesn't seem to exist: 'deci:ItemFannyPack_Blue'.
+
+chest_content.cfg 'bonusChest_additions' #60: The following block or item doesn't seem to exist: 'deci:ItemDuffleBag'.
+
+chest_content.cfg 'bonusChest_additions' #61: The following block or item doesn't seem to exist: 'deci:colt'.
+
+chest_content.cfg 'bonusChest_additions' #62: The following block or item doesn't seem to exist: 'deci:coltMag'.
+
+chest_content.cfg 'bonusChest_additions' #63: The following block or item doesn't seem to exist: 'deci:m1934'.
+
+chest_content.cfg 'bonusChest_additions' #64: The following block or item doesn't seem to exist: 'deci:m1934Mag'.
+
+chest_content.cfg 'bonusChest_additions' #65: The following block or item doesn't seem to exist: 'deci:aps'.
+
+chest_content.cfg 'bonusChest_additions' #66: The following block or item doesn't seem to exist: 'deci:apsMag'.
+
+chest_content.cfg 'bonusChest_additions' #67: The following block or item doesn't seem to exist: 'deci:makarov'.
+
+chest_content.cfg 'bonusChest_additions' #68: The following block or item doesn't seem to exist: 'deci:makarovMag'.
+
+chest_content.cfg 'bonusChest_additions' #69: The following block or item doesn't seem to exist: 'deci:casual1Vest'.
+
+chest_content.cfg 'bonusChest_additions' #70: The following block or item doesn't seem to exist: 'deci:casual1Pants'.
+
+chest_content.cfg 'bonusChest_additions' #71: The following block or item doesn't seem to exist: 'deci:casual1Boots'.
+
+chest_content.cfg 'bonusChest_additions' #72: The following block or item doesn't seem to exist: 'deci:casual2Vest'.
+
+chest_content.cfg 'bonusChest_additions' #73: The following block or item doesn't seem to exist: 'deci:casual2Pants'.
+
+chest_content.cfg 'bonusChest_additions' #74: The following block or item doesn't seem to exist: 'deci:casual2Boots'.
+
+chest_content.cfg 'bonusChest_additions' #75: The following block or item doesn't seem to exist: 'deci:casual3Vest'.
+
+chest_content.cfg 'bonusChest_additions' #76: The following block or item doesn't seem to exist: 'deci:casual3Pants'.
+
+chest_content.cfg 'bonusChest_additions' #77: The following block or item doesn't seem to exist: 'deci:casual3Boots'.
+
+chest_content.cfg 'bonusChest_additions' #78: The following block or item doesn't seem to exist: 'deci:bulletproofvest'.
+
+chest_content.cfg 'bonusChest_additions' #79: The following block or item doesn't seem to exist: 'deci:hoodie1'.
+
+chest_content.cfg 'bonusChest_additions' #80: The following block or item doesn't seem to exist: 'deci:santahat'.
+
+chest_content.cfg 'bonusChest_additions' #81: The following block or item doesn't seem to exist: 'deci:ItemParachute'.
+
+chest_content.cfg 'dungeonChest_additions' #1: The following block or item doesn't seem to exist: 'deci:ItemJerryCan'.
+
+chest_content.cfg 'dungeonChest_additions' #2: The following block or item doesn't seem to exist: 'deci:ItemSyringeCure'.
+
+chest_content.cfg 'dungeonChest_additions' #3: The following block or item doesn't seem to exist: 'deci:ItemBandage'.
+
+chest_content.cfg 'dungeonChest_additions' #4: The following block or item doesn't seem to exist: 'deci:ItemLockpick'.
+
+chest_content.cfg 'dungeonChest_additions' #5: The following block or item doesn't seem to exist: 'deci:ItemRadio'.
+
+chest_content.cfg 'dungeonChest_additions' #6: The following block or item doesn't seem to exist: 'deci:policevest'.
+
+chest_content.cfg 'dungeonChest_additions' #7: The following block or item doesn't seem to exist: 'deci:nypdHelm'.
+
+chest_content.cfg 'dungeonChest_additions' #8: The following block or item doesn't seem to exist: 'deci:nypdShirt'.
+
+chest_content.cfg 'dungeonChest_additions' #9: The following block or item doesn't seem to exist: 'deci:nypdCoat'.
+
+chest_content.cfg 'dungeonChest_additions' #10: The following block or item doesn't seem to exist: 'deci:nypdPants'.
+
+chest_content.cfg 'dungeonChest_additions' #11: The following block or item doesn't seem to exist: 'deci:nypdBoots'.
+
+chest_content.cfg 'dungeonChest_additions' #12: The following block or item doesn't seem to exist: 'deci:gasmask'.
+
+chest_content.cfg 'dungeonChest_additions' #13: The following block or item doesn't seem to exist: 'deci:ItemPoliceBaton'.
+
+chest_content.cfg 'dungeonChest_additions' #14: The following block or item doesn't seem to exist: 'deci:ItemRiotshield'.
+
+chest_content.cfg 'dungeonChest_additions' #15: The following block or item doesn't seem to exist: 'deci:m4a4'.
+
+chest_content.cfg 'dungeonChest_additions' #16: The following block or item doesn't seem to exist: 'deci:m4a4Mag'.
+
+chest_content.cfg 'dungeonChest_additions' #17: The following block or item doesn't seem to exist: 'deci:deagle'.
+
+chest_content.cfg 'dungeonChest_additions' #18: The following block or item doesn't seem to exist: 'deci:deagleMag'.
+
+chest_content.cfg 'dungeonChest_additions' #19: The following block or item doesn't seem to exist: 'deci:ump45'.
+
+chest_content.cfg 'dungeonChest_additions' #20: The following block or item doesn't seem to exist: 'deci:ump45Mag'.
+
+chest_content.cfg 'dungeonChest_additions' #21: The following block or item doesn't seem to exist: 'deci:mp5a3'.
+
+chest_content.cfg 'dungeonChest_additions' #22: The following block or item doesn't seem to exist: 'deci:mp5a3Mag'.
+
+chest_content.cfg 'dungeonChest_additions' #23: The following block or item doesn't seem to exist: 'deci:r870'.
+
+chest_content.cfg 'dungeonChest_additions' #24: The following block or item doesn't seem to exist: 'deci:12gauge_box'.
+
+chest_content.cfg 'dungeonChest_additions' #25: The following block or item doesn't seem to exist: 'deci:colt'.
+
+chest_content.cfg 'dungeonChest_additions' #26: The following block or item doesn't seem to exist: 'deci:coltMag'.
+
+chest_content.cfg 'dungeonChest_additions' #27: The following block or item doesn't seem to exist: 'deci:ItemSyringeMorphine'.
+
+chest_content.cfg 'dungeonChest_additions' #28: The following block or item doesn't seem to exist: 'deci:bulletproofvest'.
+
+chest_content.cfg 'dungeonChest_additions' #29: The following block or item doesn't seem to exist: 'deci:vz52'.
+
+chest_content.cfg 'dungeonChest_additions' #30: The following block or item doesn't seem to exist: 'deci:vz52Mag'.
+
+chest_content.cfg 'dungeonChest_additions' #31: The following block or item doesn't seem to exist: 'deci:vz24'.
+
+chest_content.cfg 'dungeonChest_additions' #32: The following block or item doesn't seem to exist: 'deci:vz24Mag'.
+
+chest_content.cfg 'dungeonChest_additions' #33: The following block or item doesn't seem to exist: 'deci:model642'.
+
+chest_content.cfg 'dungeonChest_additions' #34: The following block or item doesn't seem to exist: 'deci:ragingbull'.
+
+chest_content.cfg 'netherFortress_additions' #1: The following block or item doesn't seem to exist: '"1xdeci:ItemSyringeEmpty'.
+
+chest_content.cfg 'netherFortress_additions' #2: The following block or item doesn't seem to exist: '"3xdeci:ItemSyringeMorphine'.
+
+chest_content.cfg 'netherFortress_additions' #3: The following block or item doesn't seem to exist: '"1xdeci:ItemSyringeBlood'.
+
+chest_content.cfg 'netherFortress_additions' #4: The following block or item doesn't seem to exist: '"1xdeci:ItemSyringeCure'.
+
+chest_content.cfg 'netherFortress_additions' #5: The following block or item doesn't seem to exist: '"3xdeci:ItemBandage'.
+
+chest_content.cfg 'netherFortress_additions' #6: The following block or item doesn't seem to exist: '"1xdeci:ItemBandageDirty'.
+
+chest_content.cfg 'netherFortress_additions' #7: The following block or item doesn't seem to exist: '"3xdeci:ItemRag'.
+
+chest_content.cfg 'netherFortress_additions' #8: The following block or item doesn't seem to exist: '"1xdeci:ItemRagDirty'.
+
+chest_content.cfg 'netherFortress_additions' #9: The following block or item doesn't seem to exist: '"6xdeci:ItemBottledWater'.
+
+chest_content.cfg 'villageBlacksmith_additions' #2: The following block or item doesn't seem to exist: 'deci:ItemLockpick'.
+
+chest_content.cfg 'villageBlacksmith_additions' #3: The following block or item doesn't seem to exist: 'deci:ItemRadio'.
+
+chest_content.cfg 'villageBlacksmith_additions' #4: The following block or item doesn't seem to exist: 'deci:ItemSyringeEmpty'.
+
+chest_content.cfg 'villageBlacksmith_additions' #5: The following block or item doesn't seem to exist: 'deci:ItemSyringeMorphine'.
+
+chest_content.cfg 'villageBlacksmith_additions' #6: The following block or item doesn't seem to exist: 'deci:ItemBandage'.
+
+chest_content.cfg 'villageBlacksmith_additions' #7: The following block or item doesn't seem to exist: 'deci:ItemBandageDirty'.
+
+chest_content.cfg 'villageBlacksmith_additions' #8: The following block or item doesn't seem to exist: 'deci:ItemRag'.
+
+chest_content.cfg 'villageBlacksmith_additions' #9: The following block or item doesn't seem to exist: 'deci:ItemRagDirty'.
+
+chest_content.cfg 'villageBlacksmith_additions' #10: The following block or item doesn't seem to exist: 'deci:ItemEmptyCan'.
+
+chest_content.cfg 'villageBlacksmith_additions' #11: The following block or item doesn't seem to exist: 'deci:ItemJerryCan'.
+
+chest_content.cfg 'villageBlacksmith_additions' #12: The following block or item doesn't seem to exist: 'deci:ItemCannedAppleGreen'.
+
+chest_content.cfg 'villageBlacksmith_additions' #13: The following block or item doesn't seem to exist: 'deci:ItemCannedAppleRed'.
+
+chest_content.cfg 'villageBlacksmith_additions' #14: The following block or item doesn't seem to exist: 'deci:ItemCannedBlackberry'.
+
+chest_content.cfg 'villageBlacksmith_additions' #15: The following block or item doesn't seem to exist: 'deci:ItemCannedBlueberry'.
+
+chest_content.cfg 'villageBlacksmith_additions' #16: The following block or item doesn't seem to exist: 'deci:ItemCannedCarrot'.
+
+chest_content.cfg 'villageBlacksmith_additions' #17: The following block or item doesn't seem to exist: 'deci:ItemCannedChocolatePowder'.
+
+chest_content.cfg 'villageBlacksmith_additions' #18: The following block or item doesn't seem to exist: 'deci:ItemCannedGrape'.
+
+chest_content.cfg 'villageBlacksmith_additions' #19: The following block or item doesn't seem to exist: 'deci:ItemCannedLemon'.
+
+chest_content.cfg 'villageBlacksmith_additions' #20: The following block or item doesn't seem to exist: 'deci:ItemCannedLime'.
+
+chest_content.cfg 'villageBlacksmith_additions' #21: The following block or item doesn't seem to exist: 'deci:ItemCannedMushroom'.
+
+chest_content.cfg 'villageBlacksmith_additions' #22: The following block or item doesn't seem to exist: 'deci:ItemCannedPeach'.
+
+chest_content.cfg 'villageBlacksmith_additions' #23: The following block or item doesn't seem to exist: 'deci:ItemCannedPear'.
+
+chest_content.cfg 'villageBlacksmith_additions' #24: The following block or item doesn't seem to exist: 'deci:ItemCannedSweetcorn'.
+
+chest_content.cfg 'villageBlacksmith_additions' #25: The following block or item doesn't seem to exist: 'deci:ItemCannedTuna'.
+
+chest_content.cfg 'villageBlacksmith_additions' #26: The following block or item doesn't seem to exist: 'deci:ItemCannedMacncheese'.
+
+chest_content.cfg 'villageBlacksmith_additions' #27: The following block or item doesn't seem to exist: 'deci:ItemCannedApplesauce'.
+
+chest_content.cfg 'villageBlacksmith_additions' #28: The following block or item doesn't seem to exist: 'deci:ItemCannedCustard'.
+
+chest_content.cfg 'villageBlacksmith_additions' #29: The following block or item doesn't seem to exist: 'deci:ItemBarChocolate'.
+
+chest_content.cfg 'villageBlacksmith_additions' #30: The following block or item doesn't seem to exist: 'deci:ItemBarEnergyApple'.
+
+chest_content.cfg 'villageBlacksmith_additions' #31: The following block or item doesn't seem to exist: 'deci:ItemBarEnergyBlueberry'.
+
+chest_content.cfg 'villageBlacksmith_additions' #32: The following block or item doesn't seem to exist: 'deci:ItemCrispsCoolranch'.
+
+chest_content.cfg 'villageBlacksmith_additions' #33: The following block or item doesn't seem to exist: 'deci:ItemCrispsNachocheese'.
+
+chest_content.cfg 'villageBlacksmith_additions' #34: The following block or item doesn't seem to exist: 'deci:ItemCrispsBBQ'.
+
+chest_content.cfg 'villageBlacksmith_additions' #35: The following block or item doesn't seem to exist: 'deci:ItemBottledWater'.
+
+chest_content.cfg 'villageBlacksmith_additions' #36: The following block or item doesn't seem to exist: 'deci:ItemBottledBerryade'.
+
+chest_content.cfg 'villageBlacksmith_additions' #37: The following block or item doesn't seem to exist: 'deci:ItemBottledCoke'.
+
+chest_content.cfg 'villageBlacksmith_additions' #38: The following block or item doesn't seem to exist: 'deci:ItemBottledIrnbru'.
+
+chest_content.cfg 'villageBlacksmith_additions' #39: The following block or item doesn't seem to exist: 'deci:ItemBottledLemonade'.
+
+chest_content.cfg 'villageBlacksmith_additions' #40: The following block or item doesn't seem to exist: 'deci:ItemBottledLimeade'.
+
+chest_content.cfg 'villageBlacksmith_additions' #41: The following block or item doesn't seem to exist: 'deci:ItemBottledWhiskey'.
+
+chest_content.cfg 'villageBlacksmith_additions' #42: The following block or item doesn't seem to exist: 'deci:ItemBottledCherryade'.
+
+chest_content.cfg 'villageBlacksmith_additions' #43: The following block or item doesn't seem to exist: 'deci:ItemDrinkCanWater'.
+
+chest_content.cfg 'villageBlacksmith_additions' #44: The following block or item doesn't seem to exist: 'deci:ItemDrinkCanEnergy'.
+
+chest_content.cfg 'villageBlacksmith_additions' #45: The following block or item doesn't seem to exist: 'deci:ItemDrinkCanEnergyBlueberry'.
+
+chest_content.cfg 'villageBlacksmith_additions' #46: The following block or item doesn't seem to exist: 'deci:ItemDrinkCanEnergyCitrus'.
+
+chest_content.cfg 'villageBlacksmith_additions' #47: The following block or item doesn't seem to exist: 'deci:gasmask'.
+
+chest_content.cfg 'villageBlacksmith_additions' #48: The following block or item doesn't seem to exist: 'deci:ItemCrowbar'.
+
+chest_content.cfg 'villageBlacksmith_additions' #49: The following block or item doesn't seem to exist: 'deci:ItemFireaxe'.
+
+chest_content.cfg 'villageBlacksmith_additions' #50: The following block or item doesn't seem to exist: 'deci:ItemHammer'.
+
+chest_content.cfg 'villageBlacksmith_additions' #51: The following block or item doesn't seem to exist: 'deci:ItemCricketbat'.
+
+chest_content.cfg 'villageBlacksmith_additions' #52: The following block or item doesn't seem to exist: 'deci:ItemButcherKnife'.
+
+chest_content.cfg 'villageBlacksmith_additions' #53: The following block or item doesn't seem to exist: 'deci:ItemChainsaw'.
+
+chest_content.cfg 'villageBlacksmith_additions' #54: The following block or item doesn't seem to exist: 'deci:ItemHikingPack_Green'.
+
+chest_content.cfg 'villageBlacksmith_additions' #55: The following block or item doesn't seem to exist: 'deci:ItemHikingPack_Tan'.
+
+chest_content.cfg 'villageBlacksmith_additions' #56: The following block or item doesn't seem to exist: 'deci:ItemHikingPack_Gray'.
+
+chest_content.cfg 'villageBlacksmith_additions' #57: The following block or item doesn't seem to exist: 'deci:ItemFannyPack_Yellow'.
+
+chest_content.cfg 'villageBlacksmith_additions' #58: The following block or item doesn't seem to exist: 'deci:ItemFannyPack_Green'.
+
+chest_content.cfg 'villageBlacksmith_additions' #59: The following block or item doesn't seem to exist: 'deci:ItemFannyPack_Blue'.
+
+chest_content.cfg 'villageBlacksmith_additions' #60: The following block or item doesn't seem to exist: 'deci:ItemDuffleBag'.
+
+chest_content.cfg 'villageBlacksmith_additions' #61: The following block or item doesn't seem to exist: 'deci:colt'.
+
+chest_content.cfg 'villageBlacksmith_additions' #62: The following block or item doesn't seem to exist: 'deci:coltMag'.
+
+chest_content.cfg 'villageBlacksmith_additions' #63: The following block or item doesn't seem to exist: 'deci:m1934'.
+
+chest_content.cfg 'villageBlacksmith_additions' #64: The following block or item doesn't seem to exist: 'deci:m1934Mag'.
+
+chest_content.cfg 'villageBlacksmith_additions' #65: The following block or item doesn't seem to exist: 'deci:aps'.
+
+chest_content.cfg 'villageBlacksmith_additions' #66: The following block or item doesn't seem to exist: 'deci:apsMag'.
+
+chest_content.cfg 'villageBlacksmith_additions' #67: The following block or item doesn't seem to exist: 'deci:makarov'.
+
+chest_content.cfg 'villageBlacksmith_additions' #68: The following block or item doesn't seem to exist: 'deci:makarovMag'.
+
+chest_content.cfg 'villageBlacksmith_additions' #69: The following block or item doesn't seem to exist: 'deci:casual1Vest'.
+
+chest_content.cfg 'villageBlacksmith_additions' #70: The following block or item doesn't seem to exist: 'deci:casual1Pants'.
+
+chest_content.cfg 'villageBlacksmith_additions' #71: The following block or item doesn't seem to exist: 'deci:casual1Boots'.
+
+chest_content.cfg 'villageBlacksmith_additions' #72: The following block or item doesn't seem to exist: 'deci:casual2Vest'.
+
+chest_content.cfg 'villageBlacksmith_additions' #73: The following block or item doesn't seem to exist: 'deci:casual2Pants'.
+
+chest_content.cfg 'villageBlacksmith_additions' #74: The following block or item doesn't seem to exist: 'deci:casual2Boots'.
+
+chest_content.cfg 'villageBlacksmith_additions' #75: The following block or item doesn't seem to exist: 'deci:casual3Vest'.
+
+chest_content.cfg 'villageBlacksmith_additions' #76: The following block or item doesn't seem to exist: 'deci:casual3Pants'.
+
+chest_content.cfg 'villageBlacksmith_additions' #77: The following block or item doesn't seem to exist: 'deci:casual3Boots'.
+
+chest_content.cfg 'villageBlacksmith_additions' #78: The following block or item doesn't seem to exist: 'deci:bulletproofvest'.
+
+chest_content.cfg 'villageBlacksmith_additions' #79: The following block or item doesn't seem to exist: 'deci:hoodie1'.
+
+chest_content.cfg 'villageBlacksmith_additions' #80: The following block or item doesn't seem to exist: 'deci:santahat'.
+
+chest_content.cfg 'villageBlacksmith_additions' #81: The following block or item doesn't seem to exist: 'deci:ItemParachute'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #1: The following block or item doesn't seem to exist: '"2xdeci:ItemJerryCan'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #2: The following block or item doesn't seem to exist: '"1xdeci:ItemSyringeCure'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #3: The following block or item doesn't seem to exist: '"1xdeci:ItemBandage'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #4: The following block or item doesn't seem to exist: '"1xdeci:ItemRadio'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #5: The following block or item doesn't seem to exist: '"1xdeci:militaryvest'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #6: The following block or item doesn't seem to exist: '"1xdeci:militaryvestbeige'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #7: The following block or item doesn't seem to exist: '"1xdeci:pressvest'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #8: The following block or item doesn't seem to exist: '"1xdeci:bulletproofvest'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #9: The following block or item doesn't seem to exist: '"1xdeci:spetsnazHelm'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #10: The following block or item doesn't seem to exist: '"1xdeci:spetsnazVest'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #11: The following block or item doesn't seem to exist: '"1xdeci:spetsnazPants'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #12: The following block or item doesn't seem to exist: '"1xdeci:spetsnazBoots'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #13: The following block or item doesn't seem to exist: '"1xdeci:sasHelm'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #14: The following block or item doesn't seem to exist: '"1xdeci:sasVest'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #15: The following block or item doesn't seem to exist: '"1xdeci:sasPants'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #16: The following block or item doesn't seem to exist: '"1xdeci:sasBoots'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #17: The following block or item doesn't seem to exist: '"1xdeci:marineHelm'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #18: The following block or item doesn't seem to exist: '"1xdeci:marineVest'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #19: The following block or item doesn't seem to exist: '"1xdeci:marinePants'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #20: The following block or item doesn't seem to exist: '"1xdeci:marineBoots'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #21: The following block or item doesn't seem to exist: '"1xdeci:marineforestHelm'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #22: The following block or item doesn't seem to exist: '"1xdeci:marineforestVest'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #23: The following block or item doesn't seem to exist: '"1xdeci:marineforestPants'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #24: The following block or item doesn't seem to exist: '"1xdeci:marineforestBoots'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #25: The following block or item doesn't seem to exist: '"1xdeci:marineurbanHelm'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #26: The following block or item doesn't seem to exist: '"1xdeci:marineurbanVest'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #27: The following block or item doesn't seem to exist: '"1xdeci:marineurbanPants'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #28: The following block or item doesn't seem to exist: '"1xdeci:marineurbanBoots'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #29: The following block or item doesn't seem to exist: '"1xdeci:gasmaskmilitary'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #30: The following block or item doesn't seem to exist: '"1xdeci:marineurbanBoots'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #31: The following block or item doesn't seem to exist: '"1xdeci:ItemChestRig_Green'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #32: The following block or item doesn't seem to exist: '"1xdeci:ItemChestRig_Beige'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #33: The following block or item doesn't seem to exist: '"1xdeci:ItemChestRig_Gray'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #34: The following block or item doesn't seem to exist: '"1xdeci:ItemPlateCarrier_Beige'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #35: The following block or item doesn't seem to exist: '"1xdeci:ItemPlateCarrier_Green'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #36: The following block or item doesn't seem to exist: '"1xdeci:ItemPlateCarrier_Gray'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #37: The following block or item doesn't seem to exist: '"1xdeci:ItemDuffleBag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #38: The following block or item doesn't seem to exist: '"1xdeci:m4a4'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #39: The following block or item doesn't seem to exist: '"3xdeci:m4a4Mag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #40: The following block or item doesn't seem to exist: '"1xdeci:glock17'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #41: The following block or item doesn't seem to exist: '"4xdeci:glock17Mag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #42: The following block or item doesn't seem to exist: '"1xdeci:parafal'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #43: The following block or item doesn't seem to exist: '"3xdeci:parafalMag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #44: The following block or item doesn't seem to exist: '"1xdeci:m16a1'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #45: The following block or item doesn't seem to exist: '"3xdeci:m16a1Mag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #46: The following block or item doesn't seem to exist: '"1xdeci:svt40'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #47: The following block or item doesn't seem to exist: '"3xdeci:svt40Mag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #48: The following block or item doesn't seem to exist: '"1xdeci:m16a2'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #49: The following block or item doesn't seem to exist: '"3xdeci:m16a2Mag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #50: The following block or item doesn't seem to exist: '"1xdeci:m231'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #51: The following block or item doesn't seem to exist: '"3xdeci:m231Mag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #52: The following block or item doesn't seem to exist: '"1xdeci:xm177'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #53: The following block or item doesn't seem to exist: '"3xdeci:xm177Mag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #54: The following block or item doesn't seem to exist: '"1xdeci:acr'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #55: The following block or item doesn't seem to exist: '"3xdeci:acrMag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #56: The following block or item doesn't seem to exist: '"1xdeci:jng90'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #57: The following block or item doesn't seem to exist: '"4xdeci:jng90Mag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #58: The following block or item doesn't seem to exist: '"1xdeci:ump45'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #59: The following block or item doesn't seem to exist: '"3xdeci:ump45Mag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #60: The following block or item doesn't seem to exist: '"1xdeci:mp5a3'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #61: The following block or item doesn't seem to exist: '"3xdeci:mp5a3Mag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #62: The following block or item doesn't seem to exist: '"1xdeci:kp31'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #63: The following block or item doesn't seem to exist: '"3xdeci:kp31Mag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #64: The following block or item doesn't seem to exist: '"1xdeci:2x'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #65: The following block or item doesn't seem to exist: '"1xdeci:4x'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #66: The following block or item doesn't seem to exist: '"1xdeci:8x'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #67: The following block or item doesn't seem to exist: '"1xdeci:pistolSuppressor'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #68: The following block or item doesn't seem to exist: '"1xdeci:arSuppressor'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #69: The following block or item doesn't seem to exist: '"1xdeci:foregrip'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #70: The following block or item doesn't seem to exist: '"4xdeci:l115a3Mag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #71: The following block or item doesn't seem to exist: '"1xdeci:l115a3'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #72: The following block or item doesn't seem to exist: '"4xdeci:sv98Mag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #73: The following block or item doesn't seem to exist: '"1xdeci:sv98'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #74: The following block or item doesn't seem to exist: '"1xdeci:uzi'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #75: The following block or item doesn't seem to exist: '"3xdeci:uziMag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #76: The following block or item doesn't seem to exist: '"1xdeci:m231'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #77: The following block or item doesn't seem to exist: '"3xdeci:m231Mag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #78: The following block or item doesn't seem to exist: '"1xdeci:sks'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #79: The following block or item doesn't seem to exist: '"3xdeci:sksMag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #80: The following block or item doesn't seem to exist: '"1xdeci:kar98k'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #81: The following block or item doesn't seem to exist: '"3xdeci:kar98kMag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #82: The following block or item doesn't seem to exist: '"1xdeci:ItemFRAGGrenade'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #83: The following block or item doesn't seem to exist: '"1xdeci:ItemSmokeGrenade'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #84: The following block or item doesn't seem to exist: '"1xdeci:model642'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #85: The following block or item doesn't seem to exist: '"1xdeci:ragingbull'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #86: The following block or item doesn't seem to exist: '"1xdeci:nvgoggles'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #87: The following block or item doesn't seem to exist: '"1xdeci:rpk74'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #88: The following block or item doesn't seem to exist: '"4xdeci:rpk74Mag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #89: The following block or item doesn't seem to exist: '"1xdeci:pkp'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #90: The following block or item doesn't seem to exist: '"4xdeci:pkpMag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #91: The following block or item doesn't seem to exist: '"1xdeci:rpk74'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #92: The following block or item doesn't seem to exist: '"4xdeci:rpk74Mag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #93: The following block or item doesn't seem to exist: '"1xdeci:cz52'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #94: The following block or item doesn't seem to exist: '"4xdeci:cz52Mag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #95: The following block or item doesn't seem to exist: '"1xdeci:mg3'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #96: The following block or item doesn't seem to exist: '"4xdeci:mg3Mag'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #97: The following block or item doesn't seem to exist: '"1xdeci:ItemHugeMilitaryPack_Green'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #98: The following block or item doesn't seem to exist: '"1xdeci:ItemHugeMilitaryPack_Black'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #99: The following block or item doesn't seem to exist: '"1xdeci:ItemHugeMilitaryPack_Tan'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #100: The following block or item doesn't seem to exist: '"1xdeci:mpt76'.
+
+chest_content.cfg 'mineshaftCorridor_additions' #101: The following block or item doesn't seem to exist: '"4xdeci:mpt76Mag'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #1: The following block or item doesn't seem to exist: '"1xdeci:m4a4'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #2: The following block or item doesn't seem to exist: '"3xdeci:m4a4Mag'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #3: The following block or item doesn't seem to exist: '"1xdeci:parafal'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #4: The following block or item doesn't seem to exist: '"3xdeci:parafalMag'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #5: The following block or item doesn't seem to exist: '"1xdeci:m16a1'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #6: The following block or item doesn't seem to exist: '"3xdeci:m16a1Mag'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #7: The following block or item doesn't seem to exist: '"1xdeci:m16a2'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #8: The following block or item doesn't seem to exist: '"3xdeci:m16a2Mag'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #9: The following block or item doesn't seem to exist: '"1xdeci:m231'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #10: The following block or item doesn't seem to exist: '"3xdeci:m231Mag'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #11: The following block or item doesn't seem to exist: '"1xdeci:xm177'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #12: The following block or item doesn't seem to exist: '"3xdeci:xm177Mag'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #13: The following block or item doesn't seem to exist: '"1xdeci:acr'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #14: The following block or item doesn't seem to exist: '"3xdeci:acrMag'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #15: The following block or item doesn't seem to exist: '"1xdeci:ump45'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #16: The following block or item doesn't seem to exist: '"3xdeci:ump45Mag'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #17: The following block or item doesn't seem to exist: '"1xdeci:mp5a3'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #18: The following block or item doesn't seem to exist: '"3xdeci:mp5a3Mag'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #19: The following block or item doesn't seem to exist: '"1xdeci:bulletproofvest'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #20: The following block or item doesn't seem to exist: '"1xdeci:2x'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #21: The following block or item doesn't seem to exist: '"1xdeci:4x'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #22: The following block or item doesn't seem to exist: '"1xdeci:8x'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #23: The following block or item doesn't seem to exist: '"1xdeci:pistolSuppressor'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #24: The following block or item doesn't seem to exist: '"1xdeci:arSuppressor'.
+
+chest_content.cfg 'pyramidDesertyChest_additions' #25: The following block or item doesn't seem to exist: '"1xdeci:foregrip'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #1: The following block or item doesn't seem to exist: 'deci:ItemJerryCan'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #2: The following block or item doesn't seem to exist: 'deci:ItemSyringeCure'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #3: The following block or item doesn't seem to exist: 'deci:ItemBandage'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #4: The following block or item doesn't seem to exist: 'deci:ItemRadio'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #5: The following block or item doesn't seem to exist: 'deci:militaryvest'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #6: The following block or item doesn't seem to exist: 'deci:militaryvestbeige'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #7: The following block or item doesn't seem to exist: 'deci:pressvest'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #8: The following block or item doesn't seem to exist: 'deci:bulletproofvest'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #9: The following block or item doesn't seem to exist: 'deci:spetsnazHelm'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #10: The following block or item doesn't seem to exist: 'deci:spetsnazVest'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #11: The following block or item doesn't seem to exist: 'deci:spetsnazPants'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #12: The following block or item doesn't seem to exist: 'deci:spetsnazBoots'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #13: The following block or item doesn't seem to exist: 'deci:sasHelm'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #14: The following block or item doesn't seem to exist: 'deci:sasVest'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #15: The following block or item doesn't seem to exist: 'deci:sasPants'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #16: The following block or item doesn't seem to exist: 'deci:sasBoots'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #17: The following block or item doesn't seem to exist: 'deci:marineHelm'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #18: The following block or item doesn't seem to exist: 'deci:marineVest'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #19: The following block or item doesn't seem to exist: 'deci:marineVestMedical'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #20: The following block or item doesn't seem to exist: 'deci:marinePants'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #21: The following block or item doesn't seem to exist: 'deci:marineBoots'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #22: The following block or item doesn't seem to exist: 'deci:marineforestHelm'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #23: The following block or item doesn't seem to exist: 'deci:marineforestVest'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #24: The following block or item doesn't seem to exist: 'deci:marineforestVestMedical'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #25: The following block or item doesn't seem to exist: 'deci:marineforestPants'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #26: The following block or item doesn't seem to exist: 'deci:marineforestBoots'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #27: The following block or item doesn't seem to exist: 'deci:marinesnowHelm'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #28: The following block or item doesn't seem to exist: 'deci:marinesnowVest'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #29: The following block or item doesn't seem to exist: 'deci:marinesnowVestMedical'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #30: The following block or item doesn't seem to exist: 'deci:marinesnowPants'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #31: The following block or item doesn't seem to exist: 'deci:marinesnowBoots'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #32: The following block or item doesn't seem to exist: 'deci:marineurbanHelm'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #33: The following block or item doesn't seem to exist: 'deci:marineurbanVest'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #34: The following block or item doesn't seem to exist: 'deci:marineurbanVestMedical'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #35: The following block or item doesn't seem to exist: 'deci:marineurbanPants'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #36: The following block or item doesn't seem to exist: 'deci:marineurbanBoots'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #37: The following block or item doesn't seem to exist: 'deci:marineblackHelm'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #38: The following block or item doesn't seem to exist: 'deci:marineblackVest'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #39: The following block or item doesn't seem to exist: 'deci:marineblackPants'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #40: The following block or item doesn't seem to exist: 'deci:marineblackBoots'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #41: The following block or item doesn't seem to exist: 'deci:juggernautHelm'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #42: The following block or item doesn't seem to exist: 'deci:juggernautVest'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #43: The following block or item doesn't seem to exist: 'deci:juggernautPants'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #44: The following block or item doesn't seem to exist: 'deci:juggernautBoots'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #45: The following block or item doesn't seem to exist: 'deci:gasmaskmilitary'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #46: The following block or item doesn't seem to exist: 'deci:ItemChestRig_Green'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #47: The following block or item doesn't seem to exist: 'deci:ItemChestRig_Beige'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #48: The following block or item doesn't seem to exist: 'deci:ItemChestRig_Gray'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #49: The following block or item doesn't seem to exist: 'deci:ItemPlateCarrier_Beige'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #50: The following block or item doesn't seem to exist: 'deci:ItemPlateCarrier_Green'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #51: The following block or item doesn't seem to exist: 'deci:ItemPlateCarrier_Gray'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #52: The following block or item doesn't seem to exist: 'deci:ItemDuffleBag'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #53: The following block or item doesn't seem to exist: 'deci:m4a4'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #54: The following block or item doesn't seem to exist: 'deci:m4a4Mag'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #55: The following block or item doesn't seem to exist: 'deci:parafal'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #56: The following block or item doesn't seem to exist: 'deci:parafalMag'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #57: The following block or item doesn't seem to exist: 'deci:m16a1'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #58: The following block or item doesn't seem to exist: 'deci:m16a1Mag'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #59: The following block or item doesn't seem to exist: 'deci:m16a2'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #60: The following block or item doesn't seem to exist: 'deci:m16a2Mag'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #61: The following block or item doesn't seem to exist: 'deci:m231'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #62: The following block or item doesn't seem to exist: 'deci:m231Mag'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #63: The following block or item doesn't seem to exist: 'deci:xm177'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #64: The following block or item doesn't seem to exist: 'deci:xm177Mag'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #65: The following block or item doesn't seem to exist: 'deci:acr'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #66: The following block or item doesn't seem to exist: 'deci:acrMag'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #67: The following block or item doesn't seem to exist: 'deci:ump45'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #68: The following block or item doesn't seem to exist: 'deci:ump45Mag'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #69: The following block or item doesn't seem to exist: 'deci:mp5a3'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #70: The following block or item doesn't seem to exist: 'deci:mp5a3Mag'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #71: The following block or item doesn't seem to exist: 'deci:cz52'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #72: The following block or item doesn't seem to exist: 'deci:cz52Mag'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #73: The following block or item doesn't seem to exist: 'deci:pkp'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #74: The following block or item doesn't seem to exist: 'deci:pkpMag'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #75: The following block or item doesn't seem to exist: 'deci:bulletproofvest'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #76: The following block or item doesn't seem to exist: 'deci:minigun'.
+
+chest_content.cfg 'pyramidJungleChest_additions' #77: The following block or item doesn't seem to exist: 'deci:minigunMag'.
+
+entity_drops.cfg 'removing' #1: The following block or item doesn't seem to exist: 'deci:ItemBottlecap'.
+
+entity_drops.cfg 'removing' #2: The following block or item doesn't seem to exist: 'deci:ItemBottlecap'.
+
+entity_drops.cfg 'removing' #3: The following block or item doesn't seem to exist: 'deci:ItemBottlecap'.
+
+entity_drops.cfg 'removing' #4: The following block or item doesn't seem to exist: 'deci:ItemBottlecap'.
+
+entity_drops.cfg 'removing' #5: The following block or item doesn't seem to exist: 'deci:ItemBottlecap'.
+
+entity_drops.cfg 'removing' #6: The following block or item doesn't seem to exist: 'deci:ItemBottlecap'.
+
+entity_drops.cfg 'removing' #7: The following block or item doesn't seem to exist: 'deci:ItemBottlecap'.
+
+entity_drops.cfg 'removing' #8: The following block or item doesn't seem to exist: 'deci:ItemBottlecap'.
+
