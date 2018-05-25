@@ -197,6 +197,18 @@
       "traderPosX": 1749.5,
       "traderPosY": 102.0,
       "traderPosZ": 3546.5
+    },
+    {
+      "traderType": "DRUGDEALER",
+      "traderPosX": 208.5,
+      "traderPosY": 112.0,
+      "traderPosZ": 2773.5
+    },
+    {
+      "traderType": "BLACKMARKET",
+      "traderPosX": 195.5,
+      "traderPosY": 110.0,
+      "traderPosZ": 2755.5
     }
   ]
 }

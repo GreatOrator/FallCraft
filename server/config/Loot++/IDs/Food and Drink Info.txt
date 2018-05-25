@@ -1,0 +1,5955 @@
+## Foods and Drinks (Note it's still a bit WIP)                ##
+#################################################################
+## In the form:                                                ##
+## <effect id>                                                 ##
+##    - Metadata: <item metadata>                              ##
+##    - Food or Drink? <Food or Drink (or Unknown)>            ##
+##    - Food Amount: <Number of food points restored>          ##
+##    - Saturation Amount: <Number of saturation points given> ##
+################################################################
+BiomesOPlenty:food
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+BiomesOPlenty:food
+	- Megadata: 1
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+BiomesOPlenty:food
+	- Megadata: 2
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+BiomesOPlenty:food
+	- Megadata: 3
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+BiomesOPlenty:food
+	- Megadata: 4
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+BiomesOPlenty:food
+	- Megadata: 5
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+BiomesOPlenty:food
+	- Megadata: 6
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+BiomesOPlenty:food
+	- Megadata: 8
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+BiomesOPlenty:food
+	- Megadata: 9
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+BiomesOPlenty:food
+	- Megadata: 10
+	- Food or Drink? Drink
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+BiomesOPlenty:food
+	- Megadata: 11
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+BiomesOPlenty:food
+	- Megadata: 12
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+BiomesOPlenty:food
+	- Megadata: 13
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+DraconicEvolution:dezilsMarshmallow
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 100
+	- Saturation Amount: 100.0
+
+
+EnderIO:itemEnderFood
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 0.8
+
+
+IC2:itemMugBooze
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+IC2:itemMugCoffee
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+IC2:itemMugCoffee
+	- Megadata: 1
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+IC2:itemMugCoffee
+	- Megadata: 2
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+IC2:itemTerraWart
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 1.0
+
+
+IguanaTweaksTConstruct:clayBucketMilk
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+MineFactoryReloaded:meat.ingot.cooked
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 0.2
+
+
+MineFactoryReloaded:meat.ingot.raw
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.2
+
+
+MineFactoryReloaded:meat.nugget.cooked
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.1
+
+
+MineFactoryReloaded:meat.nugget.raw
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+MineFactoryReloaded:milkbottle
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+MineFactoryReloaded:straw
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+OpenBlocks:tastyClay
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+TConstruct:MeatBlock
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:diamondApple
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 2.0
+
+
+TConstruct:goldHead
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+TConstruct:heartCanister
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:heartCanister
+	- Megadata: 1
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:heartCanister
+	- Megadata: 2
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:heartCanister
+	- Megadata: 3
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:heartCanister
+	- Megadata: 4
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:heartCanister
+	- Megadata: 5
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:heartCanister
+	- Megadata: 6
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:jerky
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.0
+
+
+TConstruct:jerky
+	- Megadata: 1
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.0
+
+
+TConstruct:jerky
+	- Megadata: 2
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.0
+
+
+TConstruct:jerky
+	- Megadata: 3
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.0
+
+
+TConstruct:jerky
+	- Megadata: 4
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.0
+
+
+TConstruct:jerky
+	- Megadata: 5
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.0
+
+
+TConstruct:jerky
+	- Megadata: 6
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.0
+
+
+TConstruct:jerky
+	- Megadata: 7
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.0
+
+
+TConstruct:strangeFood
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.0
+
+
+TConstruct:strangeFood
+	- Megadata: 1
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.0
+
+
+TConstruct:strangeFood
+	- Megadata: 2
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.0
+
+
+arcticmobs:palesoup
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+arcticmobs:yetimeatcooked
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+arcticmobs:yetimeatraw
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.5
+
+
+demonmobs:devillasagna
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 0.7
+
+
+demonmobs:pinkymeatcooked
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 0.7
+
+
+demonmobs:pinkymeatraw
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.5
+
+
+desertmobs:ambercake
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+desertmobs:joustmeatcooked
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+desertmobs:joustmeatraw
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.5
+
+
+flansmod:blowTorch
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 0.6
+
+
+flansmod:c4Remote
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 0.6
+
+
+flansmod:mwMedKit
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 0.6
+
+
+flansmod:mwParachute
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 0.6
+
+
+forestmobs:arisaurmeatcooked
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+forestmobs:arisaurmeatraw
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.5
+
+
+forestmobs:paleosalad
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+freshwatermobs:lapisfishandchips
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+freshwatermobs:silexmeatcooked
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+freshwatermobs:silexmeatraw
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.5
+
+
+harvestcraft:almondItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:almondbutterItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:anchovyrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:appleciderItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:applejellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:applejellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:applejuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:applepieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:applesauceItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:applesmoothieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:appleyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:apricotItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:apricotglazedporkItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.6
+
+
+harvestcraft:apricotjellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:apricotjellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:apricotjuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:apricotsmoothieItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:apricotyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:artichokeItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:asparagusItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:asparagusquicheItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:asparagussoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:avocadoItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:avocadoburritoItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 14
+	- Saturation Amount: 1.6
+
+
+harvestcraft:baconcheeseburgerItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 14
+	- Saturation Amount: 1.6
+
+
+harvestcraft:baconmushroomburgerItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 16
+	- Saturation Amount: 0.6
+
+
+harvestcraft:baconwrappeddatesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:bakedbeansItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:bakedbeetsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:bakedhamItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.6
+
+
+harvestcraft:bakedsweetpotatoItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+harvestcraft:bakedturnipsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:baklavaItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:bambooshootItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:bamboosteamedriceItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:bananaItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:bananamilkshakeItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:banananutbreadItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:bananasmoothieItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:bananasplitItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:bananayogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:bangersandmashItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:barleyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:bassrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:batteredsausageItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:bbqpulledporkItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:beanItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:beanburritoItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:beansandriceItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 11
+	- Saturation Amount: 1.6
+
+
+harvestcraft:beansontoastItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:beefjerkyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.6
+
+
+harvestcraft:beefwellingtonItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 18
+	- Saturation Amount: 1.6
+
+
+harvestcraft:beetItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:beetburgerItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 18
+	- Saturation Amount: 1.6
+
+
+harvestcraft:beetsaladItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:beetsoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:bellpepperItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:biscuitItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:blackberryItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:blackberrycobblerItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:blackberryjellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:blackberryjellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:blackberryjuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:blackberrysmoothieItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:blackberryyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:bltItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:blueberryItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:blueberryjellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:blueberryjellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:blueberryjuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:blueberrymuffinItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:blueberrypancakesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:blueberrypieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:blueberrysmoothieItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:blueberryyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:boiledeggItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.2
+
+
+harvestcraft:braisedonionsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:breadedporkchopItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:broccoliItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:broccolimacItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:broccolindipItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:brownieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 0.6
+
+
+harvestcraft:brusselsproutItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:butteredpotatoItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cabbageItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:cactusfruitItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:cactusfruitjuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cactussoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:calamaricookedItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.6
+
+
+harvestcraft:calamarirawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+harvestcraft:californiarollItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.6
+
+
+harvestcraft:candiedgingerItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.6
+
+
+harvestcraft:candiedlemonItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.6
+
+
+harvestcraft:candiedsweetpotatoesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 0.6
+
+
+harvestcraft:candiedwalnutsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:candleberryItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:cantaloupeItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:caramelItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+harvestcraft:caramelappleItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:caramelicecreamItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:carprawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:carrotjuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:carrotsoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:cashewItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:cashewbutterItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cashewchickenItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:catfishrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:cauliflowerItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:ceasarsaladItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:celeryItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:celeryandpeanutbutterItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:celerysoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:chaiteaItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 9
+	- Saturation Amount: 0.6
+
+
+harvestcraft:chaoscookieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.6
+
+
+harvestcraft:charrrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:cheeseItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cheeseburgerItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cheeseontoastItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cherryItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:cherrycoconutchocolatebarItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 0.6
+
+
+harvestcraft:cherryicecreamItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cherryjellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cherryjellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cherryjuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cherrypieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cherrysmoothieItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cherrysodaItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+harvestcraft:cherryyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:chestnutItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:chestnutbutterItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:chickencelerycasseroleItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:chickencurryItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 14
+	- Saturation Amount: 1.6
+
+
+harvestcraft:chickengumboItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 16
+	- Saturation Amount: 1.6
+
+
+harvestcraft:chickennoodlesoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.6
+
+
+harvestcraft:chickenparmasanItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:chickenpotpieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:chickensandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.6
+
+
+harvestcraft:chikorollItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 14
+	- Saturation Amount: 1.6
+
+
+harvestcraft:chiliItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 13
+	- Saturation Amount: 1.6
+
+
+harvestcraft:chilichocolateItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.6
+
+
+harvestcraft:chilipepperItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:chilipoppersItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:chocolatebaconItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:chocolatebarItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 0.6
+
+
+harvestcraft:chocolatecaramelfudgeItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.6
+
+
+harvestcraft:chocolatecherryItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.6
+
+
+harvestcraft:chocolatedonutItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.6
+
+
+harvestcraft:chocolateicecreamItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:chocolatemilkItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:chocolatemilkshakeItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:chocolaterollItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.6
+
+
+harvestcraft:chocolatestrawberryItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:chocolateyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:chorizoItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:cinnamonItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:cinnamonappleoatmealItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cinnamonrollItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.6
+
+
+harvestcraft:cinnamonsugardonutItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.6
+
+
+harvestcraft:citrussaladItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:clamcookedItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:clamrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:coconutItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:coconutcreamItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+harvestcraft:coconutmilkItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:coconutshrimpItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:coconutsmoothieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:coconutyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:coffeeItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 4
+	- Saturation Amount: 0.6
+
+
+harvestcraft:coffeebeanItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:coffeeconlecheItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 10
+	- Saturation Amount: 0.6
+
+
+harvestcraft:colasodaItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+harvestcraft:coleslawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:coleslawburgerItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:cornItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:cornbreadItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cornflakesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cornishpastyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:cornonthecobItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cottagepieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:crabcookedItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:crabrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:crackerItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.6
+
+
+harvestcraft:cranberryItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:cranberrybarItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cranberryjellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cranberryjellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cranberryjuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cranberrysauceItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cranberrysmoothieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cranberryyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:crayfishcookedItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:crayfishrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:creamcookieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 0.6
+
+
+harvestcraft:creamedbroccolisoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:creamedcornItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:creamofavocadosoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:croissantItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cucumberItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:cucumbersaladItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 11
+	- Saturation Amount: 1.2
+
+
+harvestcraft:cucumbersoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:curryItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 11
+	- Saturation Amount: 1.2
+
+
+harvestcraft:curryleafItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:custardItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:damperItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:dateItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:datenutbreadItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:delightedmealItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 18
+	- Saturation Amount: 1.6
+
+
+harvestcraft:deluxecheeseburgerItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:deluxechickencurryItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 18
+	- Saturation Amount: 1.6
+
+
+harvestcraft:dimsumItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:donutItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.6
+
+
+harvestcraft:dragonfruitItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:durianItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:ediblerootItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:eelrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:eggnogItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:eggplantItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:eggplantparmItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:eggsaladItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:energydrinkItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+harvestcraft:epicbaconItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 18
+	- Saturation Amount: 1.6
+
+
+harvestcraft:espressoItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 8
+	- Saturation Amount: 0.6
+
+
+harvestcraft:extremechiliItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 14
+	- Saturation Amount: 1.6
+
+
+harvestcraft:fairybreadItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 0.6
+
+
+harvestcraft:figItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:figbarItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:figjellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:figjellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:figjuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:figsmoothieItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:figyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:firmtofuItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+harvestcraft:fishandchipsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.6
+
+
+harvestcraft:fishdinnerItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:fishlettucewrapItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.6
+
+
+harvestcraft:fishsandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:fishsticksItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:fishtacoItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.6
+
+
+harvestcraft:footlongItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 14
+	- Saturation Amount: 1.6
+
+
+harvestcraft:frenchtoastItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:friedchickenItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 11
+	- Saturation Amount: 1.6
+
+
+harvestcraft:friedeggItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+harvestcraft:friedonionsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+harvestcraft:friedpecanokraItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:friedriceItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:friesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.6
+
+
+harvestcraft:frogcookedItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:frograwItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:frosteddonutItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 0.6
+
+
+harvestcraft:fruitcrumbleItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:fruitpunchItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:fruitsaladItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.6
+
+
+harvestcraft:futomakiItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.6
+
+
+harvestcraft:gardensoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:garlicItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:garlicbreadItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:garlicchickenItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:garlicmashedpotatoesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:generaltsochickenItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:gherkinItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:gingerItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:gingerbreadItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:gingerchickenItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:gingeredrhubarbtartItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:gingersnapsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.6
+
+
+harvestcraft:gingersodaItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+harvestcraft:glazedcarrotsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:gooseberryItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:gooseberryjellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:gooseberryjellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:gooseberrymilkshakeItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:gooseberrypieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:gooseberrysmoothieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:gooseberryyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:grapeItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:grapefruitItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:grapefruitjellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:grapefruitjellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:grapefruitjuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:grapefruitsmoothieItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:grapefruitsodaItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+harvestcraft:grapefruityogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:grapejellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:grapejuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:grapesaladItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:grapesmoothieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:grapesodaItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+harvestcraft:grapeyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:gravyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+harvestcraft:greenheartfishItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:grilledasparagusItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+harvestcraft:grilledcheeseItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:grilledeggplantItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+harvestcraft:grilledmushroomItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.2
+
+
+harvestcraft:grilledskewersItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:grouperrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:guacamoleItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:gummybearsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 0.6
+
+
+harvestcraft:hamburgerItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:hamsweetpicklesandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:hashItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 11
+	- Saturation Amount: 1.2
+
+
+harvestcraft:heartybreakfastItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 18
+	- Saturation Amount: 1.6
+
+
+harvestcraft:herbbutterparsnipsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:herringrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:honeyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.6
+
+
+harvestcraft:honeycombchocolatebarItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.6
+
+
+harvestcraft:honeylemonlambItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:honeysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:hotchocolateItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+harvestcraft:hotdogItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:hotwingsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:hushpuppiesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:icecreamItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:jaffaItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 0.6
+
+
+harvestcraft:jamrollItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.6
+
+
+harvestcraft:jellybeansItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 0.6
+
+
+harvestcraft:jellydonutItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.6
+
+
+harvestcraft:jellyfishrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:keylimepieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:kimchiItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:kiwiItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:kiwijellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:kiwijellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:kiwijuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:kiwismoothieItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:kiwiyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:lambbarleysoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:lambkebabItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:lambwithmintsauceItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 11
+	- Saturation Amount: 1.6
+
+
+harvestcraft:lavendershortbreadItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:leafychickensandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 11
+	- Saturation Amount: 1.6
+
+
+harvestcraft:leafyfishsandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.6
+
+
+harvestcraft:leekItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:leekbaconsoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:lemonItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:lemonaideItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:lemonbarItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:lemonchickenItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.6
+
+
+harvestcraft:lemonjellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:lemonjellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:lemonlimesodaItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 3
+	- Saturation Amount: 0.6
+
+
+harvestcraft:lemonmeringueItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:lemonsmoothieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:lemonyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:lettuceItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:limeItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:limejellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:limejellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:limejuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:limesmoothieItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:limeyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:loadedbakedpotatoItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 11
+	- Saturation Amount: 1.6
+
+
+harvestcraft:mangoItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:mangochutneyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:mangojellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:mangojellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:mangojuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:mangosmoothieItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:mangoyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:manjuuItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:maplecandiedbaconItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.6
+
+
+harvestcraft:mapleoatmealItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:maplesausageItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.6
+
+
+harvestcraft:maplesyrupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:maplesyruppancakesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:maplesyrupwafflesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:marinatedcucumbersItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:marshmellowsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 0.6
+
+
+harvestcraft:marzipanItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+harvestcraft:mashedpotatoesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:mashedsweetpotatoesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:mcpamItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 16
+	- Saturation Amount: 1.6
+
+
+harvestcraft:meatfeastpizzaItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 18
+	- Saturation Amount: 1.6
+
+
+harvestcraft:meatpieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 14
+	- Saturation Amount: 1.6
+
+
+harvestcraft:meatystewItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:melonjuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 3
+	- Saturation Amount: 1.2
+
+
+harvestcraft:melonsmoothieItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:melonyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:mincepieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:mintchocolatechipicemcreamItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:mixedsaladItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:mochaicecreamItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 0.6
+
+
+harvestcraft:mochiItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.6
+
+
+harvestcraft:mudfishrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:museliItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:mushroomrisottoItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:mustardseedsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:muttoncookedItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:muttonrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.6
+
+
+harvestcraft:naanItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:nachoesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:neapolitanicecreamItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:nutellaItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 0.6
+
+
+harvestcraft:nutmegItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:oatsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:octopuscookedItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:octopusrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:okraItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:okrachipsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:okracreoleItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:oldworldveggiesoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:oliveItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:omeletItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.6
+
+
+harvestcraft:onionItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:onionhamburgerItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:onionsoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.2
+
+
+harvestcraft:orangeItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:orangechickenItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:orangejellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:orangejellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:orangejuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:orangesmoothieItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:orangesodaItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+harvestcraft:orangeyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:ovenroastedcauliflowerItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pancakesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:paneerItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+harvestcraft:paneertikkamasalaItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.2
+
+
+harvestcraft:papayaItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:papayajellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:papayajellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:papayajuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:papayasmoothieItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:papayayogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:parsnipItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:pbandjItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:peaandhamsoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:peachItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:peachcobblerItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:peachesandcreamoatmealItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:peachjellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:peachjellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:peachjuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:peachsmoothieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:peachyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:peanutItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:peanutbutterItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:peanutbuttercookiesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 0.6
+
+
+harvestcraft:pearItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:pearjellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pearjellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pearjuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pearsmoothieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pearyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:peasItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:peasandceleryItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pecanItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:pecanpieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:peppercornItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:peppermintItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 0.6
+
+
+harvestcraft:pepperoniItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:perchrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:persimmonItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:persimmonjellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:persimmonjellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:persimmonjuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:persimmonsmoothieItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:persimmonyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pickledbeetsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pickledonionsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:picklesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pinacoladaItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pineappleItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:pineapplehamItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:pineappleyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pistachioItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:pistachiobakedsalmonItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pistachiobutterItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pistachioicecreamItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pizzaItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:plainyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+harvestcraft:ploughmanslunchItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 14
+	- Saturation Amount: 1.6
+
+
+harvestcraft:plumItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:plumjellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:plumjellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:plumjuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:plumsmoothieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:plumyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:poachedpearItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pomegranateItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:pomegranatejellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pomegranatejellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pomegranatejuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pomegranatesmoothieItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pomegranateyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:popcornItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.6
+
+
+harvestcraft:porklettucewrapItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:porklomeinItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 14
+	- Saturation Amount: 1.6
+
+
+harvestcraft:porksausageItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:potatoandcheesepirogiItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:potatoandleeksoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:potatocakesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:potatosaladItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.6
+
+
+harvestcraft:potatosoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.6
+
+
+harvestcraft:potroastItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:powdereddonutItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 0.6
+
+
+harvestcraft:pralinesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.6
+
+
+harvestcraft:pumpkinbreadItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pumpkinmuffinItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pumpkinoatsconesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:pumpkinsoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:pumpkinyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:rabbitcookedItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.6
+
+
+harvestcraft:rabbitrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+harvestcraft:radishItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:rainbowcurryItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.2
+
+
+harvestcraft:raisincookiesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 0.6
+
+
+harvestcraft:raisinsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.6
+
+
+harvestcraft:randomtacoItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 16
+	- Saturation Amount: 1.2
+
+
+harvestcraft:raspberryItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:raspberryicedteaItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 7
+	- Saturation Amount: 0.6
+
+
+harvestcraft:raspberryjellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:raspberryjellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:raspberryjuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:raspberrypieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:raspberrysmoothieItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:raspberrytrifleItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:raspberryyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:refriedbeansItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:rhubarbItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:riceItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:ricecakeItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.6
+
+
+harvestcraft:ricesoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:roastchickenItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.6
+
+
+harvestcraft:roastedchestnutItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.6
+
+
+harvestcraft:roastedpumpkinseedsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+harvestcraft:roastedrootveggiemedleyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:roastpotatoesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:rootbeersodaItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+harvestcraft:rutabagaItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:ryeItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:salmonpattiesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:saltedsunflowerseedsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:sausageItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.6
+
+
+harvestcraft:sausageinbreadItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 18
+	- Saturation Amount: 1.6
+
+
+harvestcraft:sausagerollItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:scallionItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:scallionbakedpotatoItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:scallopcookedItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:scalloprawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:scrambledeggItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+harvestcraft:seaweedItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:seedsoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+harvestcraft:sesameballItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:sesameseedsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:sesamesnapsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.6
+
+
+harvestcraft:shepardspieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:shrimpcookedItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:shrimpokrahushpuppiesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:shrimprawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:silkentofuItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:snailcookedItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:snailrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:snapperrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:snickersbarItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.6
+
+
+harvestcraft:softpretzelItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.6
+
+
+harvestcraft:softpretzelandmustardItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 0.6
+
+
+harvestcraft:soybeanItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:soymilkItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+harvestcraft:spagettiItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:spagettiandmeatballsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 11
+	- Saturation Amount: 1.6
+
+
+harvestcraft:spicebunItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:spiceleafItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:spicygreensItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 11
+	- Saturation Amount: 1.2
+
+
+harvestcraft:spicymustardporkItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:spidereyesoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:spinachItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:spinachpieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:splitpeasoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:springsaladItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:spumoniicecreamItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:starfruitItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:starfruitjellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:starfruitjellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:starfruitjuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:starfruitsmoothieItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:starfruityogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:steakandchipsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:steamedpeasItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:steamedspinachItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.2
+
+
+harvestcraft:stockItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 1.2
+
+
+harvestcraft:strawberryItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:strawberryicecreamItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:strawberryjellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:strawberryjellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:strawberryjuiceItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:strawberrymilkshakeItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:strawberrypieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:strawberrysaladItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:strawberrysmoothieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:strawberrysodaItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+harvestcraft:strawberryyogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:stuffedeggplantItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:stuffedmushroomItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.6
+
+
+harvestcraft:stuffedpepperItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:suaderoItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:summerradishsaladItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:summersquashwithradishItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:sundayroastItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 14
+	- Saturation Amount: 1.6
+
+
+harvestcraft:sunflowerbroccolisaladItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 13
+	- Saturation Amount: 1.2
+
+
+harvestcraft:sunflowerseedsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:sunflowerwheatrollsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:supremepizzaItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 13
+	- Saturation Amount: 1.6
+
+
+harvestcraft:sushiItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.6
+
+
+harvestcraft:sweetpickleItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:sweetpotatoItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:sweetpotatopieItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:sweetpotatosouffleItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:tacoItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 11
+	- Saturation Amount: 1.6
+
+
+harvestcraft:taffyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.6
+
+
+harvestcraft:teaItem
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 4
+	- Saturation Amount: 0.6
+
+
+harvestcraft:tealeafItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:tilapiarawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:timtamItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 0.6
+
+
+harvestcraft:toadintheholeItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:toastItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:toastedcoconutItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.6
+
+
+harvestcraft:toastsandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:tomatoItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:tomatosoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:tortillaItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:trailmixItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:troutrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:tunapotatoItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:tunarawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:turkeycookedItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.6
+
+
+harvestcraft:turkeyrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+harvestcraft:turnipItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:turnipsoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:turtlecookedItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:turtlerawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:vanillabeanItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:vanillaicecreamItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:vanillayogurtItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:vegemiteItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+harvestcraft:vegemiteontoastItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 1.2
+
+
+harvestcraft:vegetablesoupItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:vegetarianlettucewrapItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:veggiestirfryItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.2
+
+
+harvestcraft:veggiestripsItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:venisoncookedItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.6
+
+
+harvestcraft:venisonrawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.6
+
+
+harvestcraft:vindalooItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.6
+
+
+harvestcraft:wafflesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 9
+	- Saturation Amount: 1.2
+
+
+harvestcraft:walleyerawItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.6
+
+
+harvestcraft:walnutItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:walnutraisinbreadItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:waterchestnutItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:watermelonjellyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:watermelonjellysandwichItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.2
+
+
+harvestcraft:whitemushroomItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:wintersquashItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:yorkshirepuddingItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.2
+
+
+harvestcraft:zeppoleItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+harvestcraft:zestyzucchiniItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.6
+
+
+harvestcraft:zombiejerkyItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.6
+
+
+harvestcraft:zucchiniItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+harvestcraft:zucchinibakeItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.2
+
+
+harvestcraft:zucchinibreadItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 1.2
+
+
+harvestcraft:zucchinifriesItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 1.2
+
+
+infernomobs:cephignismeatcooked
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+infernomobs:searingtaco
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+junglemobs:concapedemeatcooked
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+junglemobs:concapedemeatraw
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.5
+
+
+junglemobs:tropicalcurry
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+lycanitesmobs:battleburrito
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+lycanitesmobs:explorersrisotto
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+minecraft:apple
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.3
+
+
+minecraft:baked_potato
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.6
+
+
+minecraft:beef
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+minecraft:bread
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 0.6
+
+
+minecraft:carrot
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.6
+
+
+minecraft:chicken
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.3
+
+
+minecraft:cooked_beef
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+minecraft:cooked_chicken
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.6
+
+
+minecraft:cooked_fished
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 0.6
+
+
+minecraft:cooked_fished
+	- Megadata: 1
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 0.6
+
+
+minecraft:cooked_porkchop
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+minecraft:cookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.1
+
+
+minecraft:fish
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.1
+
+
+minecraft:fish
+	- Megadata: 1
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.1
+
+
+minecraft:fish
+	- Megadata: 2
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.1
+
+
+minecraft:fish
+	- Megadata: 3
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.1
+
+
+minecraft:golden_apple
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+minecraft:golden_apple
+	- Megadata: 1
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+minecraft:golden_carrot
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 1.2
+
+
+minecraft:melon
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.3
+
+
+minecraft:milk_bucket
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:mushroom_stew
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.6
+
+
+minecraft:poisonous_potato
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.3
+
+
+minecraft:porkchop
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+minecraft:potato
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.3
+
+
+minecraft:potion
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8193
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8225
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8257
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16385
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16417
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16449
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8194
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8226
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8258
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16386
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16418
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16450
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8227
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8259
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16419
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16451
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8196
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8228
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8260
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16388
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16420
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16452
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8261
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8229
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16453
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16421
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8230
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8262
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16422
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16454
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8232
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8264
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16424
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16456
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8201
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8233
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8265
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16393
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16425
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16457
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8234
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8266
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16426
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16458
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8268
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8236
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16460
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16428
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8237
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8269
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16429
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16461
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8238
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 8270
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16430
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:potion
+	- Megadata: 16462
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+minecraft:pumpkin_pie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.3
+
+
+minecraft:rotten_flesh
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.1
+
+
+minecraft:spider_eye
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.8
+
+
+mountainmobs:peakskebab
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+mountainmobs:yalemeatcooked
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+mountainmobs:yalemeatraw
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.5
+
+
+plainsmobs:bulwarkburger
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+plainsmobs:makameatcooked
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+plainsmobs:makameatraw
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.5
+
+
+saltwatermobs:ikameatcooked
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+saltwatermobs:ikameatraw
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.5
+
+
+saltwatermobs:seashellmaki
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+shadowmobs:bloodchili
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 0.7
+
+
+shadowmobs:chupacabrameatcooked
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 0.7
+
+
+shadowmobs:chupacabrameatraw
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.5
+
+
+swampmobs:aspidmeatcooked
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
+swampmobs:aspidmeatraw
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.5
+
+
+swampmobs:mosspie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.7
+
+
