@@ -1,13 +1,13 @@
 {
   "questSettings": {
     "betterquesting": {
-      "editMode": true,
-      "hardcore": false,
-      "livesDef": 3,
       "livesMax": 10,
-      "home_image": "betterquesting:textures/gui/default_title.png",
+      "home_anchor_y": 0,
+      "livesDef": 3,
       "home_anchor_x": 0.5,
-      "home_anchor_y": 0.0,
+      "hardcore": false,
+      "home_image": "fallcraft:gui\\\\main_title.png",
+      "editMode": false,
       "home_offset_x": -128,
       "home_offset_y": 0
     }
@@ -34,9 +34,9 @@
           "name": "Exploring the Bunker",
           "isGlobal": "false",
           "lockedProgress": false,
-          "autoClaim": false,
+          "autoClaim": true,
           "isSilent": false,
-          "desc": "Ninety years after the war, the members of The Davis Project woke to a changed world. Scouts from Bunker 719 were sent out to assess the situation but returned with an infectious disease. The disease nearly wiped the whole team and the survivors decided to stay in the bunker rather than risk venturing out.\n\nYour mother had no idea she was pregnant with you when she joined the Davis Project. Born in Bunker 719, you have known nothing else. What you do know of the outside world are stories told to you by those who are left. Twenty years later, those who survived are aging and the Bunker is deteriorating."
+          "desc": "Ninety years after the war, the members of The Project woke to a changed world. Scouts from Bunker 719 were sent out to assess the situation but returned with an infectious disease. The disease nearly wiped the whole team and the survivors decided to stay in the bunker rather than risk venturing out.\n\nYour mother had no idea she was pregnant with you when she joined The Project. Born in Bunker 719, you have known nothing else. What you do know of the outside world are stories told to you by those who are left. Twenty years later, those who survived are aging and the Bunker is deteriorating."
         }
       },
       "tasks": [
@@ -761,7 +761,7 @@
           "dimension": 0,
           "range": 10,
           "visible": false,
-          "hideInfo": false,
+          "hideInfo": true,
           "taskID": "bq_standard:location",
           "index": 1
         },
@@ -784,7 +784,8 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "isMain": false,
+          "visibility": "NORMAL",
+          "isMain": true,
           "simultaneous": false,
           "icon": {
             "id": "ThermalExpansion:Cell",
@@ -1071,7 +1072,15 @@
       },
       "tasks": [
         {
-          "taskID": "bq_standard:checkbox",
+          "name": "Iron Legion HQ",
+          "posX": 1553,
+          "posY": 208,
+          "posZ": 2073,
+          "dimension": 0,
+          "range": 30,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
           "index": 0
         }
       ],
@@ -1110,11 +1119,11 @@
       "tasks": [
         {
           "name": "New Location",
-          "posX": 0,
-          "posY": 0,
-          "posZ": 0,
+          "posX": 1553,
+          "posY": 208,
+          "posZ": 2073,
           "dimension": 0,
-          "range": -1,
+          "range": 30,
           "visible": false,
           "hideInfo": false,
           "taskID": "bq_standard:location",
@@ -2016,7 +2025,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -2056,7 +2065,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -2113,7 +2122,15 @@
       },
       "tasks": [
         {
-          "taskID": "bq_standard:checkbox",
+          "name": "Mining Operation",
+          "posX": 1073,
+          "posY": 190,
+          "posZ": 1234,
+          "dimension": 0,
+          "range": 30,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
           "index": 0
         }
       ],
@@ -2133,7 +2150,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -2190,7 +2207,15 @@
       },
       "tasks": [
         {
-          "taskID": "bq_standard:checkbox",
+          "name": "Riverside",
+          "posX": 1326,
+          "posY": 45,
+          "posZ": 4837,
+          "dimension": 0,
+          "range": 30,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
           "index": 0
         }
       ],
@@ -2227,7 +2252,15 @@
       },
       "tasks": [
         {
-          "taskID": "bq_standard:checkbox",
+          "name": "Cozyton",
+          "posX": 1966,
+          "posY": 163,
+          "posZ": 2554,
+          "dimension": 0,
+          "range": 30,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
           "index": 0
         }
       ],
@@ -2247,7 +2280,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -2287,7 +2320,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "BiblioCraft:item.BiblioWayPointCompass",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -2306,11 +2339,11 @@
       "tasks": [
         {
           "name": "New Location",
-          "posX": 0,
-          "posY": 0,
-          "posZ": 0,
+          "posX": 2582,
+          "posY": 52,
+          "posZ": 3429,
           "dimension": 0,
-          "range": -1,
+          "range": 30,
           "visible": false,
           "hideInfo": false,
           "taskID": "bq_standard:location",
@@ -2377,7 +2410,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -2429,12 +2462,20 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Haliee at the diner in Pleasant Valley said a group of raiders sweep through the area every winter. They are holed up in some grocery store to the"
+          "desc": "Haliee at the diner in Pleasant Valley said a group of raiders sweep through the area every winter. They are holed up in some grocery store to the northeast."
         }
       },
       "tasks": [
         {
-          "taskID": "bq_standard:checkbox",
+          "name": "Bandit Hideout",
+          "posX": 3933,
+          "posY": 103,
+          "posZ": 3236,
+          "dimension": 0,
+          "range": 15,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
           "index": 0
         }
       ],
@@ -2797,12 +2838,16 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "GraveStone:GSGraveStone",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "GraveType:1": 49
+              "orig_meta:3": 0,
+              "orig_tag:10": {
+                "GraveType:1": 49
+              },
+              "orig_id:8": "GraveStone:GSGraveStone"
             }
           },
           "snd_update": "random.levelup",
@@ -2941,7 +2986,15 @@
       },
       "tasks": [
         {
-          "taskID": "bq_standard:checkbox",
+          "name": "Norad",
+          "posX": 1868,
+          "posY": 102,
+          "posZ": 3521,
+          "dimension": 0,
+          "range": 20,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
           "index": 0
         }
       ],
@@ -3026,6 +3079,15 @@
           "npcQuestID": 40,
           "taskID": "bq_npc_integration:npc_quest",
           "index": 1
+        },
+        {
+          "target": "Zombie",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "taskID": "bq_standard:hunt",
+          "index": 2
         }
       ],
       "rewards": [],
@@ -3070,6 +3132,27 @@
           "npcQuestID": 41,
           "taskID": "bq_npc_integration:npc_quest",
           "index": 1
+        },
+        {
+          "name": "The Children of the Night",
+          "posX": 509,
+          "posY": 129,
+          "posZ": 2435,
+          "dimension": 0,
+          "range": 30,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 2
+        },
+        {
+          "target": "Zombie",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "taskID": "bq_standard:hunt",
+          "index": 3
         }
       ],
       "rewards": [],
@@ -3114,6 +3197,18 @@
           "npcQuestID": 42,
           "taskID": "bq_npc_integration:npc_quest",
           "index": 1
+        },
+        {
+          "name": "Razorclaw Valley",
+          "posX": 1757,
+          "posY": 138,
+          "posZ": 2344,
+          "dimension": 0,
+          "range": 30,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 2
         }
       ],
       "rewards": [],
@@ -3289,6 +3384,1685 @@
         63
       ],
       "questID": 72
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "NORMAL",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:skull",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3,
+            "tag": {
+              "SkullOwner:8": "GreatOrator"
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Premire Hoarder",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Wow, you really collected them all?"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 73
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:painting",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Unintentional Thievery",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "There is a boy sitting by the entrance to the Iron Legion HQ. Perhaps you should see what is wrong."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 302,
+          "description": "Speak to Bobo",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 54,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        20
+      ],
+      "questID": 74
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ExtraUtilities:drum",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "The Witnesses",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You heard two people in Riverside may have witnessed Lynne\u0027s group tampering with the fresh water."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 94,
+          "description": "Talk to Percy",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcDialogID": 97,
+          "description": "Talk to Rio",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        6
+      ],
+      "questID": 75
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "betterquesting:placeholder",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Riverside Rumor",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 304,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 76
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "AncientWarfareNpc:npc_spawner",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "npcSubtype:8": "medic",
+              "npcType:8": "combat"
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Emdees",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Percy said there is a place east of Riverside where the Emdees, medics, travel from. He said it was near Tower City, perhaps that is the old Colorado Springs?"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Emdees Headquarters",
+          "posX": 3978,
+          "posY": 53,
+          "posZ": 3544,
+          "dimension": 0,
+          "range": 15,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        76
+      ],
+      "questID": 77
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "betterquesting:placeholder",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Rumors of Mutants",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 307,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 78
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "MutantCreatures:item.hulkHammer",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "What Are Super Mutants?",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The residents of Cozyton told me Super Mutants live in an abandoned building east of here. What are Super Mutants?!"
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        78
+      ],
+      "questID": 79
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "BiblioCraft:item.BiblioWayPointCompass",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Black Forest Observatory",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Da Kamp",
+          "posX": 3124,
+          "posY": 143,
+          "posZ": 2577,
+          "dimension": 0,
+          "range": 30,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 80
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:travelGlove",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "TinkerAccessory:10": {
+                "BaseDurability:3": 500,
+                "Built:1": 1,
+                "Damage:3": 0,
+                "BonusDurability:3": 0,
+                "Modifiers:3": 5,
+                "TotalDurability:3": 500,
+                "ModDurability:5": 0.0,
+                "Broken:1": 0
+              }
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "First Encounter",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "As you make your way to the observatory you see a long, winding road heading up the mountain. At the top of the hill are two enormous mutants. You decide to see if holding your hands up as a sign of peace and walking slowly toward them will work."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 200,
+          "description": "Speak with the mutants",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        80
+      ],
+      "questID": 81
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ComputerCraft:treasureDisk",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "That Hurt!",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You don\u0027t remember anything after speaking with the mutant guards. Just the lights went out....."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 201,
+          "description": "Speak with Dartron",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 32,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        81
+      ],
+      "questID": 82
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "IC2:upgradeModule",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Much Needed Parts",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Dartron looks particulary excited."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 207,
+          "description": "Speak with Dartron",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 34,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        82
+      ],
+      "questID": 83
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ImmersiveEngineering:metalDevice2",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Dam Power!",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Dartron looks frustrated."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 213,
+          "description": "Speak with Dartron",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 78,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        83
+      ],
+      "questID": 84
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "Railcraft:machine.alpha",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Exploring the Power Plant",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You have come across a large dam that used to supply power to the surrounding area. The first level looks like storage."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 57,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        },
+        {
+          "npcQuestID": 58,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        86
+      ],
+      "questID": 85
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "BiblioCraft:item.BiblioWayPointCompass",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Skaguay Dam",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 86
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ComputerCraft:CC-Computer",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 16384
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Finding the Mainframe",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 33,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        84
+      ],
+      "questID": 87
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:BlockMonitor",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Second Floor",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The second floor of the dam looks like living quarters."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 59,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        },
+        {
+          "npcQuestID": 60,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        85
+      ],
+      "questID": 88
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:BlockMonitor",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Third Floor",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The third floor looks like where the power went out of the dam to the cities."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 61,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        },
+        {
+          "npcQuestID": 62,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        88
+      ],
+      "questID": 89
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:BlockMonitor",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Fifth Floor",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The fifth floor houses all the transformers."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 63,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        },
+        {
+          "npcQuestID": 64,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        89
+      ],
+      "questID": 90
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:BlockMonitor",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Seventh Floor",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The seventh floor is where the water comes in to turn the turbines."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 65,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        },
+        {
+          "npcQuestID": 66,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        90
+      ],
+      "questID": 91
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:BlockMonitor",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Ninth Floor",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 67,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        },
+        {
+          "npcQuestID": 68,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        91
+      ],
+      "questID": 92
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcLetter",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Tenth Floor",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "This floor has refineries and large reservoirs of water."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 69,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        },
+        {
+          "npcQuestID": 70,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcQuestID": 71,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        92
+      ],
+      "questID": 93
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcLetter",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Eleventh Floor",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "This floor has two control rooms looking over the last two floors."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 72,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        93
+      ],
+      "questID": 94
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcLetter",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Twelfth Floor",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "More transformers but this floor has a mainframe computer to control the whole power plant you gather."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 73,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        },
+        {
+          "npcQuestID": 74,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        94
+      ],
+      "questID": 95
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcLetter",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Thirteenth Floor",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        95
+      ],
+      "questID": 96
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "BiblioCraft:item.BiblioWayPointCompass",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Mesa Verde",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Mesa Verde",
+          "posX": 135,
+          "posY": 106,
+          "posZ": 2799,
+          "dimension": 0,
+          "range": 30,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 97
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:sprayCan.item.colt.forest",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Get Out the Raid!",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "As you approach the building, you see it is occupied by Raiders. You will need to get rid of them if you wish to use the equipment inside."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 364,
+          "description": "Speak with Trevor",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 83,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        102
+      ],
+      "questID": 98
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:skull",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "This Place is Still Occupied",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 77,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        87
+      ],
+      "questID": 99
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "EnderIO:itemPowerItemFilter",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Restoring Power",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 79,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        99
+      ],
+      "questID": 100
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ThermalExpansion:material",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Restoring Communication",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Trevor told you the Razors sabatoged the antenna towers and they will need to be fixed before you can use the radio equipment."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 88,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        },
+        {
+          "npcQuestID": 89,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcQuestID": 84,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        },
+        {
+          "npcQuestID": 85,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 3
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        98
+      ],
+      "questID": 101
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "BiblioCraft:item.BiblioWayPointCompass",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Radio Station",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 102
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:ItemRadio",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Contacting Command",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Now that the antenna towers have been repaired it is time to see if you can contact Alpha Base."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 91,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        101
+      ],
+      "questID": 103
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:ItemSupplyDropRadio",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Contacting Regional Base",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You were unable to contact Alpha Base, perhaps you should try and connect with the regional base."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 370,
+          "description": "Use the radio at the station",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 92,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        103,
+        59
+      ],
+      "questID": 104
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ExtraUtilities:divisionSigil",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "damage:3": 256
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "A Raider Problem",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "While travelling the long trail to the Iron Legion, you spot the ancient Pueblo ruins of Mesa Verde. You read about this place during your studies growing up in the bunker. As you look more closely, you see signs of habitation and decide to see if they are friend or foe."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 328,
+          "description": "Speak with Abakus",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 93,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        97
+      ],
+      "questID": 105
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ImmersiveEngineering:storage",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 9
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "A Solution?",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Abakus sent you to help Geo out with her Railgun contraption."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 334,
+          "description": "Speak with Geo",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "name": "Coin Shop",
+          "posX": 1882,
+          "posY": 47,
+          "posZ": 4383,
+          "dimension": 0,
+          "range": 30,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
+          "index": 1
+        },
+        {
+          "npcQuestID": 95,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        105
+      ],
+      "questID": 106
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:ragingbull",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "mgItem:1": 0,
+              "ammo:3": 0,
+              "gripAttach:8": "",
+              "skin:8": "",
+              "blood:3": 0,
+              "mode:3": 0,
+              "chamberAttach:8": "",
+              "sightAttach:8": "",
+              "firing:1": 0,
+              "stockAttach:8": "",
+              "barrelAttach:8": "",
+              "skinEng:8": "",
+              "mud:3": 0,
+              "bolted:1": 0
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Using a Gun",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You have aquired your first gun. First, take the bullets out of the box by right-clicking the box until it disappears. Press R to load the gun and right-click to aim and left-click to shoot.\n\n§4§cWARNING: There is a glitch with the mod when you reload before the ammo is depleted. It erases the ammo already loaded in the gun and then reloads essentially wasting your bullets."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        108
+      ],
+      "questID": 107
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Aquire a Gun",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "deci:ragingbull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "mgItem:1": 0,
+                "ammo:3": 0,
+                "gripAttach:8": "",
+                "skin:8": "",
+                "blood:3": 0,
+                "mode:3": 0,
+                "chamberAttach:8": "",
+                "sightAttach:8": "",
+                "firing:1": 0,
+                "stockAttach:8": "",
+                "barrelAttach:8": "",
+                "skinEng:8": "",
+                "mud:3": 0,
+                "bolted:1": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 108
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Aquire Backpack",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "deci:ItemFannyPack_Green",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 109
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:ItemFannyPack_Green",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {}
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Fanny Pack",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You have aquired a fanny pack. There isn\u0027t much room but it is something. To equip the pack, open your inventory and place it in the top right corner where the backpack icon is. Now three more slots are available to you for storage.\n\nThe backpack will drop upon death or be on your corpse."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        109
+      ],
+      "questID": 110
     }
   ],
   "questLines": [
@@ -3296,46 +5070,46 @@
       "properties": {
         "betterquesting": {
           "name": "Bunker 719",
-          "bg_image": "",
+          "bg_image": "fallcraft:gui\\\\background6.png",
           "bg_size": 256,
           "desc": "In 2077, a nuclear war broke out world wide and most US citizens were taken by surprise. Years before the war, a visionist began a project to train specialized groups to rebuild civilization in the event of war. Through the use of cryogenics, the teams were stored away in bunkers in key places around the country, waiting out the worst of the fallout."
         }
       },
       "quests": [
         {
-          "size": 24,
-          "x": -78,
-          "y": 12,
+          "size": 18,
+          "x": 66,
+          "y": 66,
           "id": 0
         },
         {
-          "size": 24,
-          "x": -6,
-          "y": 12,
+          "size": 18,
+          "x": 126,
+          "y": 66,
           "id": 17
         },
         {
-          "size": 24,
-          "x": 30,
-          "y": 48,
+          "size": 18,
+          "x": 186,
+          "y": 66,
           "id": 18
         },
         {
-          "size": 24,
-          "x": -42,
-          "y": 12,
+          "size": 18,
+          "x": 96,
+          "y": 66,
           "id": 9
         },
         {
-          "size": 24,
-          "x": 30,
-          "y": 12,
+          "size": 18,
+          "x": 156,
+          "y": 66,
           "id": 10
         },
         {
           "size": 24,
-          "x": 66,
-          "y": 12,
+          "x": 132,
+          "y": 108,
           "id": 14
         }
       ],
@@ -3346,7 +5120,7 @@
       "properties": {
         "betterquesting": {
           "name": "Pleasant Valley",
-          "bg_image": "",
+          "bg_image": "fallcraft:gui/background.png",
           "bg_size": 256,
           "desc": "Pleasant Valley, a quaint, little all-American town. As you look around, you wonder if they have what you are looking for."
         }
@@ -3354,73 +5128,73 @@
       "quests": [
         {
           "size": 24,
-          "x": -60,
-          "y": 12,
+          "x": 156,
+          "y": 60,
           "id": 16
         },
         {
           "size": 24,
-          "x": -96,
-          "y": 60,
+          "x": 84,
+          "y": 108,
           "id": 21
         },
         {
           "size": 24,
-          "x": -60,
-          "y": 60,
+          "x": 120,
+          "y": 108,
           "id": 22
         },
         {
           "size": 24,
-          "x": -24,
-          "y": 60,
+          "x": 156,
+          "y": 108,
           "id": 23
         },
         {
           "size": 24,
-          "x": -96,
-          "y": 36,
+          "x": 84,
+          "y": 84,
           "id": 24
         },
         {
           "size": 24,
-          "x": -60,
-          "y": 36,
+          "x": 120,
+          "y": 84,
           "id": 25
         },
         {
           "size": 24,
-          "x": -24,
-          "y": 36,
+          "x": 156,
+          "y": 84,
           "id": 26
         },
         {
           "size": 24,
-          "x": -156,
-          "y": 12,
+          "x": 48,
+          "y": 60,
           "id": 12
         },
         {
           "size": 24,
-          "x": -132,
-          "y": 12,
+          "x": 84,
+          "y": 60,
           "id": 13
         },
         {
           "size": 24,
-          "x": -96,
-          "y": 12,
+          "x": 120,
+          "y": 60,
           "id": 15
         }
       ],
       "lineID": 1,
-      "order": 2
+      "order": 3
     },
     {
       "properties": {
         "betterquesting": {
           "name": "Cozyton",
-          "bg_image": "",
+          "bg_image": "fallcraft:gui/background.png",
           "bg_size": 256,
           "desc": "You come across a small campground. You notice the glow of a fire. The camp has no protective walls or defenses that you can see."
         }
@@ -3428,67 +5202,61 @@
       "quests": [
         {
           "size": 24,
-          "x": -120,
-          "y": 66,
+          "x": 48,
+          "y": 24,
           "id": 48
         },
         {
           "size": 24,
-          "x": -84,
-          "y": 0,
+          "x": 48,
+          "y": 96,
           "id": 1
         },
         {
           "size": 24,
-          "x": -48,
-          "y": 0,
+          "x": 84,
+          "y": 60,
           "id": 2
         },
         {
           "size": 24,
-          "x": -84,
-          "y": 30,
+          "x": 84,
+          "y": 96,
           "id": 3
         },
         {
           "size": 24,
-          "x": -48,
-          "y": 30,
+          "x": 120,
+          "y": 96,
           "id": 4
         },
         {
           "size": 24,
-          "x": -120,
-          "y": 0,
+          "x": 24,
+          "y": 96,
           "id": 5
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 258,
-          "id": 11
-        },
-        {
-          "size": 24,
-          "x": -48,
-          "y": -24,
+          "x": 84,
+          "y": 120,
           "id": 28
         },
         {
           "size": 24,
-          "x": -84,
-          "y": 66,
+          "x": 48,
+          "y": 60,
           "id": 47
         }
       ],
       "lineID": 2,
-      "order": 3
+      "order": 6
     },
     {
       "properties": {
         "betterquesting": {
           "name": "Iron Legion",
-          "bg_image": "",
+          "bg_image": "fallcraft:gui/background.png",
           "bg_size": 256,
           "desc": "Throughout your travels you have heard many stories of the mighty Iron Legion. You have decided to find their base and see if you can join their ranks or at least form an alliance. You feel with the armour and firepower they control it would give you a much better advantage in surviving the wasteland."
         }
@@ -3496,73 +5264,79 @@
       "quests": [
         {
           "size": 24,
-          "x": -102,
-          "y": 36,
+          "x": 54,
+          "y": 96,
           "id": 65
         },
         {
           "size": 24,
-          "x": -66,
-          "y": 36,
+          "x": 90,
+          "y": 96,
           "id": 66
         },
         {
           "size": 24,
-          "x": -114,
-          "y": 0,
+          "x": 54,
+          "y": 60,
           "id": 19
         },
         {
           "size": 24,
-          "x": -30,
-          "y": 36,
+          "x": 126,
+          "y": 96,
           "id": 67
         },
         {
           "size": 24,
-          "x": -138,
-          "y": 36,
+          "x": 30,
+          "y": 96,
           "id": 20
         },
         {
           "size": 24,
-          "x": 6,
-          "y": 36,
+          "x": 162,
+          "y": 96,
           "id": 68
         },
         {
           "size": 24,
-          "x": -102,
-          "y": 72,
+          "x": 90,
+          "y": 126,
           "id": 69
         },
         {
           "size": 24,
-          "x": -66,
-          "y": 72,
+          "x": 126,
+          "y": 126,
           "id": 70
         },
         {
           "size": 24,
-          "x": -30,
-          "y": 72,
+          "x": 162,
+          "y": 126,
           "id": 71
         },
         {
           "size": 24,
-          "x": -138,
-          "y": 0,
+          "x": 54,
+          "y": 24,
           "id": 42
+        },
+        {
+          "size": 24,
+          "x": 90,
+          "y": 60,
+          "id": 74
         }
       ],
       "lineID": 3,
-      "order": 7
+      "order": 10
     },
     {
       "properties": {
         "betterquesting": {
           "name": "Riverside",
-          "bg_image": "",
+          "bg_image": "fallcraft:gui/background.png",
           "bg_size": 256,
           "desc": "No Description"
         }
@@ -3570,49 +5344,55 @@
       "quests": [
         {
           "size": 24,
-          "x": -84,
-          "y": 36,
+          "x": 54,
+          "y": 96,
           "id": 6
         },
         {
           "size": 24,
-          "x": -48,
-          "y": 36,
+          "x": 90,
+          "y": 96,
           "id": 7
         },
         {
           "size": 24,
-          "x": -12,
-          "y": 36,
+          "x": 126,
+          "y": 96,
           "id": 8
         },
         {
           "size": 24,
-          "x": -120,
-          "y": 36,
+          "x": 30,
+          "y": 96,
           "id": 27
         },
         {
           "size": 24,
-          "x": -144,
-          "y": 0,
+          "x": 90,
+          "y": 60,
+          "id": 75
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 24,
           "id": 45
         },
         {
           "size": 24,
-          "x": -120,
-          "y": 0,
+          "x": 54,
+          "y": 60,
           "id": 46
         }
       ],
       "lineID": 4,
-      "order": 4
+      "order": 5
     },
     {
       "properties": {
         "betterquesting": {
           "name": "Littleton",
-          "bg_image": "",
+          "bg_image": "fallcraft:gui/background.png",
           "bg_size": 256,
           "desc": "You come across what’s left of a small town convinced that it is abandoned. As you look around the town, there are no signs of life at all, human or animal."
         }
@@ -3620,79 +5400,79 @@
       "quests": [
         {
           "size": 24,
-          "x": -126,
-          "y": 54,
+          "x": 126,
+          "y": 108,
           "id": 34
         },
         {
           "size": 24,
-          "x": -90,
-          "y": 54,
+          "x": 90,
+          "y": 108,
           "id": 35
         },
         {
           "size": 24,
-          "x": -54,
-          "y": 54,
+          "x": 54,
+          "y": 108,
           "id": 36
         },
         {
           "size": 24,
-          "x": -54,
-          "y": 18,
+          "x": 126,
+          "y": 60,
           "id": 37
         },
         {
           "size": 24,
-          "x": -126,
-          "y": 78,
+          "x": 126,
+          "y": 84,
           "id": 38
         },
         {
           "size": 24,
-          "x": -90,
-          "y": 78,
+          "x": 90,
+          "y": 84,
           "id": 39
         },
         {
           "size": 24,
-          "x": -54,
-          "y": 78,
+          "x": 54,
+          "y": 84,
           "id": 40
         },
         {
           "size": 24,
-          "x": -30,
-          "y": 18,
+          "x": 72,
+          "y": 36,
           "id": 41
         },
         {
           "size": 24,
-          "x": -150,
-          "y": 18,
+          "x": 30,
+          "y": 60,
           "id": 29
         },
         {
           "size": 24,
-          "x": -126,
-          "y": 18,
+          "x": 54,
+          "y": 60,
           "id": 30
         },
         {
           "size": 24,
-          "x": -90,
-          "y": 18,
+          "x": 90,
+          "y": 60,
           "id": 31
         }
       ],
       "lineID": 5,
-      "order": 8
+      "order": 12
     },
     {
       "properties": {
         "betterquesting": {
           "name": "Miner\u0027s Den",
-          "bg_image": "",
+          "bg_image": "fallcraft:gui/background.png",
           "bg_size": 256,
           "desc": "You come across a shanty town built next to a mining cave in a mountain. It looks like one of those wild west gold rush towns you read about in books."
         }
@@ -3700,202 +5480,488 @@
       "quests": [
         {
           "size": 24,
-          "x": -150,
-          "y": 36,
+          "x": 30,
+          "y": 96,
           "id": 55
         },
         {
           "size": 24,
-          "x": -114,
-          "y": 36,
+          "x": 54,
+          "y": 96,
           "id": 56
         },
         {
           "size": 24,
-          "x": -114,
-          "y": 72,
+          "x": 90,
+          "y": 60,
           "id": 57
         },
         {
           "size": 24,
-          "x": -150,
-          "y": 72,
+          "x": 90,
+          "y": 120,
           "id": 58
         },
         {
           "size": 24,
-          "x": -150,
-          "y": 0,
+          "x": 54,
+          "y": 24,
           "id": 43
         },
         {
           "size": 24,
-          "x": -78,
-          "y": 36,
+          "x": 90,
+          "y": 96,
           "id": 59
         },
         {
           "size": 24,
-          "x": -114,
-          "y": 0,
+          "x": 54,
+          "y": 60,
           "id": 44
         },
         {
           "size": 24,
-          "x": -42,
-          "y": 36,
+          "x": 126,
+          "y": 96,
           "id": 60
         }
       ],
       "lineID": 6,
-      "order": 9
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "name": "Chenne Reservation",
-          "bg_image": "",
-          "bg_size": 256,
-          "desc": "No Description"
-        }
-      },
-      "quests": [
-        {
-          "size": 24,
-          "x": -150,
-          "y": 0,
-          "id": 32
-        },
-        {
-          "size": 24,
-          "x": -174,
-          "y": 0,
-          "id": 33
-        }
-      ],
-      "lineID": 7,
-      "order": 10
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "name": "Observatory",
-          "bg_image": "",
-          "bg_size": 256,
-          "desc": "No Description"
-        }
-      },
-      "quests": [],
-      "lineID": 8,
-      "order": 5
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "name": "Norad",
-          "bg_image": "",
-          "bg_size": 256,
-          "desc": "No Description"
-        }
-      },
-      "quests": [
-        {
-          "size": 24,
-          "x": -132,
-          "y": 0,
-          "id": 64
-        },
-        {
-          "size": 24,
-          "x": -120,
-          "y": 36,
-          "id": 72
-        },
-        {
-          "size": 24,
-          "x": -156,
-          "y": 0,
-          "id": 62
-        },
-        {
-          "size": 24,
-          "x": -156,
-          "y": 36,
-          "id": 63
-        }
-      ],
-      "lineID": 9,
-      "order": 6
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "name": "Colorado Springs",
-          "bg_image": "",
-          "bg_size": 256,
-          "desc": "Even the air carried with it an impure evil during the days of darkness. There were those scientists who remained in their bunkers with their families until the evil had done its work and left the land, then they returned to the surface aiming to rebuild an utopian society. Anyone touched by the evil rays was beyond salvation. The descendants of the “progenitor” Breeders now hunt throughout the country for pure, uncontaminated human stock. When found, they return these “subjects” to their camps for induction into their breeding program."
-        }
-      },
-      "quests": [
-        {
-          "size": 24,
-          "x": -162,
-          "y": 0,
-          "id": 53
-        },
-        {
-          "size": 24,
-          "x": -138,
-          "y": 0,
-          "id": 54
-        }
-      ],
-      "lineID": 10,
       "order": 11
     },
     {
       "properties": {
         "betterquesting": {
-          "name": "El Paso Wastes",
-          "bg_image": "",
+          "name": "Chenne Reservation",
+          "bg_image": "fallcraft:gui/background.png",
           "bg_size": 256,
-          "desc": "The former El Paso county of Colorado has become a desolate wasteland after the war."
+          "desc": "No Description"
         }
       },
       "quests": [
         {
           "size": 24,
-          "x": -138,
-          "y": 0,
+          "x": 54,
+          "y": 60,
+          "id": 32
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 24,
+          "id": 33
+        }
+      ],
+      "lineID": 7,
+      "order": 13
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Observatory",
+          "bg_image": "fallcraft:gui/background.png",
+          "bg_size": 256,
+          "desc": "Super Mutants are a race of beings that descended from humans. After the war some humans experienced a massive DNA change from the radiation, giving them gigantic, natural strength, but very low IQ’s. After their mutations, they went into the mountains into hiding, to avoid being hunted by other humans."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 6,
+          "y": 96,
+          "id": 80
+        },
+        {
+          "size": 24,
+          "x": 48,
+          "y": 96,
+          "id": 81
+        },
+        {
+          "size": 24,
+          "x": 84,
+          "y": 96,
+          "id": 82
+        },
+        {
+          "size": 24,
+          "x": 120,
+          "y": 96,
+          "id": 83
+        },
+        {
+          "size": 24,
+          "x": 156,
+          "y": 96,
+          "id": 84
+        },
+        {
+          "size": 24,
+          "x": 48,
+          "y": 24,
+          "id": 78
+        },
+        {
+          "size": 24,
+          "x": 48,
+          "y": 60,
+          "id": 79
+        }
+      ],
+      "lineID": 8,
+      "order": 7
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Norad",
+          "bg_image": "fallcraft:gui/background.png",
+          "bg_size": 256,
+          "desc": "No Description"
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 54,
+          "y": 54,
+          "id": 64
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 90,
+          "id": 72
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 24,
+          "id": 62
+        },
+        {
+          "size": 24,
+          "x": 30,
+          "y": 90,
+          "id": 63
+        }
+      ],
+      "lineID": 9,
+      "order": 4
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Colorado Springs",
+          "bg_image": "fallcraft:gui/background.png",
+          "bg_size": 256,
+          "desc": "Even the air carried with it an impure evil during the days of darkness. There were those scientists who remained in their bunkers with their families until the evil had done its work and left the land, then they returned to the surface aiming to rebuild an utopian society."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 54,
+          "y": 24,
+          "id": 53
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 60,
+          "id": 54
+        }
+      ],
+      "lineID": 10,
+      "order": 14
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "The Wastes",
+          "bg_image": "fallcraft:gui\\\\background6.png",
+          "bg_size": 256,
+          "desc": "Southern Colorado has become a desolate wasteland after the war. Few buildings remain standing."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 48,
+          "y": 54,
           "id": 49
         },
         {
-          "size": 24,
-          "x": -114,
-          "y": 0,
+          "size": 18,
+          "x": 78,
+          "y": 54,
           "id": 50
         },
         {
-          "size": 24,
-          "x": -138,
-          "y": 36,
+          "size": 18,
+          "x": 78,
+          "y": 120,
+          "id": 98
+        },
+        {
+          "size": 18,
+          "x": 54,
+          "y": 90,
           "id": 51
         },
         {
-          "size": 24,
-          "x": -114,
-          "y": 36,
+          "size": 18,
+          "x": 78,
+          "y": 90,
           "id": 52
         },
         {
-          "size": 24,
-          "x": -78,
-          "y": 0,
+          "size": 18,
+          "x": 108,
+          "y": 120,
+          "id": 101
+        },
+        {
+          "size": 18,
+          "x": 54,
+          "y": 120,
+          "id": 102
+        },
+        {
+          "size": 18,
+          "x": 138,
+          "y": 120,
+          "id": 103
+        },
+        {
+          "size": 18,
+          "x": 168,
+          "y": 120,
+          "id": 104
+        },
+        {
+          "size": 18,
+          "x": 168,
+          "y": 54,
+          "id": 76
+        },
+        {
+          "size": 18,
+          "x": 108,
+          "y": 54,
           "id": 61
+        },
+        {
+          "size": 18,
+          "x": 144,
+          "y": 54,
+          "id": 77
         }
       ],
       "lineID": 11,
       "order": 1
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Bobblehead Collector",
+          "bg_image": "fallcraft:gui\\\\bobbleshelf.png",
+          "bg_size": 256,
+          "desc": "They\u0027re not dolls, they\u0027re action figures!"
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 108,
+          "y": -12,
+          "id": 73
+        }
+      ],
+      "lineID": 12,
+      "order": 15
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Magazine Collector",
+          "bg_image": "fallcraft:gui/bookcase.png",
+          "bg_size": 256,
+          "desc": "Who said print was dead?"
+        }
+      },
+      "quests": [],
+      "lineID": 13,
+      "order": 16
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Mesa Verde",
+          "bg_image": "fallcraft:gui/background.png",
+          "bg_size": 256,
+          "desc": "Hidden away in the shadows of a large cliff near the top of a mesa is the village of Mesa Verde. The tribe there is unusual becasue they\u0027re skilled in mathematics and electronics. In the weeks following the war, a group of scientists and soldiers based at the atomic lab at Los Alamos, New Mexico, wandered north and settled here."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 48,
+          "y": 24,
+          "id": 97
+        },
+        {
+          "size": 24,
+          "x": 48,
+          "y": 60,
+          "id": 105
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 60,
+          "id": 106
+        }
+      ],
+      "lineID": 14,
+      "order": 9
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Skaguay Dam",
+          "bg_image": "fallcraft:gui/background.png",
+          "bg_size": 256,
+          "desc": "\"The miracle of the Skaguay Power Plant,\" wrote Winfred Ward Clark in a short history of the project, \"is that it was built in the first place.\""
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 48,
+          "y": 120,
+          "id": 96
+        },
+        {
+          "size": 24,
+          "x": 84,
+          "y": 60,
+          "id": 99
+        },
+        {
+          "size": 24,
+          "x": 120,
+          "y": 60,
+          "id": 100
+        },
+        {
+          "size": 24,
+          "x": 48,
+          "y": 90,
+          "id": 85
+        },
+        {
+          "size": 24,
+          "x": 18,
+          "y": 90,
+          "id": 86
+        },
+        {
+          "size": 24,
+          "x": 48,
+          "y": 60,
+          "id": 87
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 90,
+          "id": 88
+        },
+        {
+          "size": 24,
+          "x": 108,
+          "y": 90,
+          "id": 89
+        },
+        {
+          "size": 24,
+          "x": 138,
+          "y": 90,
+          "id": 90
+        },
+        {
+          "size": 24,
+          "x": 168,
+          "y": 90,
+          "id": 91
+        },
+        {
+          "size": 24,
+          "x": 168,
+          "y": 120,
+          "id": 92
+        },
+        {
+          "size": 24,
+          "x": 138,
+          "y": 120,
+          "id": 93
+        },
+        {
+          "size": 24,
+          "x": 108,
+          "y": 120,
+          "id": 94
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 120,
+          "id": 95
+        }
+      ],
+      "lineID": 15,
+      "order": 8
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Data",
+          "bg_image": "fallcraft:gui/background6.png",
+          "bg_size": 256,
+          "desc": "This is a description of certain items you may come across in the Wastes."
+        }
+      },
+      "quests": [
+        {
+          "size": 18,
+          "x": 72,
+          "y": 66,
+          "id": 107
+        },
+        {
+          "size": 18,
+          "x": 72,
+          "y": 42,
+          "id": 108
+        },
+        {
+          "size": 18,
+          "x": 72,
+          "y": 120,
+          "id": 109
+        },
+        {
+          "size": 18,
+          "x": 72,
+          "y": 102,
+          "id": 110
+        }
+      ],
+      "lineID": 16,
+      "order": 2
     }
   ],
   "format": "1.0.0"
