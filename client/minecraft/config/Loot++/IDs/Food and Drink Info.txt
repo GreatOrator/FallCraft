@@ -530,6 +530,316 @@ arcticmobs:yetimeatraw
 	- Saturation Amount: 0.5
 
 
+deci:ItemBarChocolate
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemBarEnergyApple
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemBarEnergyBlueberry
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemBirdMeat
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.2
+
+
+deci:ItemBoarMeat
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+deci:ItemBottledBerryade
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+deci:ItemBottledCherryade
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+deci:ItemBottledCoke
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+deci:ItemBottledIrnbru
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+deci:ItemBottledLemonade
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+deci:ItemBottledLimeade
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+deci:ItemBottledWater
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+deci:ItemBottledWhiskey
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+deci:ItemCandyCorn
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCannedAppleGreen
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCannedAppleRed
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCannedApplesauce
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCannedBlackberry
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCannedBlueberry
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCannedCarrot
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCannedChocolatePowder
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCannedCustard
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCannedGrape
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCannedKebab
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCannedLemon
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCannedLime
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCannedMacncheese
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCannedMushroom
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCannedPeach
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCannedPear
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCannedSweetcorn
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCannedTuna
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCookedBirdMeat
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.6
+
+
+deci:ItemCookedBoarMeat
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+deci:ItemCookedDeerMeat
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+deci:ItemCrispsBBQ
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCrispsCoolranch
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemCrispsNachocheese
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemDeerMeat
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+deci:ItemDrinkCanEnergy
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+deci:ItemDrinkCanEnergyBlueberry
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+deci:ItemDrinkCanEnergyCitrus
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+deci:ItemDrinkCanWater
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+deci:ItemInfectedFlesh
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 0.4
+
+
+deci:ItemMarshmallows
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
+deci:ItemReeses
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 4.0
+
+
 demonmobs:devillasagna
 	- Megadata: 0
 	- Food or Drink? Food

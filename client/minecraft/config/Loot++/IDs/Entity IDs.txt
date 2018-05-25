@@ -126,10 +126,13 @@ BiomesOPlenty.Rosester
 BiomesOPlenty.Wasp
 BiomesOPlenty.dart
 BiomesOPlenty.mudball
+Bird
 Blaze
 Blitz
 Blizz
+Boar
 Boat
+Buck
 BuildCraft|Robotics.bcRobot
 BuildCraft|Silicon.bcPackageThrowable
 CarpentersBlocks.CarpentersTile
@@ -138,6 +141,7 @@ Chicken
 Cow
 Creeper
 CustomNpc
+Doggo
 DraconicEvolution.Arrow
 DraconicEvolution.ChaosBolt
 DraconicEvolution.ChaosCrystal
@@ -161,17 +165,12 @@ Fireball
 FireworksRocketEntity
 Flag
 Flagpole
+Frail
 Ghast
 Giant
-GraveStone.GSSkeletonCat
-GraveStone.GSSkeletonDog
-GraveStone.GSSkullCrawler
-GraveStone.GSWitherSkullCrawler
-GraveStone.GSZombieCat
-GraveStone.GSZombieDog
-GraveStone.GSZombieSkullCrawler
 Grenade
 GunItem
+Hulk
 IC2.BoatCarbon
 IC2.BoatElectric
 IC2.BoatRubber
@@ -188,6 +187,9 @@ ImmersiveEngineering.revolverShotHoming
 ImmersiveEngineering.revolverShotWolfpack
 ImmersiveEngineering.skylineCrate
 ImmersiveEngineering.skylineHook
+Infected
+InfectedCrawler
+InfectedDog
 Item
 ItemFrame
 LavaSlime
@@ -312,6 +314,7 @@ Slime
 SmallFireball
 SnowMan
 Snowball
+Soldier
 Spider
 Squid
 TConstruct.Arrow
@@ -336,6 +339,20 @@ ThermalFoundation.blizzBolt
 ThrownEnderpearl
 ThrownExpBottle
 ThrownPotion
+TraderAmmunition
+TraderArmor
+TraderBackpack
+TraderBanker
+TraderBlackMarket
+TraderCarDealer
+TraderConvenience
+TraderDrugDealer
+TraderFood
+TraderFortification
+TraderGuns
+TraderHeavyGuns
+TraderMedical
+TraderSkins
 Vehicle
 Villager
 VillagerGolem
@@ -390,6 +407,23 @@ customnpcs.npcvillager
 customnpcs.npczombiefemale
 customnpcs.npczombiemale
 customnpcs.throwableitem
+deci.ATV
+deci.BarbedWire
+deci.Buggy
+deci.CampFire
+deci.DeciCrossbowBolt
+deci.DeciRocket
+deci.FallingSupplyDrop
+deci.Grenade
+deci.Hummer
+deci.Landmine
+deci.PropellerTrap
+deci.PunjiSticks
+deci.SmokeGrenade
+deci.StunGrenade
+deci.TearGasGrenade
+deci.Turret
+deci.VehicleSeat
 demonmobs.astaroth
 demonmobs.behemoth
 demonmobs.belph
@@ -516,9 +550,6 @@ swampmobs.poisonrayend
 swampmobs.remobra
 swampmobs.venomshot
 ## Spawn Egg IDs: in the form <number id> - <entity string id (which it spawns)> ##
-34 - Blizz
-35 - Blitz
-36 - Basalz
 50 - Creeper
 51 - Skeleton
 52 - Spider
@@ -533,6 +564,9 @@ swampmobs.venomshot
 62 - LavaSlime
 65 - Bat
 66 - Witch
+85 - Blizz
+86 - Blitz
+87 - Basalz
 90 - Pig
 91 - Sheep
 92 - Cow
