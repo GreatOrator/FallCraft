@@ -90,15 +90,23 @@ key_Boost Key:29
 key_Mode Switch Key:0
 key_Side Inventory Key:72
 key_Hub Expand Key:45
-key_Draw Weapons:19
-key_Special:0
-key_key.personalBackpack:48
 key_key.betterquesting.quests:41
-key_Quest Log:38
-key_doggytalents.key.come:200
-key_doggytalents.key.stay:208
-key_doggytalents.key.ok:203
-key_doggytalents.key.heel:205
+key_Quest Log:74
+key_key.decimation.whistle.desc:33
+key_key.decimation.gui.cancelgui:24
+key_key.decimation.gui.ingamestats:34
+key_key.decimation.gui.ingamestats:34
+key_key.decimation.gui.crouch:46
+key_key.decimation.gui.prone:44
+key_key.decimation.gui.firemode:45
+key_key.decimation.gui.reload:19
+key_key.decimation.gui.gesture.surrender:26
+key_key.decimation.gui.gesture.wave:27
+key_key.decimation.gui.gesture.clap:39
+key_key.decimation.gui.gesture.dab:41
+key_key.decimation.gui.attach:23
+key_key.decimation.gui.craft:22
+key_key.decimation.gui.viewProfile:48
 key_key.binder:0
 key_Down key:0
 key_Inventory key:71
@@ -116,7 +124,21 @@ key_Mode Switch Key:0
 key_Debug Key:68
 key_Reload Models Key:66
 key_Lore Journal:39
+key_Mount Ability:33
+key_Mount Inventory:0
+key_Lycanites Mobs Main Menu:34
+key_Beastiary:0
+key_Pet Manager:0
+key_Mount Manager:0
+key_Familiar Manager:0
+key_Minion Manager:0
+key_Minion Selection:19
+key_openblocks.keybind.vario_switch:47
+key_openblocks.keybind.vario_vol_up:0
+key_openblocks.keybind.vario_vol_down:0
 key_Baubles Inventory:0
+key_Speak:47
+key_Gliby's Options Menu:52
 key_key.placeItem:25
 key_key.toolConfig:83
 key_key.toolProfileChange:0
@@ -140,6 +162,7 @@ key_key.tarmor:24
 key_key.tgoggles:35
 key_key.tbelt:21
 key_key.tzoom:44
+key_WorldEdit Reference:38
 key_key.cofh.empower:47
 key_key.cofh.multimode:0
 key_railcraft.keybind.loco.faster:201
@@ -155,12 +178,12 @@ key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_preset:40
 key_key.journeymap.create_waypoint:43
-soundCategory_master:0.5
-soundCategory_music:0.35
-soundCategory_record:0.35
-soundCategory_weather:0.25
-soundCategory_block:0.35
-soundCategory_hostile:0.25
-soundCategory_neutral:0.25
-soundCategory_player:0.35
-soundCategory_ambient:0.35
+soundCategory_master:0.5066225
+soundCategory_music:1.0
+soundCategory_record:1.0
+soundCategory_weather:1.0
+soundCategory_block:1.0
+soundCategory_hostile:1.0
+soundCategory_neutral:1.0
+soundCategory_player:1.0
+soundCategory_ambient:1.0
