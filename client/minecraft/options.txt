@@ -15,7 +15,7 @@ difficulty:0
 fancyGraphics:true
 ao:2
 clouds:false
-resourcePacks:[]
+resourcePacks:["DeciResourcePack.zip"]
 lastServer:dev2.tolkiencraft.com
 lang:en_US
 chatVisibility:0
