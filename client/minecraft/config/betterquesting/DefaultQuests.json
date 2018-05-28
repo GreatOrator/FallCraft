@@ -473,27 +473,27 @@
     {
       "properties": {
         "betterquesting": {
-          "name": "Back to Riverside",
-          "desc": "Unfortunately, Lynne and her group would not listen to reason. Now you need to tell HuskyMudkipz and the town of Riverside the bad news.",
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
           "icon": {
             "id": "minecraft:fishing_rod",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
           },
-          "snd_complete": "random.levelup",
           "snd_update": "random.levelup",
-          "questLogic": "AND",
-          "taskLogic": "AND",
           "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Back to Riverside",
+          "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "isMain": false,
-          "partySingleReward": false,
-          "globalShare": true,
-          "simultaneous": false,
-          "isGlobal": false
+          "desc": "Unfortunately, Lynne and her group would not listen to reason. Now you need to tell HuskyMudkipz and the town of Riverside the bad news."
         }
       },
       "tasks": [
@@ -613,27 +613,27 @@
     {
       "properties": {
         "betterquesting": {
-          "name": "New Quest",
-          "desc": "No Description",
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
           "icon": {
             "id": "minecraft:nether_star",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
           },
-          "snd_complete": "random.levelup",
           "snd_update": "random.levelup",
-          "questLogic": "AND",
-          "taskLogic": "AND",
           "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "isMain": false,
-          "partySingleReward": false,
-          "globalShare": true,
-          "simultaneous": false,
-          "isGlobal": false
+          "desc": "No Description"
         }
       },
       "tasks": [

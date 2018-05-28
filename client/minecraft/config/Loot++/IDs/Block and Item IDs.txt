@@ -1268,6 +1268,7 @@ OpenBlocks:generic - 5438
 OpenBlocks:genericUnstackable - 5458
 OpenBlocks:goldenEye - 5457
 OpenBlocks:goldenegg - 1262
+OpenBlocks:grave - 1795
 OpenBlocks:guide - 1227
 OpenBlocks:hangglider - 5437
 OpenBlocks:heal - 1229
