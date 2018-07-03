@@ -346,7 +346,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        12
+        120
       ],
       "questID": 5
     },
@@ -473,27 +473,27 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "random.levelup",
-          "taskLogic": "AND",
-          "partySingleReward": false,
-          "isMain": false,
-          "simultaneous": false,
+          "name": "Back to Riverside",
+          "desc": "Unfortunately, Lynne and her group would not listen to reason. Now you need to tell HuskyMudkipz and the town of Riverside the bad news.",
           "icon": {
             "id": "minecraft:fishing_rod",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
           },
+          "snd_complete": "random.levelup",
           "snd_update": "random.levelup",
-          "repeatTime": -1,
-          "globalShare": true,
           "questLogic": "AND",
-          "name": "Back to Riverside",
-          "isGlobal": "false",
+          "taskLogic": "AND",
+          "repeatTime": -1,
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Unfortunately, Lynne and her group would not listen to reason. Now you need to tell HuskyMudkipz and the town of Riverside the bad news."
+          "isMain": false,
+          "partySingleReward": false,
+          "globalShare": true,
+          "simultaneous": false,
+          "isGlobal": false
         }
       },
       "tasks": [
@@ -613,27 +613,27 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "random.levelup",
-          "taskLogic": "AND",
-          "partySingleReward": false,
-          "isMain": false,
-          "simultaneous": false,
+          "name": "New Quest",
+          "desc": "No Description",
           "icon": {
             "id": "minecraft:nether_star",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
           },
+          "snd_complete": "random.levelup",
           "snd_update": "random.levelup",
-          "repeatTime": -1,
-          "globalShare": true,
           "questLogic": "AND",
-          "name": "New Quest",
-          "isGlobal": "false",
+          "taskLogic": "AND",
+          "repeatTime": -1,
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "isMain": false,
+          "partySingleReward": false,
+          "globalShare": true,
+          "simultaneous": false,
+          "isGlobal": false
         }
       },
       "tasks": [
@@ -709,7 +709,7 @@
           "dimension": 0,
           "range": 10,
           "visible": false,
-          "hideInfo": false,
+          "hideInfo": true,
           "taskID": "bq_standard:location",
           "index": 1
         }
@@ -1140,7 +1140,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        12
+        126
       ],
       "questID": 20
     },
@@ -1420,7 +1420,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        12
+        119
       ],
       "questID": 27
     },
@@ -1506,7 +1506,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        12
+        124
       ],
       "questID": 29
     },
@@ -1696,7 +1696,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        12
+        29
       ],
       "questID": 33
     },
@@ -2073,7 +2073,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "deci:BlockWallflag",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -2082,7 +2082,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Davis Project Location",
+          "name": "Project Team Location",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -2158,7 +2158,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "deci:BlockWallflag",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -2167,7 +2167,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Davis Project Location",
+          "name": "Project Team Location",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -2297,7 +2297,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Cozyton Rumor",
+          "name": "Rumors in Pleasant Valley",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -2337,7 +2337,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Junkyard",
+          "name": "Locate Junkyard",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -2373,10 +2373,10 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "props:props",
+            "id": "ExtraUtilities:generator",
             "Count": 1,
             "OreDict": "",
-            "Damage": 697
+            "Damage": 0
           },
           "snd_update": "random.levelup",
           "repeatTime": -1,
@@ -2400,6 +2400,23 @@
           "npcQuestID": 30,
           "taskID": "bq_npc_integration:npc_quest",
           "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:cooked_beef",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
         }
       ],
       "rewards": [],
@@ -2427,7 +2444,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Raiders Rumor",
+          "name": "Rumors in Pleasant Valley",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -2503,7 +2520,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "deci:BlockWallflag",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -2512,7 +2529,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Project Davis Location",
+          "name": "Project Team Location",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -2612,7 +2629,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        12
+        126
       ],
       "questID": 55
     },
@@ -2847,17 +2864,10 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "props:props",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0,
-            "tag": {
-              "orig_meta:3": 0,
-              "orig_tag:10": {
-                "GraveType:1": 49
-              },
-              "orig_id:8": "GraveStone:GSGraveStone"
-            }
+            "Damage": 697
           },
           "snd_update": "random.levelup",
           "repeatTime": -1,
@@ -2901,7 +2911,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Norad Rumors",
+          "name": "Merchant Rumors",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -2918,7 +2928,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        12
+        119
       ],
       "questID": 62
     },
@@ -2964,7 +2974,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        12
+        119
       ],
       "questID": 63
     },
@@ -3625,7 +3635,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Rumors of Mutants",
+          "name": "Cozyton Rumor ",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -3642,7 +3652,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        12
+        5
       ],
       "questID": 78
     },
@@ -3673,7 +3683,15 @@
       },
       "tasks": [
         {
-          "taskID": "bq_standard:checkbox",
+          "name": "Observatory",
+          "posX": 3124,
+          "posY": 143,
+          "posZ": 2577,
+          "dimension": 0,
+          "range": 30,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
           "index": 0
         }
       ],
@@ -3725,7 +3743,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        12
+        120
       ],
       "questID": 80
     },
@@ -3997,7 +4015,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        12
+        121
       ],
       "questID": 86
     },
@@ -4458,7 +4476,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        12
+        125
       ],
       "questID": 97
     },
@@ -4677,7 +4695,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        12
+        121
       ],
       "questID": 102
     },
@@ -5058,7 +5076,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "You have aquired a fanny pack. There isn\u0027t much room but it is something. To equip the pack, open your inventory and place it in the top right corner where the backpack icon is. Now three more slots are available to you for storage.\n\nThe backpack will drop upon death or be on your corpse."
+          "desc": "You have aquired a fanny pack. There isn\u0027t much room but it is something. To equip the pack, open your inventory and place it in the top right corner where the backpack icon is. Now three more slots are available to you for storage.\n\nThe backpack will be on your corpse if you die. DO NOT log off before looting your corpse as it will disappear."
         }
       },
       "tasks": [
@@ -5072,6 +5090,2443 @@
         109
       ],
       "questID": 110
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "AncientWarfare:backpack",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Returning Stolen Items",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Head back to Rodrick and tell him the terms of the truce."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 383,
+          "description": "Talk to Rodrick",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 104,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcQuestID": 102,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        },
+        {
+          "npcQuestID": 105,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 3
+        },
+        {
+          "npcQuestID": 106,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 4
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        22
+      ],
+      "questID": 111
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:BlockWaterpump",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Parched?",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The Wastes is a desolate and dry land. You find yourself thirsty a lot. Each town has its own water pump where you can fill your empty bottles.\n\nThe one is Pleasant Valley is near the water reservoir."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 112
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:ItemCampfire",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Fast Food",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The campfire is useful for cooking the infected flesh and making it more palatable. Once you place it, you cannot pick it up again."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        114
+      ],
+      "questID": 113
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Campfire",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "deci:ItemCampfire",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 114
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "betterquesting:placeholder",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Be Chatty",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Talk to everyone you meet. You never know what you will learn."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 115
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Data Pad",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "DraconicEvolution:teleporterMKII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Selection:2": 0,
+                "SelectionOffset:3": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 116
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "DraconicEvolution:teleporterMKII",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "Selection:2": 0,
+              "SelectionOffset:3": 0
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Fast Travel",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "To add a waypoint to your Charm of Dislocation, shift right-click and then click on Add New. Rename your waypoint at the top of the GUI. You can also click on the lock symbol to protect the waypoint from being altered.\n\nNow you are ready to fast travel."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        116
+      ],
+      "questID": 117
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "betterquesting:placeholder",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Mayor\u0027s Suggestion",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 124,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 118
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ProjRed|Exploration:projectred.exploration.backpack",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 12
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Travelling Merchant",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The mayor of Pleasant Valley said you should locate a travelling merchant on the road west of town. Perhaps he has found a power cell while scavenging."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Merchant",
+          "posX": 2097,
+          "posY": 47,
+          "posZ": 4204,
+          "dimension": 0,
+          "range": 20,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        118
+      ],
+      "questID": 119
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "BiblioCraft:item.BiblioWayPointCompass",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Wasteland Location 1",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Cozyton and Observatory"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Intersection",
+          "posX": 2703,
+          "posY": 55,
+          "posZ": 2883,
+          "dimension": 0,
+          "range": 30,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 120
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "BiblioCraft:item.BiblioWayPointCompass",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Wasteland Location 2",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Dam and Radio Station"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Intersection",
+          "posX": 3311,
+          "posY": 97,
+          "posZ": 2980,
+          "dimension": 0,
+          "range": 30,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 121
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "BiblioCraft:item.BiblioWayPointCompass",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Wasteland Location 3",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Chenne Reservation"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Road",
+          "posX": 3318,
+          "posY": 109,
+          "posZ": 2423,
+          "dimension": 0,
+          "range": 30,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 122
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "BiblioCraft:item.BiblioWayPointCompass",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Chenne Reservation",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        122
+      ],
+      "questID": 123
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "BiblioCraft:item.BiblioWayPointCompass",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Wasteland Location 4",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Littleton"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Shops",
+          "posX": 2704,
+          "posY": 80,
+          "posZ": 2326,
+          "dimension": 0,
+          "range": 30,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 124
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "BiblioCraft:item.BiblioWayPointCompass",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Wasteland Location 5",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Mesa Verde"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Intersection",
+          "posX": 816,
+          "posY": 122,
+          "posZ": 3494,
+          "dimension": 0,
+          "range": 30,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 125
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "BiblioCraft:item.BiblioWayPointCompass",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Wasteland Location 6",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Iron Legion and Miner\u0027s Den"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Intersection",
+          "posX": 1132,
+          "posY": 123,
+          "posZ": 1919,
+          "dimension": 0,
+          "range": 30,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 126
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:dragunovScope",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Find a Scope",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "deci:dragunovScope",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 127
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:8x",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Find a Scope",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "deci:8x",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 128
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:4x",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Find a Scope",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "deci:4x",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 129
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:2x",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Find a Scope",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "deci:2x",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 130
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:dragunovScope",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "OR",
+          "name": "Modify Gun: Scope",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "To modify your gun (not all guns can be modified), press I and place the gun in the middle where it indicates. Then put the scope where it indicates. Take the gun and enjoy!"
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        127,
+        129,
+        128,
+        130,
+        132
+      ],
+      "questID": 131
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:reddot",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Find a Scope",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "deci:reddot",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 132
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:arSuppressor",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "OR",
+          "name": "Modify Gun: Barrel",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "To modify your gun (not all guns can be modified), press I and place the gun in the middle where it indicates. Then put the barrel where it indicates. Take the gun and enjoy!"
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        134,
+        135,
+        136
+      ],
+      "questID": 133
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:pistolSuppressor",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Find a Barrel",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "deci:pistolSuppressor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 134
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:smgSuppressor",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Find a Barrel",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "deci:smgSuppressor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 135
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:arSuppressor",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Find a Barrel",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "deci:arSuppressor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 136
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:flashlight",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "OR",
+          "name": "Modify Gun: Grip",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "To modify your gun (not all guns can be modified), press I and place the gun in the middle where it indicates. Then put the grip where it indicates. Take the gun and enjoy!"
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        138,
+        140,
+        139
+      ],
+      "questID": 137
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:laser",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Find a Grip",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "deci:laser",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 138
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:flashlight",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Find a Grip",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "deci:flashlight",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 139
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:foregrip",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Find a Grip",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "deci:foregrip",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 140
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcMoney",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Bankers",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Any town with merchants will also have a banker where you can store important items you don\u0027t want to lose track of, such as quest items."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 141
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcCommissarHead",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Multiplayer: How to make a clan?",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You must have 200 caps to create a clan; /clan create.\n\nTo join a clan use the command:  /clan join (name). It’s very case sensitive. For more clan commands its /clan help."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 142
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:ItemBottlecap",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Multiplayer: How can I give someone caps?",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "To give a player caps its /caps give (name) (amount)."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 143
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:ItemRadio",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Multiplayer: How do I use the radio?",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "To use the radio all you have to do is type in chat with the radio in your hand and it will send it across the channel (default is 50). Having it in your inventory will allow you to receive messages others send out. To change the channels right click to go up and shift right click to go back down."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        145
+      ],
+      "questID": 144
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Find a Radio",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "deci:ItemRadio",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 145
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:coltMag",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 7,
+            "tag": {
+              "ammo:3": 0
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "How do I fill empty/used magazines?",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "First, you need to go to the ammunition trader and buy the ammo type you need. Once you get the ammo box hold it in your hand and right click to get the bullets out of the box. Once you have your bullets hold the magazine that needs to be refilled in your hand and right click to put the bullets in."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 146
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 310
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Is there a way to set spawn without sleeping?",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The banker in major towns/villages has an option to set spawn."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 147
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:potion",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Food and Water",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "On the right side of your UI, you will see your food and water levels as well as health and blood loss.\n\nTo eat or drink, hold the item in your hand and press and hold right-click until you have consumed the item."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 148
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:brewing_stand",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Water Filtration System",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You have searched the wastes for parts for the water filtration system for Riverside. Perhaps your search has come to an end."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 108,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        77,
+        8
+      ],
+      "questID": 149
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "IC2:blockMachine3",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Enemy Depot",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Speak with Doctor Bones about his water filtration system."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 410,
+          "description": "Talk to Doctor Bones",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 114,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        149
+      ],
+      "questID": 150
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:BlockCocaPlant",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "A New Drug",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Doctor Bones has a task for you if you chose to take it."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 413,
+          "description": "Talk to Doctor Bones",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 113,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        77
+      ],
+      "questID": 151
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:ItemSyringeEmpty",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Medical Supplies",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Doctor Capable has a task for you."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 403,
+          "description": "Talk to Doctor Capable",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 112,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        77
+      ],
+      "questID": 152
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ImmersiveEngineering:railgun",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Dulling the Blade",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Go see if Geo has had more success with her railgun."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 380,
+          "description": "Check on Geo",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 98,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        106
+      ],
+      "questID": 153
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcBook",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Saving a Legacy",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Geo said Abakus wishes to speak with you."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 336,
+          "description": "Talk to Abakus",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcDialogID": 339,
+          "description": "Talk to Nemonik",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 120,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        153
+      ],
+      "questID": 154
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ThermalExpansion:material",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 517
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Super Mutant Crops",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Speak with Abakus again."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 343,
+          "description": "Talk to Abakus",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcDialogID": 346,
+          "description": "Talk to Numer",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 123,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        },
+        {
+          "npcDialogID": 348,
+          "description": "Confront Numer",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 3
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        154
+      ],
+      "questID": 155
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "IC2:itemCropSeed",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "owner:8": "IC2",
+              "name:8": "wheat",
+              "scan:1": 4,
+              "growth:1": 1,
+              "resistance:1": 1,
+              "gain:1": 1
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Relief for Mesa Verde",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Return to Abukus"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 350,
+          "description": "Let Abakus know about the fertilizer",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 124,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcQuestID": 125,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        155,
+        164
+      ],
+      "questID": 156
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:ItemSyringeCure",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "High Desert Fever",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Talking to the locals."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 353,
+          "description": "Talk to Raydeus",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 128,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        105
+      ],
+      "questID": 157
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcCryscentShield",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "The Deserter",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Talking to the locals."
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        105
+      ],
+      "questID": 158
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "BuildCraft|Core:woodenGearItem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "On the Radar",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Speak with Abakus."
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        158,
+        157,
+        165
+      ],
+      "questID": 159
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "IC2:itemCropSeed",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "owner:8": "IC2",
+              "name:8": "carrots",
+              "scan:1": 4,
+              "growth:1": 1,
+              "resistance:1": 1,
+              "gain:1": 1
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Relief for Mesa Verde",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Return to Abakus"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 423,
+          "description": "Let Abakus know about the fertilizer",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 126,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcQuestID": 127,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        155
+      ],
+      "questID": 160
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Refuse Offer",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 27,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        155,
+        97
+      ],
+      "questID": 161
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Power Grab",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 26,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        155,
+        97
+      ],
+      "questID": 162
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Negotiation",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 25,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        155,
+        97
+      ],
+      "questID": 163
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "OR",
+          "name": "Pleasant Valley Ally",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        163,
+        161
+      ],
+      "questID": 164
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "OR",
+          "name": "Relief for Mesa Verde",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        156,
+        160
+      ],
+      "questID": 165
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ComputerCraft:pocketComputer",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "The Deserter",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Speak with Paladin Jefferson"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        69
+      ],
+      "questID": 166
     }
   ],
   "questLines": [
@@ -5096,12 +7551,6 @@
           "x": 126,
           "y": 66,
           "id": 17
-        },
-        {
-          "size": 18,
-          "x": 186,
-          "y": 66,
-          "id": 18
         },
         {
           "size": 18,
@@ -5136,70 +7585,76 @@
       },
       "quests": [
         {
-          "size": 24,
-          "x": 156,
+          "size": 18,
+          "x": 180,
           "y": 60,
           "id": 16
         },
         {
-          "size": 24,
-          "x": 156,
-          "y": 90,
+          "size": 18,
+          "x": 150,
+          "y": 60,
           "id": 18
         },
         {
-          "size": 24,
-          "x": 48,
-          "y": 120,
+          "size": 18,
+          "x": 60,
+          "y": 96,
           "id": 21
         },
         {
-          "size": 24,
-          "x": 84,
-          "y": 120,
+          "size": 18,
+          "x": 90,
+          "y": 96,
           "id": 22
         },
         {
-          "size": 24,
-          "x": 114,
-          "y": 120,
+          "size": 18,
+          "x": 120,
+          "y": 96,
           "id": 23
         },
         {
-          "size": 24,
-          "x": 48,
-          "y": 90,
+          "size": 18,
+          "x": 60,
+          "y": 78,
           "id": 24
         },
         {
-          "size": 24,
-          "x": 84,
-          "y": 90,
+          "size": 18,
+          "x": 90,
+          "y": 78,
           "id": 25
         },
         {
-          "size": 24,
+          "size": 18,
           "x": 120,
-          "y": 90,
+          "y": 78,
           "id": 26
         },
         {
-          "size": 24,
-          "x": 48,
+          "size": 18,
+          "x": 60,
           "y": 60,
           "id": 12
         },
         {
-          "size": 24,
-          "x": 84,
+          "size": 18,
+          "x": 90,
           "y": 60,
           "id": 13
         },
         {
-          "size": 24,
+          "size": 18,
           "x": 120,
           "y": 60,
           "id": 15
+        },
+        {
+          "size": 18,
+          "x": 90,
+          "y": 126,
+          "id": 111
         }
       ],
       "lineID": 1,
@@ -5216,51 +7671,51 @@
       },
       "quests": [
         {
-          "size": 24,
-          "x": 48,
-          "y": 24,
+          "size": 18,
+          "x": 72,
+          "y": 54,
           "id": 48
         },
         {
-          "size": 24,
-          "x": 48,
-          "y": 96,
+          "size": 18,
+          "x": 72,
+          "y": 102,
           "id": 1
         },
         {
-          "size": 24,
-          "x": 84,
-          "y": 60,
+          "size": 18,
+          "x": 108,
+          "y": 72,
           "id": 2
         },
         {
-          "size": 24,
-          "x": 84,
-          "y": 96,
+          "size": 18,
+          "x": 108,
+          "y": 102,
           "id": 3
         },
         {
-          "size": 24,
-          "x": 120,
-          "y": 96,
+          "size": 18,
+          "x": 144,
+          "y": 102,
           "id": 4
         },
         {
-          "size": 24,
-          "x": 24,
-          "y": 96,
+          "size": 18,
+          "x": 54,
+          "y": 102,
           "id": 5
         },
         {
-          "size": 24,
-          "x": 84,
+          "size": 18,
+          "x": 108,
           "y": 120,
           "id": 28
         },
         {
-          "size": 24,
-          "x": 48,
-          "y": 60,
+          "size": 18,
+          "x": 72,
+          "y": 72,
           "id": 47
         }
       ],
@@ -5278,69 +7733,75 @@
       },
       "quests": [
         {
-          "size": 24,
-          "x": 54,
-          "y": 96,
+          "size": 18,
+          "x": 72,
+          "y": 108,
           "id": 65
         },
         {
-          "size": 24,
-          "x": 90,
-          "y": 96,
+          "size": 18,
+          "x": 102,
+          "y": 108,
           "id": 66
         },
         {
-          "size": 24,
-          "x": 54,
-          "y": 60,
+          "size": 18,
+          "x": 72,
+          "y": 78,
           "id": 19
         },
         {
-          "size": 24,
-          "x": 126,
-          "y": 96,
+          "size": 18,
+          "x": 132,
+          "y": 108,
           "id": 67
         },
         {
-          "size": 24,
-          "x": 30,
-          "y": 96,
+          "size": 18,
+          "x": 48,
+          "y": 108,
           "id": 20
         },
         {
-          "size": 24,
+          "size": 18,
           "x": 162,
-          "y": 96,
+          "y": 108,
           "id": 68
         },
         {
-          "size": 24,
-          "x": 90,
-          "y": 126,
+          "size": 18,
+          "x": 192,
+          "y": 78,
           "id": 69
         },
         {
-          "size": 24,
-          "x": 126,
-          "y": 126,
+          "size": 18,
+          "x": 162,
+          "y": 78,
           "id": 70
         },
         {
-          "size": 24,
-          "x": 162,
-          "y": 126,
+          "size": 18,
+          "x": 222,
+          "y": 78,
+          "id": 166
+        },
+        {
+          "size": 18,
+          "x": 132,
+          "y": 78,
           "id": 71
         },
         {
-          "size": 24,
-          "x": 54,
-          "y": 24,
+          "size": 18,
+          "x": 72,
+          "y": 60,
           "id": 42
         },
         {
-          "size": 24,
-          "x": 90,
-          "y": 60,
+          "size": 18,
+          "x": 102,
+          "y": 78,
           "id": 74
         }
       ],
@@ -5358,45 +7819,45 @@
       },
       "quests": [
         {
-          "size": 24,
-          "x": 54,
+          "size": 18,
+          "x": 72,
           "y": 96,
           "id": 6
         },
         {
-          "size": 24,
-          "x": 90,
+          "size": 18,
+          "x": 108,
           "y": 96,
           "id": 7
         },
         {
-          "size": 24,
-          "x": 126,
+          "size": 18,
+          "x": 144,
           "y": 96,
           "id": 8
         },
         {
-          "size": 24,
-          "x": 30,
+          "size": 18,
+          "x": 48,
           "y": 96,
           "id": 27
         },
         {
-          "size": 24,
-          "x": 90,
-          "y": 60,
+          "size": 18,
+          "x": 108,
+          "y": 66,
           "id": 75
         },
         {
-          "size": 24,
-          "x": 54,
-          "y": 24,
+          "size": 18,
+          "x": 72,
+          "y": 36,
           "id": 45
         },
         {
-          "size": 24,
-          "x": 54,
-          "y": 60,
+          "size": 18,
+          "x": 72,
+          "y": 66,
           "id": 46
         }
       ],
@@ -5414,69 +7875,69 @@
       },
       "quests": [
         {
-          "size": 24,
-          "x": 126,
-          "y": 108,
+          "size": 18,
+          "x": 144,
+          "y": 114,
           "id": 34
         },
         {
-          "size": 24,
-          "x": 90,
-          "y": 108,
+          "size": 18,
+          "x": 108,
+          "y": 114,
           "id": 35
         },
         {
-          "size": 24,
-          "x": 54,
-          "y": 108,
+          "size": 18,
+          "x": 72,
+          "y": 114,
           "id": 36
         },
         {
-          "size": 24,
-          "x": 126,
-          "y": 60,
+          "size": 18,
+          "x": 144,
+          "y": 78,
           "id": 37
         },
         {
-          "size": 24,
-          "x": 126,
-          "y": 84,
+          "size": 18,
+          "x": 144,
+          "y": 96,
           "id": 38
         },
         {
-          "size": 24,
-          "x": 90,
-          "y": 84,
+          "size": 18,
+          "x": 108,
+          "y": 96,
           "id": 39
         },
         {
-          "size": 24,
-          "x": 54,
-          "y": 84,
+          "size": 18,
+          "x": 72,
+          "y": 96,
           "id": 40
         },
         {
-          "size": 24,
-          "x": 72,
-          "y": 36,
+          "size": 18,
+          "x": 108,
+          "y": 60,
           "id": 41
         },
         {
-          "size": 24,
-          "x": 30,
-          "y": 60,
+          "size": 18,
+          "x": 54,
+          "y": 78,
           "id": 29
         },
         {
-          "size": 24,
-          "x": 54,
-          "y": 60,
+          "size": 18,
+          "x": 72,
+          "y": 78,
           "id": 30
         },
         {
-          "size": 24,
-          "x": 90,
-          "y": 60,
+          "size": 18,
+          "x": 108,
+          "y": 78,
           "id": 31
         }
       ],
@@ -5494,51 +7955,51 @@
       },
       "quests": [
         {
-          "size": 24,
-          "x": 30,
-          "y": 96,
+          "size": 18,
+          "x": 54,
+          "y": 108,
           "id": 55
         },
         {
-          "size": 24,
-          "x": 54,
-          "y": 96,
+          "size": 18,
+          "x": 72,
+          "y": 108,
           "id": 56
         },
         {
-          "size": 24,
-          "x": 90,
-          "y": 60,
+          "size": 18,
+          "x": 102,
+          "y": 72,
           "id": 57
         },
         {
-          "size": 24,
-          "x": 90,
-          "y": 120,
+          "size": 18,
+          "x": 102,
+          "y": 126,
           "id": 58
         },
         {
-          "size": 24,
-          "x": 54,
-          "y": 24,
+          "size": 18,
+          "x": 72,
+          "y": 54,
           "id": 43
         },
         {
-          "size": 24,
-          "x": 90,
-          "y": 96,
+          "size": 18,
+          "x": 102,
+          "y": 108,
           "id": 59
         },
         {
-          "size": 24,
-          "x": 54,
-          "y": 60,
+          "size": 18,
+          "x": 72,
+          "y": 72,
           "id": 44
         },
         {
-          "size": 24,
-          "x": 126,
-          "y": 96,
+          "size": 18,
+          "x": 132,
+          "y": 108,
           "id": 60
         }
       ],
@@ -5556,16 +8017,22 @@
       },
       "quests": [
         {
-          "size": 24,
-          "x": 54,
-          "y": 60,
+          "size": 18,
+          "x": 66,
+          "y": 78,
           "id": 32
         },
         {
-          "size": 24,
-          "x": 54,
-          "y": 24,
+          "size": 18,
+          "x": 66,
+          "y": 60,
           "id": 33
+        },
+        {
+          "size": 18,
+          "x": 66,
+          "y": 108,
+          "id": 123
         }
       ],
       "lineID": 7,
@@ -5582,45 +8049,45 @@
       },
       "quests": [
         {
-          "size": 24,
-          "x": 6,
-          "y": 96,
+          "size": 18,
+          "x": 54,
+          "y": 108,
           "id": 80
         },
         {
-          "size": 24,
-          "x": 48,
-          "y": 96,
+          "size": 18,
+          "x": 72,
+          "y": 108,
           "id": 81
         },
         {
-          "size": 24,
-          "x": 84,
-          "y": 96,
+          "size": 18,
+          "x": 102,
+          "y": 108,
           "id": 82
         },
         {
-          "size": 24,
-          "x": 120,
-          "y": 96,
+          "size": 18,
+          "x": 132,
+          "y": 108,
           "id": 83
         },
         {
-          "size": 24,
-          "x": 156,
-          "y": 96,
+          "size": 18,
+          "x": 162,
+          "y": 108,
           "id": 84
         },
         {
-          "size": 24,
-          "x": 48,
-          "y": 24,
+          "size": 18,
+          "x": 72,
+          "y": 54,
           "id": 78
         },
         {
-          "size": 24,
-          "x": 48,
-          "y": 60,
+          "size": 18,
+          "x": 72,
+          "y": 72,
           "id": 79
         }
       ],
@@ -5638,27 +8105,27 @@
       },
       "quests": [
         {
-          "size": 24,
-          "x": 54,
-          "y": 54,
+          "size": 18,
+          "x": 84,
+          "y": 66,
           "id": 64
         },
         {
-          "size": 24,
-          "x": 54,
-          "y": 90,
+          "size": 18,
+          "x": 84,
+          "y": 96,
           "id": 72
         },
         {
-          "size": 24,
-          "x": 54,
-          "y": 24,
+          "size": 18,
+          "x": 84,
+          "y": 36,
           "id": 62
         },
         {
-          "size": 24,
-          "x": 30,
-          "y": 90,
+          "size": 18,
+          "x": 66,
+          "y": 96,
           "id": 63
         }
       ],
@@ -5676,15 +8143,15 @@
       },
       "quests": [
         {
-          "size": 24,
-          "x": 54,
-          "y": 24,
+          "size": 18,
+          "x": 66,
+          "y": 60,
           "id": 53
         },
         {
-          "size": 24,
-          "x": 54,
-          "y": 60,
+          "size": 18,
+          "x": 66,
+          "y": 78,
           "id": 54
         }
       ],
@@ -5702,34 +8169,10 @@
       },
       "quests": [
         {
-          "size": 24,
-          "x": 48,
-          "y": 54,
-          "id": 49
-        },
-        {
-          "size": 18,
-          "x": 78,
-          "y": 54,
-          "id": 50
-        },
-        {
           "size": 18,
           "x": 78,
           "y": 120,
           "id": 98
-        },
-        {
-          "size": 18,
-          "x": 54,
-          "y": 90,
-          "id": 51
-        },
-        {
-          "size": 18,
-          "x": 78,
-          "y": 90,
-          "id": 52
         },
         {
           "size": 18,
@@ -5757,9 +8200,99 @@
         },
         {
           "size": 18,
-          "x": 168,
-          "y": 54,
+          "x": 162,
+          "y": 48,
           "id": 76
+        },
+        {
+          "size": 18,
+          "x": 162,
+          "y": 66,
+          "id": 77
+        },
+        {
+          "size": 18,
+          "x": 48,
+          "y": 54,
+          "id": 49
+        },
+        {
+          "size": 18,
+          "x": 78,
+          "y": 54,
+          "id": 50
+        },
+        {
+          "size": 18,
+          "x": 54,
+          "y": 90,
+          "id": 51
+        },
+        {
+          "size": 18,
+          "x": 78,
+          "y": 90,
+          "id": 52
+        },
+        {
+          "size": 18,
+          "x": 138,
+          "y": 66,
+          "id": 149
+        },
+        {
+          "size": 18,
+          "x": 108,
+          "y": 72,
+          "id": 118
+        },
+        {
+          "size": 18,
+          "x": 138,
+          "y": 90,
+          "id": 150
+        },
+        {
+          "size": 18,
+          "x": 108,
+          "y": 90,
+          "id": 119
+        },
+        {
+          "size": 18,
+          "x": 186,
+          "y": 66,
+          "id": 151
+        },
+        {
+          "size": 18,
+          "x": 54,
+          "y": 138,
+          "id": 120
+        },
+        {
+          "size": 18,
+          "x": 162,
+          "y": 90,
+          "id": 152
+        },
+        {
+          "size": 18,
+          "x": 72,
+          "y": 138,
+          "id": 121
+        },
+        {
+          "size": 18,
+          "x": 90,
+          "y": 138,
+          "id": 122
+        },
+        {
+          "size": 18,
+          "x": 108,
+          "y": 138,
+          "id": 124
         },
         {
           "size": 18,
@@ -5769,9 +8302,15 @@
         },
         {
           "size": 18,
+          "x": 126,
+          "y": 138,
+          "id": 125
+        },
+        {
+          "size": 18,
           "x": 144,
-          "y": 54,
-          "id": 77
+          "y": 138,
+          "id": 126
         }
       ],
       "lineID": 11,
@@ -5821,22 +8360,100 @@
       },
       "quests": [
         {
-          "size": 24,
-          "x": 48,
-          "y": 24,
+          "size": 18,
+          "x": 222,
+          "y": 114,
+          "id": 160
+        },
+        {
+          "size": 18,
+          "x": 54,
+          "y": 84,
           "id": 97
         },
         {
-          "size": 24,
-          "x": 48,
-          "y": 60,
+          "size": 18,
+          "x": 258,
+          "y": 84,
+          "id": 161
+        },
+        {
+          "size": 18,
+          "x": 240,
+          "y": 114,
+          "id": 162
+        },
+        {
+          "size": 18,
+          "x": 258,
+          "y": 66,
+          "id": 163
+        },
+        {
+          "size": 18,
+          "x": 240,
+          "y": 84,
+          "id": 164
+        },
+        {
+          "size": 18,
+          "x": 150,
+          "y": 114,
+          "id": 165
+        },
+        {
+          "size": 18,
+          "x": 72,
+          "y": 84,
           "id": 105
         },
         {
-          "size": 24,
-          "x": 78,
-          "y": 60,
+          "size": 18,
+          "x": 102,
+          "y": 84,
           "id": 106
+        },
+        {
+          "size": 18,
+          "x": 132,
+          "y": 84,
+          "id": 153
+        },
+        {
+          "size": 18,
+          "x": 162,
+          "y": 84,
+          "id": 154
+        },
+        {
+          "size": 18,
+          "x": 192,
+          "y": 84,
+          "id": 155
+        },
+        {
+          "size": 18,
+          "x": 222,
+          "y": 84,
+          "id": 156
+        },
+        {
+          "size": 18,
+          "x": 72,
+          "y": 114,
+          "id": 157
+        },
+        {
+          "size": 18,
+          "x": 102,
+          "y": 114,
+          "id": 158
+        },
+        {
+          "size": 18,
+          "x": 132,
+          "y": 114,
+          "id": 159
         }
       ],
       "lineID": 14,
@@ -5853,86 +8470,86 @@
       },
       "quests": [
         {
-          "size": 24,
-          "x": 48,
+          "size": 18,
+          "x": 84,
           "y": 120,
           "id": 96
         },
         {
-          "size": 24,
-          "x": 84,
+          "size": 18,
+          "x": 144,
           "y": 60,
           "id": 99
         },
         {
-          "size": 24,
-          "x": 120,
+          "size": 18,
+          "x": 174,
           "y": 60,
           "id": 100
         },
         {
-          "size": 24,
-          "x": 48,
+          "size": 18,
+          "x": 84,
           "y": 90,
           "id": 85
         },
         {
-          "size": 24,
-          "x": 18,
+          "size": 18,
+          "x": 66,
           "y": 90,
           "id": 86
         },
         {
-          "size": 24,
-          "x": 48,
+          "size": 18,
+          "x": 114,
           "y": 60,
           "id": 87
         },
         {
-          "size": 24,
-          "x": 78,
+          "size": 18,
+          "x": 114,
           "y": 90,
           "id": 88
         },
         {
-          "size": 24,
-          "x": 108,
+          "size": 18,
+          "x": 144,
           "y": 90,
           "id": 89
         },
         {
-          "size": 24,
-          "x": 138,
+          "size": 18,
+          "x": 174,
           "y": 90,
           "id": 90
         },
         {
-          "size": 24,
-          "x": 168,
+          "size": 18,
+          "x": 204,
           "y": 90,
           "id": 91
         },
         {
-          "size": 24,
-          "x": 168,
+          "size": 18,
+          "x": 204,
           "y": 120,
           "id": 92
         },
         {
-          "size": 24,
-          "x": 138,
+          "size": 18,
+          "x": 174,
           "y": 120,
           "id": 93
         },
         {
-          "size": 24,
-          "x": 108,
+          "size": 18,
+          "x": 144,
           "y": 120,
           "id": 94
         },
         {
-          "size": 24,
-          "x": 78,
+          "size": 18,
+          "x": 114,
           "y": 120,
           "id": 95
         }
@@ -5952,27 +8569,195 @@
       "quests": [
         {
           "size": 18,
-          "x": 72,
+          "x": 264,
+          "y": 6,
+          "id": 128
+        },
+        {
+          "size": 18,
+          "x": 246,
+          "y": 42,
+          "id": 129
+        },
+        {
+          "size": 18,
+          "x": 264,
+          "y": 24,
+          "id": 130
+        },
+        {
+          "size": 18,
+          "x": 186,
+          "y": 66,
+          "id": 131
+        },
+        {
+          "size": 18,
+          "x": 246,
+          "y": 6,
+          "id": 132
+        },
+        {
+          "size": 18,
+          "x": 216,
+          "y": 96,
+          "id": 133
+        },
+        {
+          "size": 18,
+          "x": 246,
+          "y": 60,
+          "id": 134
+        },
+        {
+          "size": 18,
+          "x": 264,
+          "y": 42,
+          "id": 135
+        },
+        {
+          "size": 18,
+          "x": 264,
+          "y": 60,
+          "id": 136
+        },
+        {
+          "size": 18,
+          "x": 216,
+          "y": 66,
+          "id": 137
+        },
+        {
+          "size": 18,
+          "x": 246,
+          "y": 78,
+          "id": 138
+        },
+        {
+          "size": 18,
+          "x": 264,
+          "y": 78,
+          "id": 139
+        },
+        {
+          "size": 18,
+          "x": 246,
+          "y": 96,
+          "id": 140
+        },
+        {
+          "size": 18,
+          "x": 126,
+          "y": 66,
+          "id": 141
+        },
+        {
+          "size": 18,
+          "x": 156,
+          "y": 126,
+          "id": 142
+        },
+        {
+          "size": 18,
+          "x": 186,
+          "y": 126,
+          "id": 143
+        },
+        {
+          "size": 18,
+          "x": 216,
+          "y": 126,
+          "id": 144
+        },
+        {
+          "size": 18,
+          "x": 48,
+          "y": 150,
+          "id": 145
+        },
+        {
+          "size": 18,
+          "x": 126,
+          "y": 126,
+          "id": 146
+        },
+        {
+          "size": 18,
+          "x": 96,
+          "y": 126,
+          "id": 147
+        },
+        {
+          "size": 18,
+          "x": 66,
+          "y": 66,
+          "id": 148
+        },
+        {
+          "size": 18,
+          "x": 96,
           "y": 66,
           "id": 107
         },
         {
           "size": 18,
-          "x": 72,
-          "y": 42,
+          "x": 96,
+          "y": 48,
           "id": 108
         },
         {
           "size": 18,
-          "x": 72,
-          "y": 120,
+          "x": 48,
+          "y": 96,
           "id": 109
         },
         {
           "size": 18,
-          "x": 72,
-          "y": 102,
+          "x": 96,
+          "y": 96,
           "id": 110
+        },
+        {
+          "size": 18,
+          "x": 156,
+          "y": 66,
+          "id": 112
+        },
+        {
+          "size": 18,
+          "x": 186,
+          "y": 96,
+          "id": 113
+        },
+        {
+          "size": 18,
+          "x": 48,
+          "y": 132,
+          "id": 114
+        },
+        {
+          "size": 18,
+          "x": 126,
+          "y": 96,
+          "id": 115
+        },
+        {
+          "size": 18,
+          "x": 48,
+          "y": 114,
+          "id": 116
+        },
+        {
+          "size": 18,
+          "x": 156,
+          "y": 96,
+          "id": 117
+        },
+        {
+          "size": 18,
+          "x": 246,
+          "y": 24,
+          "id": 127
         }
       ],
       "lineID": 16,

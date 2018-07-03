@@ -1,0 +1,19 @@
+{
+  "vehicleSpawns": [
+    {
+      "posX": 4034,
+      "posY": 48,
+      "posZ": 3913
+    },
+    {
+      "posX": 4034,
+      "posY": 48,
+      "posZ": 3909
+    },
+    {
+      "posX": 4029,
+      "posY": 48,
+      "posZ": 3932
+    }
+  ]
+}

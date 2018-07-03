@@ -209,6 +209,12 @@
       "traderPosX": 195.5,
       "traderPosY": 110.0,
       "traderPosZ": 2755.5
+    },
+    {
+      "traderType": "FORTIFICATION",
+      "traderPosX": 2714.5,
+      "traderPosY": 50.0,
+      "traderPosZ": 3921.5
     }
   ]
 }

@@ -1,9 +1,10 @@
 {
-	"revision": 13,
+	"revision": 14,
 	"infoText": [
-		"[c]Welcome to FallCraft - v0.11.1 Beta",
+		"[c]Welcome to FallCraft - v0.12.5 Beta",
 		"Multiple updates, too many to list but suffice this is a biggun!  We are very nearly ready to release the map for all of you to enjoy this wonderful pack we have been working so hard on!",
-		"§cAlright, problem mostly figured out, map was verified correct prior to this announcement, so please keep those reports coming and and go get the newest map download!§r",
+		"§cQuest bugs squashed! (we hope) Also some other minor bugs found and reported, once again thanks to all the testers!§r",
+		"Also, for the absolute best experience, make sure the resource pack for decimation is enabled!",
 		"Please remember, the map is currently in beta status and WILL be updated.  We welcome all feedback for bugs, ideas, etc.  Just submit any reports to the FallCraft github repository https://github.com/GreatOrator/FallCraft-Map/issues"
 	]
 }
