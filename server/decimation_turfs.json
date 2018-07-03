@@ -1,0 +1,28 @@
+{
+  "turfList": [
+    {
+      "turfID": "87f1d4f4-b232-4465-b45c-0ea5f4bd2fde",
+      "lastCaptured": "Jun 4, 2018 1:56:30 PM",
+      "currentClanName": "Unknown",
+      "turfName": "Razors",
+      "posX1": 727,
+      "posY1": 182,
+      "posZ1": 3196,
+      "posX2": 655,
+      "posY2": 222,
+      "posZ2": 3147
+    },
+    {
+      "turfID": "8410ab46-3262-42d4-9a37-fc6912952751",
+      "lastCaptured": "Jun 4, 2018 1:58:18 PM",
+      "currentClanName": "Unknown",
+      "turfName": "Razors",
+      "posX1": 3935,
+      "posY1": 102,
+      "posZ1": 3229,
+      "posX2": 3890,
+      "posY2": 118,
+      "posZ2": 3185
+    }
+  ]
+}
