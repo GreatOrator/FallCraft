@@ -1,9 +1,10 @@
 {
-	"revision": 15,
+	"revision": 16,
 	"infoText": [
-		"[c]Welcome to FallCraft - v0.14.6 Beta",
+		"[c]Welcome to FallCraft - v0.62.3 Beta",
 		"Modpack updates!  You asked, we listened!  make sure to get yours today!",
 		"§cQuest bugs squashed! (we hope) Also some other minor bugs found and reported, once again thanks to all the testers!§r",
+		"§cNew content added, bobbles, comics and more OH MY!§r",
 		"Also, for the absolute best experience, make sure the resource pack for decimation is enabled!",
 		"Please remember, the map is currently in beta status and WILL be updated.  We welcome all feedback for bugs, ideas, etc.  Just submit any reports to the FallCraft github repository https://github.com/GreatOrator/FallCraft-Map/issues"
 	]
