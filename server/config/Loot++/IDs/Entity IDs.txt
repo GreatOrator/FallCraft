@@ -126,7 +126,6 @@ BiomesOPlenty.Rosester
 BiomesOPlenty.Wasp
 BiomesOPlenty.dart
 BiomesOPlenty.mudball
-Bird
 Blaze
 Blitz
 Blizz
@@ -314,9 +313,9 @@ Slime
 SmallFireball
 SnowMan
 Snowball
-Soldier
 Spider
 Squid
+Survivor
 TConstruct.Arrow
 TConstruct.Bolt
 TConstruct.Crystal
@@ -417,12 +416,17 @@ deci.FallingSupplyDrop
 deci.Grenade
 deci.Hummer
 deci.Landmine
+deci.M35
+deci.PlayerHeadd
 deci.PropellerTrap
 deci.PunjiSticks
 deci.SmokeGrenade
 deci.StunGrenade
 deci.TearGasGrenade
 deci.Turret
+deci.Vehicle
+deci.VehicleEmitter
+deci.VehiclePlacement
 deci.VehicleSeat
 demonmobs.astaroth
 demonmobs.behemoth
@@ -550,6 +554,15 @@ swampmobs.poisonrayend
 swampmobs.remobra
 swampmobs.venomshot
 ## Spawn Egg IDs: in the form <number id> - <entity string id (which it spawns)> ##
+6 - Infected
+7 - InfectedCrawler
+23 - Hulk
+24 - InfectedDog
+25 - Frail
+26 - Doggo
+27 - Boar
+28 - Buck
+29 - Survivor
 50 - Creeper
 51 - Skeleton
 52 - Spider
@@ -564,9 +577,9 @@ swampmobs.venomshot
 62 - LavaSlime
 65 - Bat
 66 - Witch
-85 - Blizz
-86 - Blitz
-87 - Basalz
+84 - Blizz
+85 - Blitz
+86 - Basalz
 90 - Pig
 91 - Sheep
 92 - Cow

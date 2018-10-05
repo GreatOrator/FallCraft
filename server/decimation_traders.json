@@ -215,6 +215,12 @@
       "traderPosX": 2714.5,
       "traderPosY": 50.0,
       "traderPosZ": 3921.5
+    },
+    {
+      "traderType": "CONVENIENCE",
+      "traderPosX": 1320.5,
+      "traderPosY": 45.0,
+      "traderPosZ": 4836.5
     }
   ]
 }
