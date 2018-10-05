@@ -165,7 +165,7 @@
       },
       "tasks": [
         {
-          "npcDialogID": 46,
+          "npcDialogID": 47,
           "description": "Jen has a request.",
           "taskID": "bq_npc_integration:npc_dialog",
           "index": 0
@@ -186,6 +186,23 @@
           "npcQuestID": 4,
           "taskID": "bq_npc_integration:npc_quest",
           "index": 2
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "flansmod:mwMedKit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 3
         }
       ],
       "rewards": [],
@@ -321,7 +338,7 @@
           "snd_update": "random.levelup",
           "repeatTime": -1,
           "globalShare": true,
-          "questLogic": "AND",
+          "questLogic": "OR",
           "name": "Cozyton",
           "isGlobal": "false",
           "lockedProgress": false,
@@ -346,7 +363,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        120
+        120,
+        47
       ],
       "questID": 5
     },
@@ -367,7 +385,7 @@
           "snd_update": "random.levelup",
           "repeatTime": -1,
           "globalShare": true,
-          "questLogic": "AND",
+          "questLogic": "OR",
           "name": "Searching for Clean Water",
           "isGlobal": "false",
           "lockedProgress": false,
@@ -410,7 +428,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        9,
+        46,
         27
       ],
       "questID": 6
@@ -473,27 +491,27 @@
     {
       "properties": {
         "betterquesting": {
-          "name": "Back to Riverside",
-          "desc": "Unfortunately, Lynne and her group would not listen to reason. Now you need to tell HuskyMudkipz and the town of Riverside the bad news.",
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
           "icon": {
             "id": "minecraft:fishing_rod",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
           },
-          "snd_complete": "random.levelup",
           "snd_update": "random.levelup",
-          "questLogic": "AND",
-          "taskLogic": "AND",
           "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Back to Riverside",
+          "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "isMain": false,
-          "partySingleReward": false,
-          "globalShare": true,
-          "simultaneous": false,
-          "isGlobal": false
+          "desc": "Unfortunately, Lynne and her group would not listen to reason. Now you need to tell HuskyMudkipz and the town of Riverside the bad news."
         }
       },
       "tasks": [
@@ -1075,7 +1093,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Team member, Thomas Franklin, has told you about a group of paladins who might be convinced to help police the area and train survivors. He said they were somewhere to the northwest."
+          "desc": "Team member, Thomas Franklin, has told you about a group of paladins who might be convinced to help police the area and train survivors. He said they were somewhere to the northwest of Riverside."
         }
       },
       "tasks": [
@@ -1116,7 +1134,7 @@
           "snd_update": "random.levelup",
           "repeatTime": -1,
           "globalShare": false,
-          "questLogic": "AND",
+          "questLogic": "OR",
           "name": "Iron Legion",
           "lockedProgress": false,
           "autoClaim": false,
@@ -1140,7 +1158,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        126
+        126,
+        19
       ],
       "questID": 20
     },
@@ -1397,7 +1416,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Riverside",
+          "name": "Riverside a",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -1497,7 +1516,7 @@
           "posY": 176,
           "posZ": 1439,
           "dimension": 0,
-          "range": 30,
+          "range": 64,
           "visible": false,
           "hideInfo": true,
           "taskID": "bq_standard:location",
@@ -1527,7 +1546,7 @@
           "snd_update": "random.levelup",
           "repeatTime": -1,
           "globalShare": false,
-          "questLogic": "AND",
+          "questLogic": "OR",
           "name": "Talking to the Locals",
           "lockedProgress": false,
           "autoClaim": false,
@@ -1559,11 +1578,18 @@
           "description": "Talk to Hdawg",
           "taskID": "bq_npc_integration:npc_dialog",
           "index": 3
+        },
+        {
+          "npcDialogID": 441,
+          "description": "Talk to Denis",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 4
         }
       ],
       "rewards": [],
       "preRequisites": [
-        29
+        29,
+        171
       ],
       "questID": 30
     },
@@ -1768,6 +1794,23 @@
           "npcQuestID": 45,
           "taskID": "bq_npc_integration:npc_quest",
           "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "deci:casual3Boots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
@@ -2314,7 +2357,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        12
+        167
       ],
       "questID": 48
     },
@@ -2461,7 +2504,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        12
+        167
       ],
       "questID": 51
     },
@@ -2605,7 +2648,7 @@
           "snd_update": "random.levelup",
           "repeatTime": -1,
           "globalShare": false,
-          "questLogic": "AND",
+          "questLogic": "OR",
           "name": "Miner\u0027s Den",
           "lockedProgress": false,
           "autoClaim": false,
@@ -2629,7 +2672,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        126
+        126,
+        44
       ],
       "questID": 55
     },
@@ -3084,7 +3128,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "The guards said Elder Snoop wants to speak with you in his command room."
+          "desc": "The guards said Elder Snoop wants to speak with you in his command room.\n\nPress L to find the quest that tracks how many mobs you have killed."
         }
       },
       "tasks": [
@@ -3098,15 +3142,6 @@
           "npcQuestID": 40,
           "taskID": "bq_npc_integration:npc_quest",
           "index": 1
-        },
-        {
-          "target": "Zombie",
-          "required": 1,
-          "subtypes": true,
-          "ignoreNBT": true,
-          "targetNBT": {},
-          "taskID": "bq_standard:hunt",
-          "index": 2
         }
       ],
       "rewards": [],
@@ -3137,7 +3172,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Elder Snoop has another task for you."
+          "desc": "Elder Snoop has another task for you.\n\nStay on the road heading west, soutwesth, till you get closer."
         }
       },
       "tasks": [
@@ -3163,15 +3198,6 @@
           "hideInfo": false,
           "taskID": "bq_standard:location",
           "index": 2
-        },
-        {
-          "target": "Zombie",
-          "required": 1,
-          "subtypes": true,
-          "ignoreNBT": true,
-          "targetNBT": {},
-          "taskID": "bq_standard:hunt",
-          "index": 3
         }
       ],
       "rewards": [],
@@ -3335,8 +3361,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        68,
-        60
+        60,
+        69
       ],
       "questID": 70
     },
@@ -3358,17 +3384,35 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "A Change of Heart",
+          "name": "Alliance with the Ciphers",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Speak to Paladin Jefferson about what Isaac told you."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "npcDialogID": 445,
+          "description": "Speak with Paladin Jefferson at night",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 142,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcQuestID": 145,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
       "rewards": [],
       "preRequisites": [
-        68
+        70,
+        166
       ],
       "questID": 71
     },
@@ -3652,7 +3696,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        5
+        168
       ],
       "questID": 78
     },
@@ -3719,7 +3763,7 @@
           "snd_update": "random.levelup",
           "repeatTime": -1,
           "globalShare": false,
-          "questLogic": "AND",
+          "questLogic": "OR",
           "name": "Black Forest Observatory",
           "lockedProgress": false,
           "autoClaim": false,
@@ -3743,7 +3787,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        120
+        120,
+        79
       ],
       "questID": 80
     },
@@ -3952,7 +3997,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "You have come across a large dam that used to supply power to the surrounding area. The first level looks like storage."
+          "desc": "You have come across a large dam that used to supply power to the surrounding area. The first level looks like storage.\n\nYou find a key on one of the desks on this floor. What does it open?\n\nTo view the journal entries, press "
         }
       },
       "tasks": [
@@ -3967,7 +4012,26 @@
           "index": 1
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "DraconicEvolution:key",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "X:3": 3780,
+                "Y:3": 88,
+                "KeyCode:3": -721297943,
+                "Z:3": 3177
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         86
       ],
@@ -3991,7 +4055,7 @@
           "snd_update": "random.levelup",
           "repeatTime": -1,
           "globalShare": false,
-          "questLogic": "AND",
+          "questLogic": "OR",
           "name": "Skaguay Dam",
           "lockedProgress": false,
           "autoClaim": false,
@@ -4015,7 +4079,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        121
+        121,
+        84
       ],
       "questID": 86
     },
@@ -4025,7 +4090,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "visibility": "HIDDEN",
+          "visibility": "NORMAL",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -4042,7 +4107,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Time to find the mainframe computer that should boot up the whole system."
         }
       },
       "tasks": [
@@ -4052,9 +4117,29 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "DraconicEvolution:key",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "X:3": 3780,
+                "Y:3": 10,
+                "KeyCode:3": 975923981,
+                "Z:3": 3177
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
-        84
+        84,
+        96
       ],
       "questID": 87
     },
@@ -4123,7 +4208,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "The third floor looks like where the power went out of the dam to the cities."
+          "desc": "The third floor looks like where the power went out of the dam to the cities.\n\nYou find a key in a desk on this floor."
         }
       },
       "tasks": [
@@ -4138,7 +4223,26 @@
           "index": 1
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "DraconicEvolution:key",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "X:3": 3780,
+                "Y:3": 70,
+                "KeyCode:3": -157914257,
+                "Z:3": 3177
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         88
       ],
@@ -4209,7 +4313,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "The seventh floor is where the water comes in to turn the turbines."
+          "desc": "The seventh floor is where the water comes in to turn the turbines.\n\nYou find a key for the door on a desk."
         }
       },
       "tasks": [
@@ -4224,7 +4328,26 @@
           "index": 1
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "DraconicEvolution:key",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "X:3": 3780,
+                "Y:3": 46,
+                "KeyCode:3": 1876392113,
+                "Z:3": 3177
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         90
       ],
@@ -4252,7 +4375,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "The ninth floor is where the computer operated generators are located.\n\nYou find a key for a door on the desk."
         }
       },
       "tasks": [
@@ -4267,7 +4390,26 @@
           "index": 1
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "DraconicEvolution:key",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "X:3": 3780,
+                "Y:3": 34,
+                "KeyCode:3": -2018074693,
+                "Z:3": 3177
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         91
       ],
@@ -4381,7 +4523,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "More transformers but this floor has a mainframe computer to control the whole power plant you gather."
+          "desc": "More transformers but this floor should have a mainframe computer to control the whole power plant you guess."
         }
       },
       "tasks": [
@@ -4424,10 +4566,21 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "A very dark floor. Looks like the last."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "npcQuestID": 75,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        },
+        {
+          "npcQuestID": 76,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         95
@@ -4452,7 +4605,7 @@
           "snd_update": "random.levelup",
           "repeatTime": -1,
           "globalShare": false,
-          "questLogic": "AND",
+          "questLogic": "OR",
           "name": "Mesa Verde",
           "lockedProgress": false,
           "autoClaim": false,
@@ -4476,7 +4629,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        125
+        125,
+        166
       ],
       "questID": 97
     },
@@ -4546,7 +4700,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Exploring deeper."
         }
       },
       "tasks": [
@@ -4584,7 +4738,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "You find a bootup disk in the room with the engineer. You hope the system will still work after all these years."
         }
       },
       "tasks": [
@@ -5209,7 +5363,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "The campfire is useful for cooking the infected flesh and making it more palatable. Once you place it, you cannot pick it up again."
+          "desc": "The campfire is useful for cooking the infected flesh and making it more palatable. Once you place it, you cannot pick it up again.\n\nShift right click to dispose of the campfire."
         }
       },
       "tasks": [
@@ -5479,6 +5633,34 @@
           "hideInfo": true,
           "taskID": "bq_standard:location",
           "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ProjRed|Core:projectred.core.part",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "ProjRed|Core:projectred.core.part",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 17
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "npcQuestID": 132,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
         }
       ],
       "rewards": [],
@@ -5506,7 +5688,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Wasteland Location 1",
+          "name": "Cozyton Region",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -5550,11 +5732,11 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Wasteland Location 2",
+          "name": "Sqaguay Dam Region",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Dam and Radio Station"
+          "desc": "Sqaguay Dam Region"
         }
       },
       "tasks": [
@@ -5594,7 +5776,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Wasteland Location 3",
+          "name": "Chenne Reservation Region",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -5637,7 +5819,7 @@
           "snd_update": "random.levelup",
           "repeatTime": -1,
           "globalShare": false,
-          "questLogic": "AND",
+          "questLogic": "OR",
           "name": "Chenne Reservation",
           "lockedProgress": false,
           "autoClaim": false,
@@ -5661,7 +5843,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        122
+        122,
+        32
       ],
       "questID": 123
     },
@@ -5684,7 +5867,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Wasteland Location 4",
+          "name": "Littleton Region",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -5728,7 +5911,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Wasteland Location 5",
+          "name": "Mesa Verde Region",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -5772,7 +5955,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Wasteland Location 6",
+          "name": "Iron Legion Region",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -6784,7 +6967,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "You have searched the wastes for parts for the water filtration system for Riverside. Perhaps your search has come to an end."
+          "desc": "You have searched the wastes for parts for the water filtration system for Riverside. Perhaps your search has come to an end and someone will be able to help you here."
         }
       },
       "tasks": [
@@ -6837,6 +7020,34 @@
           "npcQuestID": 114,
           "taskID": "bq_npc_integration:npc_quest",
           "index": 1
+        },
+        {
+          "npcQuestID": 118,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:blockMachine3",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "BuildCraft|Transport:item.buildcraftPipe.pipefluidsiron",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 3
         }
       ],
       "rewards": [],
@@ -7207,13 +7418,26 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Talking to the locals."
+          "desc": "Seek out Paladin Isaac."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "npcDialogID": 429,
+          "description": "Confront Isaac",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 129,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
       "rewards": [],
       "preRequisites": [
-        105
+        105,
+        166
       ],
       "questID": 158
     },
@@ -7226,29 +7450,69 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "BuildCraft|Core:woodenGearItem",
+            "id": "FCTweaks:blankitem",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 1,
+            "tag": {
+              "RepairCost:3": 2,
+              "display:10": {
+                "Lore:9": {
+                  "8": "§5Vol 1, Issue 2"
+                },
+                "Name:8": "§cAdventure Lads Comic"
+              }
+            }
           },
           "snd_update": "random.levelup",
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "On the Radar",
+          "name": "Adventure Lads: Pototiis at Dawn",
           "lockedProgress": false,
-          "autoClaim": false,
+          "autoClaim": true,
           "isSilent": false,
-          "desc": "Speak with Abakus."
+          "desc": "You read about the exciting battle the Lads have against mutant potatoes."
         }
       },
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": [
-        158,
-        157,
-        165
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:blankitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:3": 2,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§5Vol 1, Issue 2"
+                  },
+                  "Name:8": "§cAdventure Lads Comic"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
       ],
+      "rewards": [
+        {
+          "command": "/effect @p 5 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
       "questID": 159
     },
     {
@@ -7304,7 +7568,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        155
+        155,
+        175
       ],
       "questID": 160
     },
@@ -7468,32 +7733,72 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "FCTweaks:blankitem",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 2,
+            "tag": {
+              "RepairCost:3": 2,
+              "display:10": {
+                "Lore:9": {
+                  "8": "§5Vol 1, Issue 3"
+                },
+                "Name:8": "§cAdventure Lads Comic"
+              }
+            }
           },
           "snd_update": "random.levelup",
           "repeatTime": -1,
           "globalShare": false,
-          "questLogic": "OR",
-          "name": "Relief for Mesa Verde",
+          "questLogic": "AND",
+          "name": "Adventure Lads: Jungle of the Bat Babies",
           "lockedProgress": false,
-          "autoClaim": false,
+          "autoClaim": true,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "You laugh till you cry reading about the misadventure of the Lads stumbling upon a bat cave."
         }
       },
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": [
-        156,
-        160
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:blankitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:3": 2,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§5Vol 1, Issue 3"
+                  },
+                  "Name:8": "§cAdventure Lads Comic"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
       ],
+      "rewards": [
+        {
+          "command": "/effect @p 11 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
       "questID": 165
     },
     {
@@ -7521,12 +7826,804 @@
           "desc": "Speak with Paladin Jefferson"
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "npcDialogID": 444,
+          "description": "Speak with Jefferson",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 130,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         69
       ],
       "questID": 166
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ImmersiveEngineering:metalDecoration",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Talking with the Locals",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You\u0027ve talked with the guard and the mayor, perhaps others will have useful information too."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 287,
+          "description": "Talk to Cohkha in the bar.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcDialogID": 289,
+          "description": "Talk to Haliee in the diner.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        13
+      ],
+      "questID": 167
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "betterquesting:placeholder",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Cozyton Rumors",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 307,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        5
+      ],
+      "questID": 168
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "FCTweaks:blankitem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Adventure Lads: The Battle of Murder Frog",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "You read about the riveting battle against a gigantic frog. After you finish you feel stronger."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:blankitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 2,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§5Vol 1, Issue 1"
+                  },
+                  "Name:8": "§cAdventure Lads Comic"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/effect @p 21 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 169
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ProjRed|Core:projectred.core.datacard",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {}
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Need Help",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Looks like Dartron needs more help."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 438,
+          "description": "Talk to Dartron",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 137,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        84,
+        100
+      ],
+      "questID": 170
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcWizardHead",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Wizard of the North",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Dartron has asked that you investigate rumors of a wizard in the north who might be able to help him finish his formula."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Wizard",
+          "posX": 2443,
+          "posY": 176,
+          "posZ": 1439,
+          "dimension": 0,
+          "range": 64,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        170
+      ],
+      "questID": 171
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ProjRed|Core:projectred.core.datacard",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {}
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Helping a Mutant",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You have found the so called wizard, now it is time to ask if he would be willing to help Dartron."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 440,
+          "description": "Talk to Fitz about Dartron\u0027s formula.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 138,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        31,
+        170
+      ],
+      "questID": 172
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "MineFactoryReloaded:syringe.health",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Modified Formula",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Return to Dartron with the modified formual."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 139,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        170,
+        172
+      ],
+      "questID": 173
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ComputerCraft:CC-Peripheral",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Computer Terminals",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout the Wasteland you will come across computer terminals with a puzzle to solve. Use the arrow keys to move the cursor up and down to highlight a word and press ENTER. The program will let you know if the word is correct, or how many letters are correct in the right order."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 174
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Pleasant Valley Enemy",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        162
+      ],
+      "questID": 175
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "IC2:blockMachine3",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Clean Water Again",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "After finding the items needed for the distiller, you return to Husky at Riverside."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 144,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        8,
+        150
+      ],
+      "questID": 176
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "FCTweaks:blankitem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3,
+            "tag": {
+              "RepairCost:3": 2,
+              "display:10": {
+                "Lore:9": {
+                  "8": "§5Vol 1, Issue 4"
+                },
+                "Name:8": "§cAdventure Lads Comic"
+              }
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Adventure Lads: Invaders from Beyond Planet X",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "This tale was a nail biter! Those aliens were fierce!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:blankitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "RepairCost:3": 2,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§5Vol 1, Issue 4"
+                  },
+                  "Name:8": "§cAdventure Lads Comic"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/effect @p 22 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 177
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "FCTweaks:blankitem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4,
+            "tag": {
+              "RepairCost:3": 2,
+              "display:10": {
+                "Lore:9": {
+                  "8": "§5Vol 1, Issue 5"
+                },
+                "Name:8": "§cAdventure Lads Comic"
+              }
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Adventure Lads: Amphibox the Nuclear Powered Amphibian",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Man...amphibians and the Adventure Lads don\u0027t mix! Poor Modii!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:blankitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4,
+              "tag": {
+                "RepairCost:3": 2,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§5Vol 1, Issue 5"
+                  },
+                  "Name:8": "§cAdventure Lads Comic"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/effect @p 21 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 178
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "FCTweaks:blankitem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 5,
+            "tag": {
+              "RepairCost:3": 2,
+              "display:10": {
+                "Lore:9": {
+                  "8": "§5Vol 1, Issue 6"
+                },
+                "Name:8": "§cAdventure Lads Comic"
+              }
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Adventure Lads: Brass Block Breakdown",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Poor Snoop! How Modii figured out how to make brass and not the technology minded Snoop is a funny twist!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:blankitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5,
+              "tag": {
+                "RepairCost:3": 2,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§5Vol 1, Issue 6"
+                  },
+                  "Name:8": "§cAdventure Lads Comic"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/effect @p 5 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 179
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "FCTweaks:blankitem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 6,
+            "tag": {
+              "RepairCost:3": 2,
+              "display:10": {
+                "Lore:9": {
+                  "8": "§5Vol 1, Issue 7"
+                },
+                "Name:8": "§cAdventure Lads Comic"
+              }
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Adventure Lads: Marooned on Mars!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "You laughed so hard your sides hurt! Poor Modii being cooked in a pot of potatoes! Luckily Snoop rescued him in time."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:blankitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6,
+              "tag": {
+                "RepairCost:3": 2,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§5Vol 1, Issue 7"
+                  },
+                  "Name:8": "§cAdventure Lads Comic"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/effect @p 11 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 180
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Adventure Lads:",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/effect @p 22 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 181
     }
   ],
   "questLines": [
@@ -7586,6 +8683,36 @@
       "quests": [
         {
           "size": 18,
+          "x": 150,
+          "y": 96,
+          "id": 167
+        },
+        {
+          "size": 18,
+          "x": 60,
+          "y": 60,
+          "id": 12
+        },
+        {
+          "size": 18,
+          "x": 90,
+          "y": 60,
+          "id": 13
+        },
+        {
+          "size": 18,
+          "x": 120,
+          "y": 60,
+          "id": 15
+        },
+        {
+          "size": 18,
+          "x": 90,
+          "y": 126,
+          "id": 111
+        },
+        {
+          "size": 18,
           "x": 180,
           "y": 60,
           "id": 16
@@ -7631,30 +8758,6 @@
           "x": 120,
           "y": 78,
           "id": 26
-        },
-        {
-          "size": 18,
-          "x": 60,
-          "y": 60,
-          "id": 12
-        },
-        {
-          "size": 18,
-          "x": 90,
-          "y": 60,
-          "id": 13
-        },
-        {
-          "size": 18,
-          "x": 120,
-          "y": 60,
-          "id": 15
-        },
-        {
-          "size": 18,
-          "x": 90,
-          "y": 126,
-          "id": 111
         }
       ],
       "lineID": 1,
@@ -7705,6 +8808,12 @@
           "x": 54,
           "y": 102,
           "id": 5
+        },
+        {
+          "size": 18,
+          "x": 108,
+          "y": 54,
+          "id": 168
         },
         {
           "size": 18,
@@ -7770,25 +8879,25 @@
         },
         {
           "size": 18,
-          "x": 192,
+          "x": 162,
           "y": 78,
           "id": 69
         },
         {
           "size": 18,
-          "x": 162,
-          "y": 78,
+          "x": 186,
+          "y": 96,
           "id": 70
         },
         {
           "size": 18,
-          "x": 222,
-          "y": 78,
+          "x": 186,
+          "y": 60,
           "id": 166
         },
         {
           "size": 18,
-          "x": 132,
+          "x": 210,
           "y": 78,
           "id": 71
         },
@@ -7818,6 +8927,12 @@
         }
       },
       "quests": [
+        {
+          "size": 18,
+          "x": 174,
+          "y": 96,
+          "id": 176
+        },
         {
           "size": 18,
           "x": 72,
@@ -7921,6 +9036,18 @@
           "x": 108,
           "y": 60,
           "id": 41
+        },
+        {
+          "size": 18,
+          "x": 72,
+          "y": 48,
+          "id": 171
+        },
+        {
+          "size": 18,
+          "x": 180,
+          "y": 78,
+          "id": 172
         },
         {
           "size": 18,
@@ -8077,6 +9204,18 @@
           "x": 162,
           "y": 108,
           "id": 84
+        },
+        {
+          "size": 18,
+          "x": 192,
+          "y": 108,
+          "id": 170
+        },
+        {
+          "size": 18,
+          "x": 222,
+          "y": 108,
+          "id": 173
         },
         {
           "size": 18,
@@ -8260,12 +9399,6 @@
         },
         {
           "size": 18,
-          "x": 186,
-          "y": 66,
-          "id": 151
-        },
-        {
-          "size": 18,
           "x": 54,
           "y": 138,
           "id": 120
@@ -8345,7 +9478,50 @@
           "desc": "Who said print was dead?"
         }
       },
-      "quests": [],
+      "quests": [
+        {
+          "size": 24,
+          "x": 66,
+          "y": 66,
+          "id": 177
+        },
+        {
+          "size": 24,
+          "x": 162,
+          "y": 66,
+          "id": 178
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 108,
+          "id": 179
+        },
+        {
+          "size": 24,
+          "x": 48,
+          "y": 150,
+          "id": 180
+        },
+        {
+          "size": 24,
+          "x": 192,
+          "y": 24,
+          "id": 165
+        },
+        {
+          "size": 24,
+          "x": 24,
+          "y": 24,
+          "id": 169
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 24,
+          "id": 159
+        }
+      ],
       "lineID": 13,
       "order": 16
     },
@@ -8379,7 +9555,7 @@
         },
         {
           "size": 18,
-          "x": 240,
+          "x": 258,
           "y": 114,
           "id": 162
         },
@@ -8397,12 +9573,6 @@
         },
         {
           "size": 18,
-          "x": 150,
-          "y": 114,
-          "id": 165
-        },
-        {
-          "size": 18,
           "x": 72,
           "y": 84,
           "id": 105
@@ -8412,6 +9582,12 @@
           "x": 102,
           "y": 84,
           "id": 106
+        },
+        {
+          "size": 18,
+          "x": 240,
+          "y": 114,
+          "id": 175
         },
         {
           "size": 18,
@@ -8448,12 +9624,6 @@
           "x": 102,
           "y": 114,
           "id": 158
-        },
-        {
-          "size": 18,
-          "x": 132,
-          "y": 114,
-          "id": 159
         }
       ],
       "lineID": 14,
@@ -8587,7 +9757,7 @@
         },
         {
           "size": 18,
-          "x": 186,
+          "x": 216,
           "y": 66,
           "id": 131
         },
@@ -8600,7 +9770,7 @@
         {
           "size": 18,
           "x": 216,
-          "y": 96,
+          "y": 126,
           "id": 133
         },
         {
@@ -8624,7 +9794,7 @@
         {
           "size": 18,
           "x": 216,
-          "y": 66,
+          "y": 96,
           "id": 137
         },
         {
@@ -8665,7 +9835,7 @@
         },
         {
           "size": 18,
-          "x": 216,
+          "x": 246,
           "y": 126,
           "id": 144
         },
@@ -8716,6 +9886,12 @@
           "x": 96,
           "y": 96,
           "id": 110
+        },
+        {
+          "size": 18,
+          "x": 186,
+          "y": 66,
+          "id": 174
         },
         {
           "size": 18,
