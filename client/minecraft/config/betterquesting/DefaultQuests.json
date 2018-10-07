@@ -183,11 +183,6 @@
           "index": 1
         },
         {
-          "npcQuestID": 4,
-          "taskID": "bq_npc_integration:npc_quest",
-          "index": 2
-        },
-        {
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
@@ -202,6 +197,11 @@
             }
           ],
           "taskID": "bq_standard:retrieval",
+          "index": 2
+        },
+        {
+          "npcQuestID": 4,
+          "taskID": "bq_npc_integration:npc_quest",
           "index": 3
         }
       ],
@@ -343,7 +343,7 @@
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -840,7 +840,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -869,6 +869,11 @@
           ],
           "taskID": "bq_standard:retrieval",
           "index": 0
+        },
+        {
+          "npcQuestID": 203,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
         }
       ],
       "rewards": [],
@@ -1138,7 +1143,7 @@
           "name": "Iron Legion",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -1299,7 +1304,7 @@
           "name": "Choice #1",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -1339,7 +1344,7 @@
           "name": "Choice #2",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -1379,7 +1384,7 @@
           "name": "Choice #3",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -1419,7 +1424,7 @@
           "name": "Riverside a",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -1465,7 +1470,7 @@
           "name": "Jen\u0027s Task",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -1505,7 +1510,7 @@
           "name": "Littleton",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -1676,7 +1681,15 @@
       },
       "tasks": [
         {
-          "taskID": "bq_standard:checkbox",
+          "name": "Chenne Reservation",
+          "posX": 3604,
+          "posY": 126,
+          "posZ": 500,
+          "dimension": 0,
+          "range": 64,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
           "index": 0
         }
       ],
@@ -1708,7 +1721,7 @@
           "name": "Littleton Rumor",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -1928,7 +1941,7 @@
           "name": "RW\u0027s Quest",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -1968,7 +1981,7 @@
           "name": "Eli\u0027s Quest",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -2008,7 +2021,7 @@
           "name": "Sue\u0027s Quest",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -2048,7 +2061,7 @@
           "name": "Denis",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -2088,7 +2101,7 @@
           "name": "Unlikely Allies",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -2128,7 +2141,7 @@
           "name": "Project Team Location",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -2213,7 +2226,7 @@
           "name": "Project Team Location",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -2343,7 +2356,7 @@
           "name": "Rumors in Pleasant Valley",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -2383,7 +2396,7 @@
           "name": "Locate Junkyard",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -2403,7 +2416,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        10
+        12
       ],
       "questID": 49
     },
@@ -2490,7 +2503,7 @@
           "name": "Rumors in Pleasant Valley",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -2575,7 +2588,7 @@
           "name": "Project Team Location",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -2620,7 +2633,15 @@
       },
       "tasks": [
         {
-          "taskID": "bq_standard:checkbox",
+          "name": "Colorado Springs",
+          "posX": 4545,
+          "posY": 52,
+          "posZ": 4356,
+          "dimension": 0,
+          "range": 64,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
           "index": 0
         }
       ],
@@ -2652,7 +2673,7 @@
           "name": "Miner\u0027s Den",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -2793,7 +2814,7 @@
           "name": "Smitty",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -2958,7 +2979,7 @@
           "name": "Merchant Rumors",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -2998,16 +3019,16 @@
           "name": "NORAD",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
       "tasks": [
         {
           "name": "NORAD",
-          "posX": 1868,
+          "posX": 1877,
           "posY": 102,
-          "posZ": 3521,
+          "posZ": 3520,
           "dimension": 0,
           "range": 30,
           "visible": false,
@@ -3018,7 +3039,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        119
+        118
       ],
       "questID": 63
     },
@@ -3183,12 +3204,7 @@
           "index": 0
         },
         {
-          "npcQuestID": 41,
-          "taskID": "bq_npc_integration:npc_quest",
-          "index": 1
-        },
-        {
-          "name": "The Children of the Night",
+          "name": "Children of the Night",
           "posX": 509,
           "posY": 129,
           "posZ": 2435,
@@ -3197,6 +3213,11 @@
           "visible": false,
           "hideInfo": false,
           "taskID": "bq_standard:location",
+          "index": 1
+        },
+        {
+          "npcQuestID": 41,
+          "taskID": "bq_npc_integration:npc_quest",
           "index": 2
         }
       ],
@@ -3239,11 +3260,6 @@
           "index": 0
         },
         {
-          "npcQuestID": 42,
-          "taskID": "bq_npc_integration:npc_quest",
-          "index": 1
-        },
-        {
           "name": "Razorclaw Valley",
           "posX": 1757,
           "posY": 138,
@@ -3253,6 +3269,11 @@
           "visible": false,
           "hideInfo": false,
           "taskID": "bq_standard:location",
+          "index": 1
+        },
+        {
+          "npcQuestID": 42,
+          "taskID": "bq_npc_integration:npc_quest",
           "index": 2
         }
       ],
@@ -3298,6 +3319,16 @@
           "npcQuestID": 43,
           "taskID": "bq_npc_integration:npc_quest",
           "index": 1
+        },
+        {
+          "npcQuestID": 207,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        },
+        {
+          "npcQuestID": 208,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 3
         }
       ],
       "rewards": [],
@@ -3433,18 +3464,26 @@
           "snd_update": "random.levelup",
           "repeatTime": -1,
           "globalShare": false,
-          "questLogic": "AND",
-          "name": "New Quest",
+          "questLogic": "OR",
+          "name": "Ghoul Guards",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "You\u0027ve reached the entrance of NORAD, you wonder if this encounter will go well."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "npcDialogID": 483,
+          "description": "Talk to a ghoul guard",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
       "rewards": [],
       "preRequisites": [
-        63
+        63,
+        64
       ],
       "questID": 72
     },
@@ -3474,12 +3513,49 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Wow, you really collected them all?"
+          "desc": "Wow, you really collected them all? Place these tables in your clan turf to display your bobbleheads."
         }
       },
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "trophyslots:trophy",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "props:props",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1425
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        187,
+        188,
+        190,
+        189,
+        191,
+        192,
+        193,
+        194,
+        198,
+        197,
+        196,
+        195
+      ],
       "questID": 73
     },
     {
@@ -3593,7 +3669,7 @@
           "name": "Riverside Rumor",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -3682,7 +3758,7 @@
           "name": "Cozyton Rumor ",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -3767,7 +3843,7 @@
           "name": "Black Forest Observatory",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -3997,7 +4073,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "You have come across a large dam that used to supply power to the surrounding area. The first level looks like storage.\n\nYou find a key on one of the desks on this floor. What does it open?\n\nTo view the journal entries, press "
+          "desc": "You have come across a large dam that used to supply power to the surrounding area. The first level looks like storage.\n\nYou find a key on one of the desks on this floor. What does it open?\n\nTo view the journal entries, press N."
         }
       },
       "tasks": [
@@ -4059,7 +4135,7 @@
           "name": "Skaguay Dam",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -4609,7 +4685,7 @@
           "name": "Mesa Verde",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -4656,7 +4732,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "As you approach the building, you see it is occupied by Raiders. You will need to get rid of them if you wish to use the equipment inside."
+          "desc": "As you approach the radio station, you see it is occupied by Raiders. You will need to get rid of them if you wish to use the equipment inside."
         }
       },
       "tasks": [
@@ -4829,7 +4905,7 @@
           "name": "Radio Station",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -4849,7 +4925,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        121
+        12
       ],
       "questID": 102
     },
@@ -5084,6 +5160,15 @@
         {
           "taskID": "bq_standard:checkbox",
           "index": 0
+        },
+        {
+          "target": "Zombie",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "taskID": "bq_standard:hunt",
+          "index": 1
         }
       ],
       "rewards": [],
@@ -5114,7 +5199,7 @@
           "name": "Aquire a Gun",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -5179,7 +5264,7 @@
           "name": "Aquire Backpack",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -5400,7 +5485,7 @@
           "name": "Campfire",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -5580,7 +5665,7 @@
           "name": "Mayor\u0027s Suggestion",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -5593,7 +5678,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        13
+      ],
       "questID": 118
     },
     {
@@ -5691,7 +5778,7 @@
           "name": "Cozyton Region",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "Cozyton and Observatory"
         }
       },
@@ -5710,7 +5797,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        12
+      ],
       "questID": 120
     },
     {
@@ -5735,7 +5824,7 @@
           "name": "Sqaguay Dam Region",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "Sqaguay Dam Region"
         }
       },
@@ -5754,7 +5843,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        12
+      ],
       "questID": 121
     },
     {
@@ -5779,7 +5870,7 @@
           "name": "Chenne Reservation Region",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "Chenne Reservation"
         }
       },
@@ -5798,7 +5889,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        12
+      ],
       "questID": 122
     },
     {
@@ -5823,20 +5916,20 @@
           "name": "Chenne Reservation",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
       "tasks": [
         {
-          "name": "New Location",
-          "posX": 0,
-          "posY": 0,
-          "posZ": 0,
+          "name": "Chenne Reservation",
+          "posX": 3604,
+          "posY": 126,
+          "posZ": 500,
           "dimension": 0,
-          "range": -1,
+          "range": 64,
           "visible": false,
-          "hideInfo": false,
+          "hideInfo": true,
           "taskID": "bq_standard:location",
           "index": 0
         }
@@ -5870,7 +5963,7 @@
           "name": "Littleton Region",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "Littleton"
         }
       },
@@ -5889,7 +5982,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        12
+      ],
       "questID": 124
     },
     {
@@ -5914,7 +6009,7 @@
           "name": "Mesa Verde Region",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "Mesa Verde"
         }
       },
@@ -5933,7 +6028,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        12
+      ],
       "questID": 125
     },
     {
@@ -5958,7 +6055,7 @@
           "name": "Iron Legion Region",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "Iron Legion and Miner\u0027s Den"
         }
       },
@@ -5977,7 +6074,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        12
+      ],
       "questID": 126
     },
     {
@@ -6002,7 +6101,7 @@
           "name": "Find a Scope",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -6051,7 +6150,7 @@
           "name": "Find a Scope",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -6100,7 +6199,7 @@
           "name": "Find a Scope",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -6149,7 +6248,7 @@
           "name": "Find a Scope",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -6239,7 +6338,7 @@
           "name": "Find a Scope",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -6327,7 +6426,7 @@
           "name": "Find a Barrel",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -6376,7 +6475,7 @@
           "name": "Find a Barrel",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -6425,7 +6524,7 @@
           "name": "Find a Barrel",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -6513,7 +6612,7 @@
           "name": "Find a Grip",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -6562,7 +6661,7 @@
           "name": "Find a Grip",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -6611,7 +6710,7 @@
           "name": "Find a Grip",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -6744,7 +6843,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        12
+      ],
       "questID": 143
     },
     {
@@ -6806,7 +6907,7 @@
           "name": "Find a Radio",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -7595,7 +7696,7 @@
           "name": "Refuse Offer",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -7635,7 +7736,7 @@
           "name": "Power Grab",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -7675,7 +7776,7 @@
           "name": "Negotiation",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -7715,7 +7816,7 @@
           "name": "Pleasant Valley Ally",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -7912,7 +8013,7 @@
           "name": "Cozyton Rumors",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -8230,7 +8331,7 @@
           "name": "Pleasant Valley Enemy",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "No Description"
         }
       },
@@ -8585,20 +8686,29 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "FCTweaks:blankitem",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 7,
+            "tag": {
+              "RepairCost:3": 2,
+              "display:10": {
+                "Lore:9": {
+                  "8": "§5Vol 1, Issue 8"
+                },
+                "Name:8": "§cAdventure Lads Comic"
+              }
+            }
           },
           "snd_update": "random.levelup",
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Adventure Lads:",
+          "name": "Adventure Lads: Mermaids of Blacklake Lagoon",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "The Adventure Lads get themselves into so much trouble in this issue!"
         }
       },
       "tasks": [
@@ -8608,7 +8718,23 @@
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
-          "requiredItems": [],
+          "requiredItems": [
+            {
+              "id": "FCTweaks:blankitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7,
+              "tag": {
+                "RepairCost:3": 2,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§5Vol 1, Issue 8"
+                  },
+                  "Name:8": "§cAdventure Lads Comic"
+                }
+              }
+            }
+          ],
           "taskID": "bq_standard:retrieval",
           "index": 0
         }
@@ -8624,6 +8750,2655 @@
       ],
       "preRequisites": [],
       "questID": 181
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:chainmail_helmet",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "OR",
+          "name": "Slavers?",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You cautiously enter the camp."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 454,
+          "description": "Speak to Frankie",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcDialogID": 456,
+          "description": "Speak to Tony",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcDialogID": 459,
+          "description": "A Runaway",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        123,
+        32
+      ],
+      "questID": 182
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:ItemTrimmingScissors",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "A Trade Agreement",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Speak with the chief to see if you can come up with an agreement for the coco."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 479,
+          "description": "Speak with the Chief",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 160,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        185,
+        151
+      ],
+      "questID": 183
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "MineFactoryReloaded:rubberwood.sapling",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Native Village",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Time to find out the truth."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 465,
+          "description": "Speak with the Chief",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcDialogID": 467,
+          "description": "Speak with the Chief again",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcDialogID": 466,
+          "description": "Talk to RSDAngelOnFire",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 2
+        },
+        {
+          "npcDialogID": 472,
+          "description": "Morgaines motions to speak with you.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 3
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        182
+      ],
+      "questID": 184
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "DraconicEvolution:key",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Justice Served",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Time to take care of the slavers and release the captives."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 156,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        184
+      ],
+      "questID": 185
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:BlockMedicalCrate",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "A Win-Win",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Speak with Doctor Bones at the Emdee Hospital."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 480,
+          "description": "Talk to Doctor Bones",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 159,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcQuestID": 160,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        151,
+        70
+      ],
+      "questID": 186
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "modelcitizens:blockModelCitizen",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Modii101",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Find Modii and wish him a happy birthday!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:playerStatue",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Comment:8": "It\u0027s not my birthday!",
+                "IsSneak:3": 0,
+                "UserName:8": "modii101",
+                "IsChild:3": 0,
+                "IsRiding:3": 0,
+                "Scale:6": 0.5,
+                "Rotation:3": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/effect @p 5 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 187
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "modelcitizens:blockModelCitizen",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "HeatherReneeB",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Where could the cupcake princess be?"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:playerStatue",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Comment:8": "Cupcake Time!",
+                "IsSneak:3": 0,
+                "UserName:8": "HeatherReneeB",
+                "IsChild:3": 0,
+                "IsRiding:3": 1,
+                "Scale:6": 0.5,
+                "Rotation:3": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/effect @p 11 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 188
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "modelcitizens:blockModelCitizen",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "RSDAngelOnFire",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Find the girl on fire!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:playerStatue",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Comment:8": "Not all the redstone!",
+                "IsSneak:3": 0,
+                "UserName:8": "RSDAngelOnFire",
+                "IsChild:3": 0,
+                "IsRiding:3": 0,
+                "Scale:6": 0.5,
+                "Rotation:3": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/effect @p 22 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 189
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "modelcitizens:blockModelCitizen",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Snoop787",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Where could this mad ginger be located?"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:playerStatue",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Comment:8": "Ermahgerd!",
+                "IsSneak:3": 0,
+                "UserName:8": "snoop787",
+                "IsChild:3": 0,
+                "IsRiding:3": 1,
+                "Scale:6": 0.5,
+                "Rotation:3": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/effect @p 21 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 190
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "modelcitizens:blockModelCitizen",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Zykic",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Where could this sneaky ninja be?"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:playerStatue",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Comment:8": "I\u0027m hungry!",
+                "IsSneak:3": 1,
+                "UserName:8": "Zykic_",
+                "IsChild:3": 0,
+                "IsRiding:3": 0,
+                "Scale:6": 0.5,
+                "Rotation:3": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/effect @p 23 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 191
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "modelcitizens:blockModelCitizen",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Teagan75",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Not all modpack makers are evil."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:playerStatue",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Comment:8": "I\u0027m sticky!",
+                "IsSneak:3": 0,
+                "UserName:8": "teagan75",
+                "IsChild:3": 0,
+                "IsRiding:3": 0,
+                "Scale:6": 0.5,
+                "Rotation:3": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/effect @p 5 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 192
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "modelcitizens:blockModelCitizen",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Haliee",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Where is the girl who killed everyone on a server with one command?"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:playerStatue",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Comment:8": "You\u0027re a beautiful person!",
+                "IsSneak:3": 0,
+                "UserName:8": "Haliee",
+                "IsChild:3": 0,
+                "IsRiding:3": 0,
+                "Scale:6": 0.5,
+                "Rotation:3": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/effect @p 11 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 193
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "modelcitizens:blockModelCitizen",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "SarahJ",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Where is this spunky Brit?"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:playerStatue",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Comment:8": "Hey! Stop! You\u0027re doing me head in!",
+                "IsSneak:3": 0,
+                "UserName:8": "Sarahj2211",
+                "IsChild:3": 0,
+                "IsRiding:3": 0,
+                "Scale:6": 0.5,
+                "Rotation:3": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/effect @p 21 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 194
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "modelcitizens:blockModelCitizen",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "SnowShepherd",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Where is this artist hiding out?"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:playerStatue",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Comment:8": "I love to draw and sing!",
+                "IsSneak:3": 0,
+                "UserName:8": "Sn0wShepherd",
+                "IsChild:3": 0,
+                "IsRiding:3": 0,
+                "Scale:6": 0.5,
+                "Rotation:3": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/effect @p 11 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 195
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "modelcitizens:blockModelCitizen",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Brandon3055",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "It\u0027s hard to find a good mod dev!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:playerStatue",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Comment:8": "I code all the things!",
+                "IsSneak:3": 0,
+                "UserName:8": "Brandon3055",
+                "IsChild:3": 0,
+                "IsRiding:3": 0,
+                "Scale:6": 0.5,
+                "Rotation:3": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/effect @p 5 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 196
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "modelcitizens:blockModelCitizen",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "The GreatOrator",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Where is the maker of TolkienCraft?"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:playerStatue",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Comment:8": "Greetings travellers!",
+                "IsSneak:3": 0,
+                "UserName:8": "GreatOrator",
+                "IsChild:3": 0,
+                "IsRiding:3": 1,
+                "Scale:6": 0.5,
+                "Rotation:3": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/effect @p 23 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 197
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "modelcitizens:blockModelCitizen",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Jerle17",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Where could this prankster be?"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "FCTweaks:playerStatue",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Comment:8": "360 bed spin!",
+                "IsSneak:3": 1,
+                "UserName:8": "Jerle17",
+                "IsChild:3": 0,
+                "IsRiding:3": 0,
+                "Scale:6": 0.5,
+                "Rotation:3": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/effect @p 22 1200",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 198
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:enchanted_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "StoredEnchantments:9": {
+                "10": {
+                  "lvl:2": 2,
+                  "id:2": 213
+                }
+              }
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Collector Edition",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Print is alive because of you! Use the shelves in your base to display your collection."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "trophyslots:trophy",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "BiblioCraft:BiblioShelf",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        169,
+        177,
+        179,
+        180,
+        178,
+        159,
+        165,
+        181
+      ],
+      "questID": 199
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "IC2:blockMetal",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Finding the Leader",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Now that you are in, perhaps you should see who the leader is."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 493,
+          "description": "Talk to Inzannatee",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 170,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        72
+      ],
+      "questID": 200
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Leader of the Ghouls",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 499,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        63
+      ],
+      "questID": 201
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:ItemCandyCorn",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Corny Request",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Talk to Grave in a room in the control bunker at NORAD."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 500,
+          "description": "Talk to Grave",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 171,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        201
+      ],
+      "questID": 202
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:skull",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "A Cure?",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Dean Tejada would like to speak with you."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 507,
+          "description": "Talk to Dean Tejada",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 115,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        201
+      ],
+      "questID": 203
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:VehicleSpawnerHummer",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Drivable Vehicles",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You may come across vehicles that you can enter and drive. You will need to find or purchase a Jerry Can and have it in your hotbar to drive. All of the vehicles carry multiple people. \n\nRight click the vehicle when you are done so it doesn\u0027t despawn when you leave an area."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 204
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:BlockSandbagStack",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "A Place of Your Own",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "There is a shop that sells building kits as well as other fortifications. You can use the materials to build a house from scratch or to fix up an abandoned home in the Wastes.\n\nStart by creating a clan using /clan create [name] and then claim turf using the command /clan claim. All other clan commands can be seen by using /clan help."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Builder Shop",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": 10,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 205
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 686
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Breeder Facility",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Time to find your way to where these breeding experiments are going on."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Breeder Headquarters",
+          "posX": 4272,
+          "posY": 56,
+          "posZ": 4432,
+          "dimension": 0,
+          "range": 30,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        54
+      ],
+      "questID": 206
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "shadowmobs:shadowegg",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "GreatOrator",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You overhear a conversation between GreatOrator and his henchman."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 514,
+          "description": "Talk to GreatOrator after he is done talking.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        206
+      ],
+      "questID": 207
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 240
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Woman in the Cell",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Speak with the woman in the cell downstairs from GreatOrator\u0027s office. "
+        }
+      },
+      "tasks": [
+        {
+          "name": "Holding Cells",
+          "posX": 4308,
+          "posY": 56,
+          "posZ": 4458,
+          "dimension": 0,
+          "range": 10,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 519,
+          "description": "Speak to the woman",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        207
+      ],
+      "questID": 208
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 680
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Doctor Sardis",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Find and speak with Doctor Sardis."
+        }
+      },
+      "tasks": [
+        {
+          "name": "The Good Doctor?",
+          "posX": 4304,
+          "posY": 67,
+          "posZ": 4456,
+          "dimension": 0,
+          "range": 10,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 515,
+          "description": "Speak to Doctor Sardis",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        207
+      ],
+      "questID": 209
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "swampmobs:swampegg",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Timothy",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Speak with one of the ghoul workers in the tower."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Dining Room",
+          "posX": 4280,
+          "posY": 68,
+          "posZ": 4456,
+          "dimension": 0,
+          "range": 10,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 523,
+          "description": "Talk to Timothy downstairs in the dining room.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        207
+      ],
+      "questID": 210
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:potatoes",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Finding Rachel Paxton",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Timothy told you to locate Rachel Paxton south of the Breeder headquarters."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Ghoulish Home",
+          "posX": 4425,
+          "posY": 53,
+          "posZ": 4664,
+          "dimension": 0,
+          "range": 15,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 535,
+          "description": "Talk to Rachel Paxton",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        209,
+        208,
+        210
+      ],
+      "questID": 211
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:ItemAchivement_Condition_Irradiated",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Something Radioactive",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You hve been told there may be something radioactive by the pond west of the ghouls\u0027 home. Then you can return to Inzannatee at NORAD."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:blockMetal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        211
+      ],
+      "questID": 212
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:ItemAchivement_Condition_Bleeding",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Defeat the Enemy of the Wastes",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "There are a few people you need to see before you can take care of GreatOrator."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 177,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        },
+        {
+          "npcQuestID": 178,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcQuestID": 179,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        },
+        {
+          "npcQuestID": 180,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 3
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        214
+      ],
+      "questID": 213
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "harvestcraft:queenbeeItem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Bee Serum",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Rachel told you to not take her word alone, but to head back to the headquarters and \"aquire\" some serum to test."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "MineFactoryReloaded:syringe.growth",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 2,
+                "display:10": {
+                  "Name:8": "Bee Serum"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        211
+      ],
+      "questID": 214
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:ItemBandage",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Good Samaritan",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "As you were walking along the road, you see a badly injured person near a run down store."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 541,
+          "description": "Speak with Peter",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 182,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcQuestID": 183,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        52
+      ],
+      "questID": 215
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:BlockSupplyDrop",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Frozen Chosen",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You have come across a small settlement of survivors. Are they friendly or hostile?"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 548,
+          "description": "Talk to SnowShepherd",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "name": "Supply Cache",
+          "posX": 3257,
+          "posY": 96,
+          "posZ": 1565,
+          "dimension": 0,
+          "range": 10,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 1
+        },
+        {
+          "npcQuestID": 185,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        217
+      ],
+      "questID": 216
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "BiblioCraft:item.BiblioWayPointCompass",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Lonely Settlement",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Settlement",
+          "posX": 3322,
+          "posY": 84,
+          "posZ": 1645,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 217
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:ItemBaseballBatNails",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Survivors",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Travelling in the wastes you come across a family."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 550,
+          "description": "Speak to Jerle17",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        220
+      ],
+      "questID": 218
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "BiomesOPlenty:misc",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 10
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Ghost Farm",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "As you approach the farm you decide to look more closly at the hanging corpses and the wandering ghosts."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 187,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        },
+        {
+          "npcQuestID": 189,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcQuestID": 190,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        218
+      ],
+      "questID": 219
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "BiblioCraft:item.BiblioWayPointCompass",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Wasteland Road",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Road",
+          "posX": 3313,
+          "posY": 76,
+          "posZ": 1135,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 220
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcLetter",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "The Good Doctor",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Dean asked you to talk to Doctor Bones at the Emdees hospital and see how the serum is coming along."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 415,
+          "description": "Talk to Doctor Bones about the cure serum.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 191,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        203
+      ],
+      "questID": 221
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "MineFactoryReloaded:syringe.cure",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Finished Serum",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Speak to Doctor Bones to see if he finished the serum."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 558,
+          "description": "Talk to Doctor Bones",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 194,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        221
+      ],
+      "questID": 222
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ThermalExpansion:Cell",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "Recv:3": 100000,
+              "RSControl:1": 1,
+              "Facing:1": 3,
+              "Energy:3": -1,
+              "SideCache:7": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "Send:3": 100000
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "End of the Journey?",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Speak with RadgieDaddy at NORAD."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 560,
+          "description": "Talk to RadgieDaddy",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 195,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        200
+      ],
+      "questID": 223
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:BlockSupplyDrop",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Singleplayer: Loot Crates",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "If you are playing singleplayer, the special loot crates will not open (anything that says \"Right click to open\"). This is a mechanic of the Decimation mod."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 224
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ThermalFoundation:tool.hoeLead",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Cave Rats",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "As you enter the tunnels, you find it quite inhabited."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 570,
+          "description": "Talk to Brandon3055",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 199,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        219
+      ],
+      "questID": 225
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 35
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "The Lost Train",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "When exploring the haunted farm, keep an eye out for the toy train."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 188,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        218
+      ],
+      "questID": 226
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:iron_door",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Storage Room",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "With GreatOrator\u0027s key in hand, you head to the second floor and down a small staircase to a hidden storage room to grab the power cell."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Secret Store Room",
+          "posX": 4268,
+          "posY": 67,
+          "posZ": 4449,
+          "dimension": 0,
+          "range": 5,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        213
+      ],
+      "questID": 227
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 6
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Airport",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "While exploring the Wastes, you have come across a well preserved airport. It seems the Iron Legion is here too."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 565,
+          "description": "Talk to Paladin SarahJ",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcQuestID": 198,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        229
+      ],
+      "questID": 228
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "BiblioCraft:item.BiblioWayPointCompass",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Colorado Springs Region",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Airport",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        12
+      ],
+      "questID": 229
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "deci:ItemCannedAppleRed",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Mystery of the Missing Supplies",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Under the control tower, you see a group of Paladins discussing stolen items."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 567,
+          "description": "Talk to Paladin Monroe",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "npcDialogID": 569,
+          "description": "Talk to Sylvia",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 202,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        229
+      ],
+      "questID": 230
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "betterquesting:placeholder",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Decisions",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Confront Derek about the missing supplies."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 573,
+          "description": "Confront Derek",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        230
+      ],
+      "questID": 231
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:potatoes",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Inform Paladin Monroe",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Head back to the control tower and inform Paladin Monroe about Derek."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 206,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        233,
+        231
+      ],
+      "questID": 232
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "betterquesting:placeholder",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Reveal Derek\u0027s Secret",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 578,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        228
+      ],
+      "questID": 233
     }
   ],
   "questLines": [
@@ -9139,7 +11914,7 @@
           "name": "Chenne Reservation",
           "bg_image": "fallcraft:gui/background.png",
           "bg_size": 256,
-          "desc": "No Description"
+          "desc": "While travelling farther north, you come upon multiple horse drawn wagons. Two of the carts have jail-like cages and you wonder if these are slavers."
         }
       },
       "quests": [
@@ -9154,6 +11929,30 @@
           "x": 66,
           "y": 60,
           "id": 33
+        },
+        {
+          "size": 18,
+          "x": 96,
+          "y": 108,
+          "id": 182
+        },
+        {
+          "size": 18,
+          "x": 186,
+          "y": 108,
+          "id": 183
+        },
+        {
+          "size": 18,
+          "x": 126,
+          "y": 108,
+          "id": 184
+        },
+        {
+          "size": 18,
+          "x": 156,
+          "y": 108,
+          "id": 185
         },
         {
           "size": 18,
@@ -9236,10 +12035,10 @@
     {
       "properties": {
         "betterquesting": {
-          "name": "Norad",
+          "name": "NORAD",
           "bg_image": "fallcraft:gui/background.png",
           "bg_size": 256,
-          "desc": "No Description"
+          "desc": "When the bombs fell, a large surface missile was headed for NORAD. It instead fell east on Colorado Springs. This left the former military base largely intact. Many trapped in Colorado Springs underwent major transformation if the fallout didn’t kill them outright. They are known as ghouls in the Wastes and they have settled here."
         }
       },
       "quests": [
@@ -9257,15 +12056,57 @@
         },
         {
           "size": 18,
+          "x": 114,
+          "y": 96,
+          "id": 200
+        },
+        {
+          "size": 18,
+          "x": 66,
+          "y": 120,
+          "id": 201
+        },
+        {
+          "size": 18,
+          "x": 114,
+          "y": 66,
+          "id": 202
+        },
+        {
+          "size": 18,
+          "x": 144,
+          "y": 66,
+          "id": 203
+        },
+        {
+          "size": 18,
+          "x": 174,
+          "y": 66,
+          "id": 221
+        },
+        {
+          "size": 18,
           "x": 84,
           "y": 36,
           "id": 62
         },
         {
           "size": 18,
+          "x": 204,
+          "y": 66,
+          "id": 222
+        },
+        {
+          "size": 18,
           "x": 66,
           "y": 96,
           "id": 63
+        },
+        {
+          "size": 18,
+          "x": 144,
+          "y": 96,
+          "id": 223
         }
       ],
       "lineID": 9,
@@ -9283,15 +12124,75 @@
       "quests": [
         {
           "size": 18,
+          "x": 156,
+          "y": 78,
+          "id": 208
+        },
+        {
+          "size": 18,
+          "x": 156,
+          "y": 54,
+          "id": 209
+        },
+        {
+          "size": 18,
+          "x": 156,
+          "y": 102,
+          "id": 210
+        },
+        {
+          "size": 18,
+          "x": 186,
+          "y": 78,
+          "id": 211
+        },
+        {
+          "size": 18,
+          "x": 258,
+          "y": 78,
+          "id": 227
+        },
+        {
+          "size": 18,
+          "x": 186,
+          "y": 102,
+          "id": 212
+        },
+        {
+          "size": 18,
           "x": 66,
           "y": 60,
           "id": 53
         },
         {
           "size": 18,
+          "x": 234,
+          "y": 78,
+          "id": 213
+        },
+        {
+          "size": 18,
           "x": 66,
           "y": 78,
           "id": 54
+        },
+        {
+          "size": 18,
+          "x": 210,
+          "y": 78,
+          "id": 214
+        },
+        {
+          "size": 18,
+          "x": 96,
+          "y": 78,
+          "id": 206
+        },
+        {
+          "size": 18,
+          "x": 126,
+          "y": 78,
+          "id": 207
         }
       ],
       "lineID": 10,
@@ -9309,140 +12210,236 @@
       "quests": [
         {
           "size": 18,
+          "x": 186,
+          "y": 12,
+          "id": 76
+        },
+        {
+          "size": 18,
+          "x": 186,
+          "y": 42,
+          "id": 77
+        },
+        {
+          "size": 18,
+          "x": 162,
+          "y": 42,
+          "id": 149
+        },
+        {
+          "size": 18,
+          "x": 162,
+          "y": 66,
+          "id": 150
+        },
+        {
+          "size": 18,
+          "x": 210,
+          "y": 42,
+          "id": 151
+        },
+        {
+          "size": 18,
+          "x": 102,
+          "y": 66,
+          "id": 215
+        },
+        {
+          "size": 18,
+          "x": 186,
+          "y": 66,
+          "id": 152
+        },
+        {
+          "size": 18,
+          "x": 132,
+          "y": 66,
+          "id": 216
+        },
+        {
+          "size": 18,
+          "x": 132,
+          "y": 12,
+          "id": 217
+        },
+        {
+          "size": 18,
+          "x": 180,
+          "y": 90,
+          "id": 218
+        },
+        {
+          "size": 18,
+          "x": 204,
+          "y": 90,
+          "id": 219
+        },
+        {
+          "size": 18,
+          "x": 162,
+          "y": 12,
+          "id": 220
+        },
+        {
+          "size": 18,
+          "x": 228,
+          "y": 90,
+          "id": 225
+        },
+        {
+          "size": 18,
           "x": 78,
-          "y": 120,
+          "y": 90,
           "id": 98
         },
         {
           "size": 18,
-          "x": 108,
-          "y": 120,
+          "x": 204,
+          "y": 114,
+          "id": 226
+        },
+        {
+          "size": 18,
+          "x": 78,
+          "y": 114,
+          "id": 228
+        },
+        {
+          "size": 18,
+          "x": 102,
+          "y": 90,
           "id": 101
         },
         {
           "size": 18,
           "x": 54,
-          "y": 120,
+          "y": 54,
+          "id": 229
+        },
+        {
+          "size": 18,
+          "x": 54,
+          "y": 36,
           "id": 102
         },
         {
           "size": 18,
-          "x": 138,
-          "y": 120,
+          "x": 102,
+          "y": 114,
+          "id": 230
+        },
+        {
+          "size": 18,
+          "x": 126,
+          "y": 90,
           "id": 103
         },
         {
           "size": 18,
-          "x": 168,
-          "y": 120,
+          "x": 126,
+          "y": 114,
+          "id": 231
+        },
+        {
+          "size": 18,
+          "x": 150,
+          "y": 90,
           "id": 104
         },
         {
           "size": 18,
-          "x": 162,
-          "y": 48,
-          "id": 76
+          "x": 150,
+          "y": 114,
+          "id": 232
         },
         {
           "size": 18,
-          "x": 162,
-          "y": 66,
-          "id": 77
+          "x": 150,
+          "y": 138,
+          "id": 233
         },
         {
           "size": 18,
-          "x": 48,
-          "y": 54,
+          "x": 78,
+          "y": 12,
           "id": 49
         },
         {
           "size": 18,
           "x": 78,
-          "y": 54,
+          "y": 42,
           "id": 50
         },
         {
           "size": 18,
-          "x": 54,
-          "y": 90,
+          "x": 36,
+          "y": 36,
           "id": 51
         },
         {
           "size": 18,
           "x": 78,
-          "y": 90,
+          "y": 66,
           "id": 52
         },
         {
           "size": 18,
-          "x": 138,
-          "y": 66,
-          "id": 149
-        },
-        {
-          "size": 18,
-          "x": 108,
-          "y": 72,
+          "x": 102,
+          "y": 12,
           "id": 118
         },
         {
           "size": 18,
-          "x": 138,
-          "y": 90,
-          "id": 150
-        },
-        {
-          "size": 18,
-          "x": 108,
-          "y": 90,
+          "x": 132,
+          "y": 42,
           "id": 119
         },
         {
           "size": 18,
           "x": 54,
-          "y": 138,
+          "y": 168,
           "id": 120
         },
         {
           "size": 18,
-          "x": 162,
-          "y": 90,
-          "id": 152
-        },
-        {
-          "size": 18,
-          "x": 72,
-          "y": 138,
+          "x": 54,
+          "y": 144,
           "id": 121
         },
         {
           "size": 18,
-          "x": 90,
-          "y": 138,
+          "x": 78,
+          "y": 168,
           "id": 122
         },
         {
           "size": 18,
-          "x": 108,
-          "y": 138,
+          "x": 210,
+          "y": 66,
+          "id": 186
+        },
+        {
+          "size": 18,
+          "x": 30,
+          "y": 156,
           "id": 124
         },
         {
           "size": 18,
-          "x": 108,
-          "y": 54,
+          "x": 102,
+          "y": 42,
           "id": 61
         },
         {
           "size": 18,
-          "x": 126,
-          "y": 138,
+          "x": 6,
+          "y": 156,
           "id": 125
         },
         {
           "size": 18,
-          "x": 144,
-          "y": 138,
+          "x": 30,
+          "y": 180,
           "id": 126
         }
       ],
@@ -9461,9 +12458,81 @@
       "quests": [
         {
           "size": 24,
-          "x": 108,
-          "y": -12,
+          "x": 90,
+          "y": 102,
+          "id": 192
+        },
+        {
+          "size": 24,
+          "x": 144,
+          "y": 102,
+          "id": 193
+        },
+        {
+          "size": 24,
+          "x": 192,
+          "y": 102,
+          "id": 194
+        },
+        {
+          "size": 24,
+          "x": 192,
+          "y": 168,
+          "id": 195
+        },
+        {
+          "size": 24,
+          "x": 144,
+          "y": 168,
+          "id": 196
+        },
+        {
+          "size": 24,
+          "x": 90,
+          "y": 168,
+          "id": 197
+        },
+        {
+          "size": 24,
+          "x": 42,
+          "y": 168,
+          "id": 198
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 0,
           "id": 73
+        },
+        {
+          "size": 24,
+          "x": 42,
+          "y": 48,
+          "id": 187
+        },
+        {
+          "size": 24,
+          "x": 90,
+          "y": 48,
+          "id": 188
+        },
+        {
+          "size": 24,
+          "x": 192,
+          "y": 48,
+          "id": 189
+        },
+        {
+          "size": 24,
+          "x": 144,
+          "y": 48,
+          "id": 190
+        },
+        {
+          "size": 24,
+          "x": 42,
+          "y": 102,
+          "id": 191
         }
       ],
       "lineID": 12,
@@ -9482,13 +12551,13 @@
         {
           "size": 24,
           "x": 66,
-          "y": 66,
+          "y": 72,
           "id": 177
         },
         {
           "size": 24,
           "x": 162,
-          "y": 66,
+          "y": 72,
           "id": 178
         },
         {
@@ -9500,14 +12569,26 @@
         {
           "size": 24,
           "x": 48,
-          "y": 150,
+          "y": 156,
           "id": 180
         },
         {
           "size": 24,
-          "x": 192,
+          "x": 204,
           "y": 24,
           "id": 165
+        },
+        {
+          "size": 24,
+          "x": 192,
+          "y": 156,
+          "id": 181
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 156,
+          "id": 199
         },
         {
           "size": 24,
@@ -9739,20 +12820,20 @@
       "quests": [
         {
           "size": 18,
-          "x": 264,
-          "y": 6,
+          "x": 306,
+          "y": 0,
           "id": 128
         },
         {
           "size": 18,
-          "x": 246,
-          "y": 42,
+          "x": 288,
+          "y": 36,
           "id": 129
         },
         {
           "size": 18,
-          "x": 264,
-          "y": 24,
+          "x": 306,
+          "y": 18,
           "id": 130
         },
         {
@@ -9763,31 +12844,31 @@
         },
         {
           "size": 18,
-          "x": 246,
-          "y": 6,
+          "x": 288,
+          "y": 0,
           "id": 132
         },
         {
           "size": 18,
-          "x": 216,
-          "y": 126,
+          "x": 246,
+          "y": 66,
           "id": 133
         },
         {
           "size": 18,
-          "x": 246,
+          "x": 288,
           "y": 60,
           "id": 134
         },
         {
           "size": 18,
-          "x": 264,
+          "x": 306,
           "y": 42,
           "id": 135
         },
         {
           "size": 18,
-          "x": 264,
+          "x": 306,
           "y": 60,
           "id": 136
         },
@@ -9799,27 +12880,39 @@
         },
         {
           "size": 18,
-          "x": 246,
+          "x": 288,
           "y": 78,
           "id": 138
         },
         {
           "size": 18,
-          "x": 264,
+          "x": 306,
           "y": 78,
           "id": 139
         },
         {
           "size": 18,
-          "x": 246,
+          "x": 288,
           "y": 96,
           "id": 140
+        },
+        {
+          "size": 18,
+          "x": 96,
+          "y": 96,
+          "id": 204
         },
         {
           "size": 18,
           "x": 126,
           "y": 66,
           "id": 141
+        },
+        {
+          "size": 18,
+          "x": 96,
+          "y": 126,
+          "id": 205
         },
         {
           "size": 18,
@@ -9835,7 +12928,7 @@
         },
         {
           "size": 18,
-          "x": 246,
+          "x": 216,
           "y": 126,
           "id": 144
         },
@@ -9853,7 +12946,7 @@
         },
         {
           "size": 18,
-          "x": 96,
+          "x": 66,
           "y": 126,
           "id": 147
         },
@@ -9862,6 +12955,12 @@
           "x": 66,
           "y": 66,
           "id": 148
+        },
+        {
+          "size": 18,
+          "x": 246,
+          "y": 126,
+          "id": 224
         },
         {
           "size": 18,
@@ -9883,7 +12982,7 @@
         },
         {
           "size": 18,
-          "x": 96,
+          "x": 66,
           "y": 96,
           "id": 110
         },
@@ -9931,8 +13030,8 @@
         },
         {
           "size": 18,
-          "x": 246,
-          "y": 24,
+          "x": 288,
+          "y": 18,
           "id": 127
         }
       ],

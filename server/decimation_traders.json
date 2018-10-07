@@ -221,6 +221,78 @@
       "traderPosX": 1320.5,
       "traderPosY": 45.0,
       "traderPosZ": 4836.5
+    },
+    {
+      "traderType": "FOOD",
+      "traderPosX": 4531.5,
+      "traderPosY": 52.0,
+      "traderPosZ": 4409.5
+    },
+    {
+      "traderType": "MEDICAL",
+      "traderPosX": 4531.5,
+      "traderPosY": 52.0,
+      "traderPosZ": 4397.5
+    },
+    {
+      "traderType": "BACKPACKS",
+      "traderPosX": 4530.5,
+      "traderPosY": 52.0,
+      "traderPosZ": 4421.5
+    },
+    {
+      "traderType": "ARMOR",
+      "traderPosX": 4554.5,
+      "traderPosY": 52.0,
+      "traderPosZ": 4501.5
+    },
+    {
+      "traderType": "AMMUNITION",
+      "traderPosX": 4544.5,
+      "traderPosY": 52.0,
+      "traderPosZ": 4500.5
+    },
+    {
+      "traderType": "GUNS_HEAVY",
+      "traderPosX": 4551.5,
+      "traderPosY": 52.0,
+      "traderPosZ": 4488.5
+    },
+    {
+      "traderType": "GUNS",
+      "traderPosX": 4549.5,
+      "traderPosY": 52.0,
+      "traderPosZ": 4504.5
+    },
+    {
+      "traderType": "CONVENIENCE",
+      "traderPosX": 4299.5,
+      "traderPosY": 58.0,
+      "traderPosZ": 4420.5
+    },
+    {
+      "traderType": "CARDEALER",
+      "traderPosX": 1713.5,
+      "traderPosY": 102.0,
+      "traderPosZ": 3516.5
+    },
+    {
+      "traderType": "FORTIFICATION",
+      "traderPosX": 4307.5,
+      "traderPosY": 57.0,
+      "traderPosZ": 4419.5
+    },
+    {
+      "traderType": "BLACKMARKET",
+      "traderPosX": 4340.5,
+      "traderPosY": 57.0,
+      "traderPosZ": 4435.5
+    },
+    {
+      "traderType": "CARDEALER",
+      "traderPosX": 4361.5,
+      "traderPosY": 58.0,
+      "traderPosZ": 4436.5
     }
   ]
 }

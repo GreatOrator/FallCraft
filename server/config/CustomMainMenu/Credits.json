@@ -178,7 +178,7 @@
 	
 	"version":
         {
-            "text" : "v0.62.8",
+            "text" : "v1.0.2",
             "posX" : 10,
             "posY" : -20,
             "color" : 13938487,
@@ -230,7 +230,21 @@
                 "type" : "openLink",
                                 "link" : "http://www.vaygrim.com"
 			}
-        } 
+        },
+	"helpful":
+        {
+            "text" : "Brandon3055, Sn0wShepherd, The Squad",
+            "posX" : 235,
+            "posY" : 39,
+            "color" : 13938487,
+            "alignment" : "left_center",
+			"hoverText" : "Thank you everyone!!",
+			"action" :
+                        {
+                "type" : "openLink",
+                                "link" : "https://minecraft.curseforge.com/projects/fallcraft"
+			}
+        }
     },
    
     "other":
