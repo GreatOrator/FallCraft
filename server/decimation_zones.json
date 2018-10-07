@@ -8,6 +8,51 @@
       "zoneX2": 2486,
       "zoneY2": 96,
       "zoneZ2": 3657
+    },
+    {
+      "zoneType": "RADIATION",
+      "zoneX1": 4309,
+      "zoneY1": 58,
+      "zoneZ1": 4718,
+      "zoneX2": 4401,
+      "zoneY2": 62,
+      "zoneZ2": 4645
+    },
+    {
+      "zoneType": "RADIATION",
+      "zoneX1": 4309,
+      "zoneY1": 58,
+      "zoneZ1": 4718,
+      "zoneX2": 4401,
+      "zoneY2": 62,
+      "zoneZ2": 4645
+    },
+    {
+      "zoneType": "RADIATION",
+      "zoneX1": 0,
+      "zoneY1": 0,
+      "zoneZ1": 0,
+      "zoneX2": 0,
+      "zoneY2": 0,
+      "zoneZ2": 0
+    },
+    {
+      "zoneType": "RADIATION",
+      "zoneX1": 0,
+      "zoneY1": 0,
+      "zoneZ1": 0,
+      "zoneX2": 0,
+      "zoneY2": 0,
+      "zoneZ2": 0
+    },
+    {
+      "zoneType": "RADIATION",
+      "zoneX1": 1148,
+      "zoneY1": 150,
+      "zoneZ1": 1169,
+      "zoneX2": 1125,
+      "zoneY2": 161,
+      "zoneZ2": 1185
     }
   ]
 }
