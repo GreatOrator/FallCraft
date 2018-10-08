@@ -167,6 +167,13 @@ Flagpole
 Frail
 Ghast
 Giant
+GraveStone.GSSkeletonCat
+GraveStone.GSSkeletonDog
+GraveStone.GSSkullCrawler
+GraveStone.GSWitherSkullCrawler
+GraveStone.GSZombieCat
+GraveStone.GSZombieDog
+GraveStone.GSZombieSkullCrawler
 Grenade
 GunItem
 Hulk

@@ -11,10 +11,24 @@
       "FallCraft.",
       "Thank you for playing! -GO"
     ],
-	"releaseNumber": "15",
+	"releaseNumber": "20",
     "downloadURL": "http://repository.a2g.gs/modpacks/tolkiencraft/3/ColoradoCity-DefaultFC.zip",
     "isRegional": false,
 	"regionInputPath": "",
     "regionOutputPath": ""
-  }
+  },
+	{
+		"displayName": "Colorado City",
+		"fileName": "coloradocity_update.zip",
+		"description": "Modpack Map",
+		"info": [
+			"[c]This strictly to update an existing map.",
+			"This download is intended to be ONLY for updating existing worlds during map updates and will only replace the overworld."
+		],
+		"releaseNumber": "20",
+		"downloadURL": "http://repository.a2g.gs/modpacks/tolkiencraft/3/ColoradoCity-UpdateFC.zip",
+		"isRegional": true,
+		"regionInputPath": "world",
+		"regionOutputPath": ""
+	}
 ]
