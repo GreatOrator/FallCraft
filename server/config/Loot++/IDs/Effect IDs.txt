@@ -175,12 +175,6 @@
 	- Is Instant? false
 
 
-31
-	- Name: Curse
-	- Color: 0
-	- Is Instant? false
-
-
 103
 	- Name: potion.paralysis
 	- Color: 16776960
