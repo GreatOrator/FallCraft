@@ -846,24 +846,15 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ThermalExpansion:Cell",
+              "id": "chisel:technical4",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
+              "Damage": 3,
               "tag": {
-                "Recv:3": 100000,
-                "RSControl:1": 1,
-                "Facing:1": 3,
-                "Energy:3": -1,
-                "SideCache:7": [
-                  1,
-                  1,
-                  1,
-                  1,
-                  1,
-                  1
-                ],
-                "Send:3": 100000
+                "RepairCost:3": 2,
+                "display:10": {
+                  "Name:8": "Power Cell"
+                }
               }
             }
           ],
