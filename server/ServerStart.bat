@@ -1,3 +1,3 @@
 @ECHO OFF
-java -Xms3072m -Xmx3072m -Xmn768m -XX:PermSize=256m -XX:TargetSurvivorRatio=80 -XX:MaxTenuringThreshold=15 -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:+DisableExplicitGC -XX:MaxGCPauseMillis=40 -XX:GCPauseIntervalMillis=150 -XX:+AggressiveOpts -XX:+TieredCompilation -XX:ReservedCodeCacheSize=2048m -XX:+UseCodeCacheFlushing -XX:CompileThreshold=1000 -jar SpaceOdyssey_server.jar nogui
+java -Xms4072m -Xmx4072m -Xmn768m -XX:PermSize=256m -XX:TargetSurvivorRatio=80 -XX:MaxTenuringThreshold=15 -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:+DisableExplicitGC -XX:MaxGCPauseMillis=40 -XX:GCPauseIntervalMillis=150 -XX:+AggressiveOpts -XX:+TieredCompilation -XX:ReservedCodeCacheSize=2048m -XX:+UseCodeCacheFlushing -XX:CompileThreshold=1000 -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar nogui
 pause

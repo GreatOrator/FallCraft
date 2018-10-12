@@ -417,7 +417,7 @@ deci.Grenade
 deci.Hummer
 deci.Landmine
 deci.M35
-deci.PlayerHeadd
+deci.PlayerHead
 deci.PropellerTrap
 deci.PunjiSticks
 deci.SmokeGrenade
